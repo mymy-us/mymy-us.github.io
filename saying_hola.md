@@ -18,3 +18,5 @@ Here, I will:
 -   Share my knowledge and thoughts on bridging the gap between academy and industry
 -   Keep concise — **no bullshit edition**
 -   Welcome a genuine exchange of ideas.
+
+Nk, now, let's go my, my! us.
