@@ -1,6 +1,6 @@
 _site
-#local
-#obsoleted
+_local
+_obsoleted
 
 # Windows image file caches
 Thumbs.db
