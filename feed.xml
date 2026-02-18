@@ -3,10 +3,137 @@
     <title>Let&#x27;s go &quot;My, My!&quot;</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>1970-01-01T08:00:00+08:00</updated>
+    <updated>2026-02-18T18:49:09+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
+    <entry>
+        <title>The Art of De-escalation: Saving Money &amp; Face</title>
+        <author>
+            <name>Tim Y</name>
+        </author>
+        <link href="https://mymy-us.github.io/the-art-of-de-escalation-saving-money-and-face.html"/>
+        <id>https://mymy-us.github.io/the-art-of-de-escalation-saving-money-and-face.html</id>
+            <category term="The Lean Toolkit"/>
+            <category term="Quality Engineering"/>
+
+        <updated>2025-09-06T18:21:00+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    The Golden Rule In Cantonese, there is a saying that perfectly describes the life of a Quality Engineer: Translation: "Make big problems small,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    The Golden Rule<br><br>In Cantonese, there is a saying that perfectly describes the life of a Quality Engineer:
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="1">
+      <figure class="gallery__item">
+      <a href="https://mymy-us.github.io/media/posts/2/gallery/Screenshot-2026-02-18-181057-2.jpg" data-size="805x157">
+        <img loading="lazy" src="https://mymy-us.github.io/media/posts/2/gallery/Screenshot-2026-02-18-181057-2-thumbnail.jpg" height="140" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    Translation: "Make big problems small, and make small problems disappear."<br><br>This is the art of De-escalation.
+  </p>
+
+  <p>
+    The Trap: "The Perfect Solution"
+  </p>
+
+  <p>
+    When a defect happens, the customer (usually an SQE - Supplier Quality Engineer) naturally panics. They demand the moon: 100% third-party sorting, brand new tooling, air freight, and a 50-page report.<br><br>If you say "Yes" to everything, you fail.
+  </p>
+
+  <ul>
+    <li>The Cost: Your company eats the bill for sorting and rework.
+</li><li>The Precedent: You teach the customer that they can bully you every time.</li>
+  </ul>
+
+  <p>
+    The Psychology of Your Counterpart
+  </p>
+
+  <p>
+    To win, you have to understand who you are talking to.
+<br>The SQE on the other side isn't evil. They are just having a really bad day
+  </p>
+
+  <ol>
+    <li>Their Production Team is yelling at them because the line stopped.
+</li><li>Their Boss is asking for a report.
+</li><li>They are scared they can't handle it.</li>
+  </ol>
+
+  <p>
+    Key Insight: If they feel like they can't handle the issue, they will Escalate.
+<br>Escalation = Management gets involved = Trust goes down = Future business is lost.<br><br>Your job isn't just to fix the part. It is to make the SQE feel safe so they don't hit the panic button.
+  </p>
+
+  <p>
+    The Playbook: How to De-escalate
+  </p>
+
+  <p>
+    Internal Rule #1:
+<br>Never lie to yourself. Internally, you must find the true Root Cause, fix the process, and update the control plan. If you don't fix it, the problem comes back, and you die.<br><br>External Rule #2:
+<br>Filter the noise. Once the internal fix is solid, your communication strategy changes based on the severity.
+<br>Scenario A: The "Small" Thing (Low Risk/Low FMEA score)<br>
+  </p>
+
+  <ul>
+    <li>The Situation: A minor cosmetic defect or a one-off glitch.
+</li><li>The Goal: Make it disappear ("let it go").
+</li><li>The Move: Leverage your relationship. Show them the data.</li>
+  </ul>
+
+    <blockquote class="blockquote">
+      "Hey, looking at the FMEA, the risk is negligible. We’ve already implemented [Fix X] internally so it won’t happen again. Let's treat this as an isolated incident. No need for third-party sorting."
+    </blockquote>
+
+  <p>
+    Scenario B: The "Big" Thing (Functional issue/Line stoppage)
+  </p>
+
+  <ul>
+    <li>The Situation: It’s bad.
+</li><li>The Goal: Make it small.
+</li><li>The Move: Provide an "Easy Button."
+</li><li>Don't let them panic about air freight or line-down.
+</li><li>Give them a containment plan immediately that makes them look good to their boss.</li>
+  </ul>
+
+    <blockquote class="blockquote">
+      "We have a containment team ready. Here is the immediate clean point. You don't need to stop the line; we have you covered."
+    </blockquote>
+
+  <p>
+    The Takeaway
+  </p>
+
+  <p>
+    De-escalation isn't about hiding problems. It's about Confidence.<br><br>If you panic, the customer panics, and your company loses money.
+<br>If you stay cool, present a logic-based solution, and "make the big things small," you save the day.<br><br>Fix the part. Manage the panic. Save the money.
+  </p>
+
+  <p>
+    Lean Corner: Why this is Technical, not just Political<br><br>You might think, "Tim, isn't this just playing politics?"
+<br>No. This is Lean Manufacturing.<br><br>One of the deadly wastes in Lean is Over-processing (doing more work than the customer actually needs).
+<br>Reactive Engineering: The customer yells -&gt; You panic -&gt; You spend $10k on air freight for a $50 issue. (Waste)
+<br>Lean Engineering: You analyze the risk -&gt; You prove the process is safe -&gt; You ship standard ground. (Value)
+<br>Don't let panic create waste.
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
