@@ -3,7 +3,7 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-02-19T22:27:00+08:00</updated>
+    <updated>2026-02-19T22:30:06+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -21,13 +21,12 @@
         <updated>2025-09-13T22:22:00+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Industry 4.0 is a Trap. Meet “Squirrel 4.0.” Topic: Automation Strategy vs. Reality The Academic View: Industry 4.0 is the future. “Lights Out”&hellip;
+                    Topic: Automation Strategy vs. Reality The Academic View: Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h1 id="industry-40-is-a-trap-meet-squirrel-40">Industry 4.0 is a Trap. Meet “Squirrel 4.0.”</h1>
-<p><strong>Topic:</strong> Automation Strategy vs. Reality
+                <p><strong>Topic:</strong> Automation Strategy vs. Reality
 <strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.
 <strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at <strong>Mattel</strong>. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
 <p>At the time, the company was aggressively pushing “Industry 4.0.”
