@@ -3,12 +3,69 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-02-19T23:15:42+08:00</updated>
+    <updated>2026-02-20T00:03:24+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
+    <entry>
+        <title>Stop Being a Janitor: How to Master the 6S Audit</title>
+        <author>
+            <name>Tim Y</name>
+        </author>
+        <link href="https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html"/>
+        <id>https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html</id>
+            <category term="The Lean Toolkit"/>
+            <category term="Industrial Engineering"/>
+
+        <updated>2025-09-16T23:49:00+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Topic: 5S Implementation &amp; Auditing The Academic View: 5S (Sort, Set in Order, Shine, Standardize, Sustain) + Safety is about organizing the workplace.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Topic:</strong> 5S Implementation &amp; Auditing<br>
+<strong>The Academic View:</strong> 5S (Sort, Set in Order, Shine, Standardize, Sustain) + Safety is about organizing the workplace.<br>
+<strong>The Reality:</strong> Most new engineers treat 5S audits like a cleaning inspection. You walk around, check a box if the floor is swept, and leave. This is useless.</p><p><strong>A clean factory can still be a dangerous, inefficient factory.</strong>
+As a novice, you need to stop looking at the dirt and start looking for the “Band-Aids.”</p><p>Here is your methodology for a real 6S Audit.</p><h3 id="level-1-the-dont-die-check-safety">Level 1: The “Don’t Die” Check (Safety)</h3>
+<p>Before you look for organization, look for immediate threats.</p><ul>
+<li><strong>The Fire Trap:</strong> Is there cardboard or wood sitting next to a heat source (drying oven, welding bot)? This is the #1 audit finding for new grads.</li>
+<li><strong>The Trip Wire:</strong> Are air hoses or extension cords running across the walkway?</li>
+<li><strong>The “Jury Rig”:</strong> Look for duct tape. If you see duct tape holding a guard or a sensor in place, that is a safety violation disguised as a “temporary fix.”</li>
+</ul>
+<h3 id="level-2-the-band-aid-hunt-shine--inspection">Level 2: The “Band-Aid” Hunt (Shine = Inspection)</h3>
+<p>This is where you separate the novices from the pros.
+A novice sees a crumpled plastic bag stuffed into a gap in the machine and thinks: <em>“Trash. 5S violation.”</em>
+A pro sees the bag and thinks: <em>“Why is that there?”</em></p><ul>
+<li><strong>The Leak:</strong> Is the bag/rag there to catch an oil leak?</li>
+<li><strong>The Vibration:</strong> Is it wedged there to stop a panel from rattling?</li>
+<li><strong>The Sensor:</strong> Is it blocking a sensor to force the machine to run?</li>
+</ul>
+<p><strong>The Rule:</strong> If you see trash <em>inside</em> or <em>on</em> a machine, it is usually hiding a mechanical failure. <strong>Cleaning is Inspection.</strong> Don’t just pick it up; find the leak.</p><h3 id="level-3-the-struggle-check-set-in-order">Level 3: The “Struggle” Check (Set in Order)</h3>
+<p>Stand at the station and watch the operator for 5 cycles. Do not look at the papers; look at their hands.</p><ul>
+<li><strong>The Search:</strong> Do they have to turn around, walk away, or dig through a bin to find a wrench?</li>
+<li><strong>The Reach:</strong> Are they reaching over a moving part to grab a bolt?</li>
+<li><strong>The Reset:</strong> When they are done, do they have a specific place to put the tool back (Shadow Board), or do they just set it on the table?</li>
+</ul>
+<p>If the operator has to <strong>think</strong> about where to put the tool, you failed “Set in Order.”</p><h3 id="level-4-the-ghost-check-standardize">Level 4: The “Ghost” Check (Standardize)</h3>
+<p>Look at the <strong>Shadow Board</strong> or the <strong>Tool Outline</strong>.</p><ul>
+<li><strong>Empty Shadows:</strong> If there is an outline for a hammer, but no hammer, where is it? Is the operator using a heavy wrench instead because the hammer is missing?</li>
+<li><strong>Ghost Tools:</strong> Are there tools on the desk that <em>don’t</em> have a home? This means the process changed, but the 5S didn’t keep up.</li>
+</ul>
+<h3 id="the-takeaway">The Takeaway</h3>
+<p>Don’t walk around with a clipboard looking for dust bunnies. You are not a maid.
+You are a <strong>Detective</strong>.</p><ol>
+<li><strong>Find the heat sources.</strong></li>
+<li><strong>Find the duct tape and oil rags.</strong></li>
+<li><strong>Watch the operator’s hands for struggle.</strong></li>
+</ol>
+<p>If you fix the <strong>root cause</strong> of the mess, the mess goes away forever. If you just tell them to “clean it up,” it will be back tomorrow.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Industry 4.0 is a Trap. Meet &quot;Squirrel 4.0.&quot;</title>
         <author>
@@ -26,8 +83,8 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> Automation Strategy vs. Reality
-<strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.
+                <p><strong>Topic:</strong> Automation Strategy vs. Reality<br>
+<strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.<br>
 <strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at <strong>Mattel</strong>. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
 <p>At the time, the company was aggressively pushing “Industry 4.0.”
 The goal was simple: Eliminate human labor to cut costs. They installed complex, fully automated machines to assemble the dolls.</p><p>As an intern, I watched these expensive robots try to do the job. <strong>It was a catastrophe.</strong></p><ol>
@@ -89,8 +146,8 @@ In Amoeba Management (created by Kyocera), the company is sliced into tiny units
 </ul>
 <h3 id="the-good-why-it-drives-lean">The Good: Why it Drives Lean</h3>
 <p>This system turns “Employees” into “Business Owners.”</p><p><strong>1. Kaizen = Cash in Pocket</strong>
-In a normal company, if you save $100,000 through improvements, the money disappears into a corporate black hole. You get a “Thank You” email.
-In this system, that $100,000 stays on your department’s P&amp;L. It directly funds your team’s equipment and <strong>year-end bonuses</strong>.</p><ul>
+In a normal company, if you save \$100,000 through improvements, the money disappears into a corporate black hole. You get a “Thank You” email.
+In this system, that \$100,000 stays on your department’s P&amp;L. It directly funds your team’s equipment and <strong>year-end bonuses</strong>.</p><ul>
 <li><strong>Result:</strong> You don’t have to beg people to do Lean. They hunt for waste aggressively because waste is literally stealing money from their bonus.</li>
 </ul>
 <p><strong>2. The “Internal Customer” is Real</strong>
@@ -101,7 +158,7 @@ If you send a defective part to the next department, they will <strong>refuse to
 </ul>
 <h3 id="the-bad-the-silo-trap">The Bad: The “Silo” Trap</h3>
 <p>There is a dark side. When every department fights for their own profit, they stop caring about the whole company.</p><p><strong>1. The “Transfer Price” War</strong>
-Department A wants to sell a part for $10. Department B only wants to pay $8.
+Department A wants to sell a part for \$10. Department B only wants to pay \$8.
 Instead of solving a technical problem, engineers waste hours arguing about internal pricing.</p><p><strong>2. Innovation Hoarding</strong>
 If your team finds a better way to run a machine, you might keep it secret to maintain your advantage over other departments. This kills company-wide improvement.</p><h3 id="the-takeaway">The Takeaway</h3>
 <p>You might not be able to change your company’s accounting system. But you must understand the mindset:
@@ -132,8 +189,8 @@ If your team finds a better way to run a machine, you might keep it secret to ma
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> Process Capability &amp; Risk Assessment
-<strong>The Academic View:</strong> Calculate $C_{pk}$. If the result is $&gt;1.33$, the process is capable.
+                <p><strong>Topic:</strong> Process Capability &amp; Risk Assessment<br>
+<strong>The Academic View:</strong> Calculate $C_{pk}$. If the result is $&gt;1.33$, the process is capable.<br>
 <strong>The Reality:</strong> Your boss and the Finance team do not care about the number “1.33.” They care about <strong>Risk</strong> and <strong>Scrap Costs</strong>.</p><p>You need to stop reporting just the index number and start translating it into <strong>DPPM (Defects Per Million)</strong>.</p><h3 id="the-logic-why-convert">The Logic: Why Convert?</h3>
 <p>In a boardroom, nobody asks, “What is the standard deviation within the subgroup?”
 They ask: <em>“How many bad parts are we going to ship?”</em></p><p>According to the ASQ (American Society for Quality) and standard Six Sigma textbooks, there is a direct mathematical link between your Process Capability ($C_{pk}$) and the probability of a defect.</p><ul>
@@ -216,7 +273,9 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> The Human Element of Lean<br><strong>The Academic View:</strong> Operators are “resources.” You calculate their Cycle Time and Ergonomics. If the math works, the line runs.<br><strong>The Reality:</strong> Operators are the gatekeepers of your success. If they hate the culture, your process will fail, no matter how perfect your engineering is.</p><p>Here is why “treating people well” is a technical requirement, not just an HR slogan.</p><h3 id="1-the-tribal-knowledge-the-8th-waste">1. The “Tribal Knowledge” (The 8th Waste)</h3>
+                <p><strong>Topic:</strong> The Human Element of Lean<br>
+<strong>The Academic View:</strong> Operators are “resources.” You calculate their Cycle Time and Ergonomics. If the math works, the line runs.<br>
+<strong>The Reality:</strong> Operators are the gatekeepers of your success. If they hate the culture, your process will fail, no matter how perfect your engineering is.</p><p>Here is why “treating people well” is a technical requirement, not just an HR slogan.</p><h3 id="1-the-tribal-knowledge-the-8th-waste">1. The “Tribal Knowledge” (The 8th Waste)</h3>
 <p>Engineers look at data; Operators look at reality.<br>An operator stands at that machine for 8 to 12 hours a day. You stand there for 10 minutes.</p><ul>
 <li><strong>The Gap:</strong> They might not know the engineering terms like “OEE” or “Six Sigma.”</li>
 <li><strong>The Gold Mine:</strong> They know exactly which jig is sticky, which tool is heavy, and which sensor glitches every day at 2:00 PM.</li>
@@ -263,7 +322,8 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> Crisis Management &amp; Supply Chain Strategy<br><strong>The Scenario:</strong> A quality defect is found. All inventory at the customer and your warehouse is quarantined (useless). You are at Zero.</p><h3 id="part-1-the-cost-of-silence">Part 1: The Cost of Silence</h3>
+                <p><strong>Topic:</strong> Crisis Management &amp; Supply Chain Strategy<br>
+<strong>The Scenario:</strong> A quality defect is found. All inventory at the customer and your warehouse is quarantined (useless). You are at Zero.</p><h3 id="part-1-the-cost-of-silence">Part 1: The Cost of Silence</h3>
 <p>In the automotive industry, a “Line Down” situation is the ultimate failure.<br>Production lines are continuous. If one station stops, the whole factory stops.</p><ul>
 <li><strong>The Fine:</strong> Penalties often range from <strong>$1,000 to $10,000 per minute</strong>.</li>
 <li><strong>The Logistics:</strong> Even if you have the part in your hand at the gate, it might take 20 minutes just to walk through a massive plant (like Tesla or Daimler-Benz) to reach the line. That walk alone costs $20,000+ in fines.</li>
@@ -306,7 +366,9 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> The True Purpose of PPAP (Production Part Approval Process)<br><strong>The Academic View:</strong> PPAP demonstrates that a supplier can meet manufacturing requirements at the quoted production rate.<br><strong>The Reality:</strong> PPAP is a <strong>Legal Contract</strong>. It is the “Constitution” of your product.</p><p>Here is why you need to treat it like a weapon, not a checklist.</p><h3 id="1-the-shield-protecting-your-company">1. The Shield: Protecting Your Company</h3>
+                <p><strong>Topic:</strong> The True Purpose of PPAP (Production Part Approval Process)<br>
+<strong>The Academic View:</strong> PPAP demonstrates that a supplier can meet manufacturing requirements at the quoted production rate.<br>
+<strong>The Reality:</strong> PPAP is a <strong>Legal Contract</strong>. It is the “Constitution” of your product.</p><p>Here is why you need to treat it like a weapon, not a checklist.</p><h3 id="1-the-shield-protecting-your-company">1. The Shield: Protecting Your Company</h3>
 <p>Once the customer signs the <strong>PSW (Part Submission Warrant)</strong>, the rules are frozen.</p><p><strong>The Scenario:</strong><br>You are six months into mass production. The customer complains that the surface texture is “too rough” or the color is “slightly off.”</p><p><strong>The Defense:</strong><br>You pull out the approved PPAP and the “Master Sample” (the physical part they signed).</p><ul>
 <li><strong>If your current parts match the Master Sample:</strong> You are safe. The customer agreed to this standard. If they want to change it now, <strong>they must pay for it</strong>.</li>
 <li><strong>If you don’t have a signed PPAP:</strong> The customer can change their mind daily, and you have to pay for the rework.</li>
@@ -353,7 +415,8 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> The Reality of a Lean Engineer’s Role<br><strong>The Trap:</strong> Thinking your job is just “fixing things.”</p><p>If you ask a professor what a Lean Engineer does, they’ll say: “Continuous Improvement.”<br>If you ask me, I’ll tell you the job is actually two distinct battles:</p><ol>
+                <p><strong>Topic:</strong> The Reality of a Lean Engineer’s Role<br>
+<strong>The Trap:</strong> Thinking your job is just “fixing things.”</p><p>If you ask a professor what a Lean Engineer does, they’ll say: “Continuous Improvement.”<br>If you ask me, I’ll tell you the job is actually two distinct battles:</p><ol>
 <li><strong>The Attack:</strong> Continuously Eliminating Waste.</li>
 <li><strong>The Defense:</strong> Sustaining the Gains.</li>
 </ol>
@@ -411,8 +474,8 @@ me.”</p></blockquote>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic</strong>: Handling Customer Complaints
-<strong>The Academic View</strong>: “The Voice of the Customer is sacred. Whatever they ask for, do it.”
+                <p><strong>Topic</strong>: Handling Customer Complaints<br>
+<strong>The Academic View</strong>: “The Voice of the Customer is sacred. Whatever they ask for, do it.”<br>
 <strong>The Reality</strong>: The customer’s “wants” are a bottomless pit that will bankrupt you.</p><h3 id="the-golden-rule">The Golden Rule</h3>
 <p>In Cantonese, there is a saying that perfectly describes the life of a Quality Engineer:</p><div style="text-align: center;"> <img loading="lazy" src="大事化小，小事化無.jpg" alt="大事化小，小事化無" width="400" data-is-external-image="true"> </div>
 
