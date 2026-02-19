@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+:root {
+    --body-font: 'Merriweather', serif !important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3119,4 +3125,174 @@ hr::before,
         opacity: 1;       /* Back to full brightness */
         transform: scale(1);
     }
+}
+
+
+/* FORCE BOLD TO BE BLACK AND HEAVY */
+strong, b {
+    font-family: 'Merriweather', serif; /* Or your body font */
+    font-weight: 900 !important;
+    color: #000000 !important;
+}
+
+/* MAKE TABLES LOOK LIKE ENGINEERING TABLES */
+table {
+    border-collapse: collapse !important;
+    width: 100%;
+}
+table th {
+    background-color: rgba(0,0,0,0.05);
+    font-weight: 900;
+    border: 1px solid #ddd !important;
+}
+table td {
+    border: 1px solid #ddd !important;
+}
+
+
+
+
+/* =========================================
+    CUSTOM SCROLLBAR (#972222)
+   ========================================= */
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track (the background of the bar) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle (the moving part) */
+::-webkit-scrollbar-thumb {
+    background: #972222; 
+    border-radius: 6px;
+    border: 3px solid #f1f1f1; /* Creates a nice padding effect */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7a1b1b; 
+}
+
+/* =========================================
+    COMPACT FONTS & SPACING (Engineering Style)
+   ========================================= */
+:root {
+    /* Override standard spacing */
+    --line-height: 1.6 !important; /* Was 2.3 - too big */
+    --letter-spacing: 0 !important; /* Remove wide gaps */
+}
+
+html {
+    /* Make base font smaller */
+    font-size: 15px !important; /* Was 16pt/18pt */
+}
+
+p {
+    /* Reduce gap between paragraphs */
+    margin-bottom: 1.2rem !important;
+    text-align: left !important; /* Engineers prefer Left Align, not Justify */
+}
+
+h1 { font-size: 3rem !important; margin-bottom: 1rem !important; }
+h2 { font-size: 2rem !important; margin-bottom: 0.8rem !important; margin-top: 2rem !important; }
+h3 { font-size: 1.5rem !important; margin-bottom: 0.5rem !important; }
+
+/* Tighten the intro/header area */
+#main > .post {
+    padding-top: 4rem !important; /* Reduce huge top gap */
+}
+
+
+
+/* --- Engineering Sidebar Layout --- */
+
+/* 1. Make the container wide enough for Sidebar + Text */
+@media screen and (min-width: 1200px) {
+    .post__inner {
+        max-width: 1100px !important; /* Widen the container */
+    }
+    
+    .engineering-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 250px; /* Content takes rest, Sidebar takes 250px */
+        gap: 40px;
+        align-items: start;
+    }
+
+    .engineering-sidebar {
+        display: block; /* Visible on desktop */
+        margin-top: 1rem;
+    }
+}
+
+/* 2. Hide Sidebar on small screens (Mobile/Tablet) */
+@media screen and (max-width: 1199px) {
+    .engineering-sidebar {
+        display: none;
+    }
+}
+
+/* 3. Sticky Logic & Styling */
+.toc-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    border-left: 2px solid #eee;
+    padding-left: 20px;
+}
+
+.toc-title {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #972222; /* Your Red Color */
+}
+
+#auto-toc {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#auto-toc li {
+    margin-bottom: 8px;
+    line-height: 1.3;
+    padding-left: 0;
+    border: none;
+}
+
+#auto-toc li.h3 {
+    margin-left: 15px; /* Indent H3 headers */
+    font-size: 0.85em;
+}
+
+#auto-toc a {
+    text-decoration: none;
+    border: none;
+    color: #888;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+#auto-toc a:hover {
+    color: #972222 !important;
+    font-weight: bold;
+}
+
+
+/* --- Fix Footer Size --- */
+#copyright, 
+#copyright div, 
+#copyright p,
+#copyright span {
+    font-size: 1rem !important; /* Resets to normal body size */
+    font-weight: 400 !important;
+    letter-spacing: 0 !important; /* Removes wide spacing if present */
+    text-transform: none !important; /* Removes ALL CAPS if present */
+    opacity: 1 !important; /* Makes it fully visible, not faded */
 }

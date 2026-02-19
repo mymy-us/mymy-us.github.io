@@ -358,3 +358,26 @@
 		}
 	}
 })();
+
+
+/* FORCE BOLD TO BE BLACK AND HEAVY */
+strong, b {
+    font-family: 'Merriweather', serif; /* Or your body font */
+    font-weight: 900 !important;
+    color: #000000 !important;
+}
+
+/* MAKE TABLES LOOK LIKE ENGINEERING TABLES */
+table {
+    border-collapse: collapse !important;
+    width: 100%;
+}
+table th {
+    background-color: rgba(0,0,0,0.05);
+    font-weight: 900;
+    border: 1px solid #ddd !important;
+}
+table td {
+    border: 1px solid #ddd !important;
+}
+
