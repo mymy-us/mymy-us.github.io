@@ -3,7 +3,7 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-02-20T00:03:24+08:00</updated>
+    <updated>2026-02-20T12:41:04+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -199,7 +199,9 @@ They ask: <em>“How many bad parts are we going to ship?”</em></p><p>Accordin
 <li><strong>DPPM</strong> = The predicted number of failures per million parts produced.</li>
 </ul>
 <h3 id="the-cheat-sheet-short-term-capability">The Cheat Sheet (Short Term Capability)</h3>
-<p>Based on standard statistical tables (assuming a centered, normal distribution), here is the translation you need to memorize.</p><table>
+<p>Based on standard statistical tables (assuming a centered, normal distribution), here is the translation you need to memorize.</p><span style="font-size: 0.9em;">
+    
+<table>
 <thead>
 <tr>
 <th align="left">Cpk Value</th>
@@ -209,36 +211,38 @@ They ask: <em>“How many bad parts are we going to ship?”</em></p><p>Accordin
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><strong>0.67</strong></td>
+<td align="left">0.67</td>
 <td align="left">2.0 $\sigma$</td>
-<td align="left"><strong>45,500</strong></td>
+<td align="left">45,500</td>
 <td align="left"><strong>Disaster.</strong> You are scrapping ~4.5% of your product. You are losing money on every run.</td>
 </tr>
 <tr>
-<td align="left"><strong>1.00</strong></td>
+<td align="left">1.00</td>
 <td align="left">3.0 $\sigma$</td>
-<td align="left"><strong>2,700</strong></td>
+<td align="left">2,700</td>
 <td align="left"><strong>The Danger Zone.</strong> 0.27% defect rate. In the automotive industry, this is often unacceptable.</td>
 </tr>
 <tr>
-<td align="left"><strong>1.33</strong></td>
+<td align="left">1.33</td>
 <td align="left">4.0 $\sigma$</td>
-<td align="left"><strong>63</strong></td>
+<td align="left">63</td>
 <td align="left"><strong>The Industry Standard.</strong> This is why 1.33 is the “magic number.” You drop from thousands of defects to just 63.</td>
 </tr>
 <tr>
-<td align="left"><strong>1.67</strong></td>
+<td align="left">1.67</td>
 <td align="left">5.0 $\sigma$</td>
-<td align="left"><strong>0.57</strong></td>
+<td align="left">0.57</td>
 <td align="left"><strong>World Class.</strong> Less than 1 defect per million.</td>
 </tr>
 <tr>
-<td align="left"><strong>2.00</strong></td>
+<td align="left">2.00</td>
 <td align="left">6.0 $\sigma$</td>
-<td align="left"><strong>0.002</strong></td>
+<td align="left">0.002</td>
 <td align="left"><strong>Six Sigma.</strong> Perfection.</td>
 </tr>
 </tbody></table>
+</span>
+
 <h3 id="how-to-use-this-in-a-meeting">How to Use This in a Meeting</h3>
 <p>Don’t just say: <em>“Our Cpk is 1.0.”</em>
 Say: <em>“Our Cpk is 1.0. This predicts we will produce <strong>2,700 defects per million parts</strong>. At our current volume, that is <strong>X</strong> bad parts per week. We need to improve the process to 1.33 to reduce that risk to near zero.”</em></p><h3 id="a-warning-on-sample-size">A Warning on Sample Size</h3>
@@ -477,7 +481,7 @@ me.”</p></blockquote>
                 <p><strong>Topic</strong>: Handling Customer Complaints<br>
 <strong>The Academic View</strong>: “The Voice of the Customer is sacred. Whatever they ask for, do it.”<br>
 <strong>The Reality</strong>: The customer’s “wants” are a bottomless pit that will bankrupt you.</p><h3 id="the-golden-rule">The Golden Rule</h3>
-<p>In Cantonese, there is a saying that perfectly describes the life of a Quality Engineer:</p><div style="text-align: center;"> <img loading="lazy" src="大事化小，小事化無.jpg" alt="大事化小，小事化無" width="400" data-is-external-image="true"> </div>
+<p>In Cantonese, there is a saying that perfectly describes the life of a Quality Engineer:</p><div style="text-align: center;"> <img decoding="async" loading="lazy" src="golden-rule.jpg" alt="大事化小，小事化無" width="400" data-is-external-image="true"> </div>
 
 <p>Translation: “Make big problems small, and make small problems disappear.”</p><p>This is the art of <span style="color: #920D14;"><em><strong>De-escalation</strong></em></span>.</p><h3 id="the-trap-the-perfect-solution">The Trap: “The Perfect Solution”</h3>
 <p>When a defect happens, the customer (usually an SQE - Supplier Quality Engineer) naturally panics. They demand the moon: 100% third-party sorting, brand new tooling, air freight, and a 50-page report.</p><p>If you say “Yes” to everything, you fail.</p><ul>
@@ -516,7 +520,7 @@ this as an isolated incident. No need for third-party sorting.”</p></blockquot
 You don’t need to stop the line; we have you covered.”</p></blockquote>
 <h3 id="lean-corner-why-this-is-technical-not-just-political">Lean Corner: Why this is Technical, not just Political</h3>
 <p>You might think, “Tim, isn’t this just playing politics?”<br>No. This is <strong>Lean Manufacturing</strong>.</p><p>One of the deadly wastes in Lean is <strong>Over-processing</strong> (doing more work than the customer actually needs).</p><ul>
-<li><strong>Reactive Engineering:</strong> The customer yells -&gt; You panic -&gt; You spend $10k on air freight for a $50 issue. <strong>(Waste)</strong></li>
+<li><strong>Reactive Engineering:</strong> The customer yells -&gt; You panic -&gt; You spend $10k on air freight for a \$50 issue. <strong>(Waste)</strong></li>
 <li><strong>Lean Engineering:</strong> You analyze the risk -&gt; You prove the process is safe -&gt; You ship standard ground. <strong>(Value)</strong></li>
 </ul>
 <p>De-escalation isn’t about hiding problems. It’s about Confidence. <strong>Don’t let panic create waste.</strong>
