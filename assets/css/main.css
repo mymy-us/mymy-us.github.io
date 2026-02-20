@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Oswald:wght@400;600;700&display=swap');
 
 :root {
     --body-font: 'Merriweather', serif !important;
+    --heading-font: 'Oswald', sans-serif !important; 
 }
 
 html, body, div, span, applet, object,
@@ -3128,10 +3129,17 @@ hr::before,
 }
 
 
-/* FORCE BOLD TO BE BLACK AND HEAVY */
+/* 1. MAKE NORMAL TEXT LIGHTER (Increases contrast) */
+body, p, li, .post__entry {
+    font-weight: 400 !important;
+    color: #333333 !important; /* Very dark grey, makes pure black bold pop more */
+}
+
+
+/* FORCE BOLD TO BE BLACK AND HEAVY FOR MERRIWEATHER */
 strong, b {
     font-family: 'Merriweather', serif; /* Or your body font */
-    font-weight: 900 !important;
+    font-weight: 700 !important;
     color: #000000 !important;
 }
 
@@ -3295,4 +3303,17 @@ h3 { font-size: 1.5rem !important; margin-bottom: 0.5rem !important; }
     letter-spacing: 0 !important; /* Removes wide spacing if present */
     text-transform: none !important; /* Removes ALL CAPS if present */
     opacity: 1 !important; /* Makes it fully visible, not faded */
+}
+
+/* Specific tweaks for Oswald Headers */
+h1, h2, h3, h4, h5, h6, #nav ul.links, .button {
+    font-family: 'Oswald', sans-serif !important;
+    letter-spacing: 0.5px !important; /* Gives it a bit of breathing room */
+    font-weight: 600 !important;      /* Makes it look solid */
+    text-transform: uppercase;        /* Optional: Oswald looks GREAT in all caps for H1/H2 */
+}
+
+/* Keep the article body titles mixed case if you prefer */
+.post__entry h2, .post__entry h3 {
+    text-transform: none !important; 
 }

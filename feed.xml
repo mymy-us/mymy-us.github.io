@@ -3,7 +3,7 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-02-20T12:41:04+08:00</updated>
+    <updated>2026-02-20T22:34:43+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -85,7 +85,7 @@ You are a <strong>Detective</strong>.</p><ol>
             <![CDATA[
                 <p><strong>Topic:</strong> Automation Strategy vs. Reality<br>
 <strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.<br>
-<strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at <strong>Mattel</strong>. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
+<strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at Mattel. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
 <p>At the time, the company was aggressively pushing “Industry 4.0.”
 The goal was simple: Eliminate human labor to cut costs. They installed complex, fully automated machines to assemble the dolls.</p><p>As an intern, I watched these expensive robots try to do the job. <strong>It was a catastrophe.</strong></p><ol>
 <li><strong>Zero Flexibility:</strong> Barbie fashions change every season. Humans can switch from “Beach Barbie” to “Astronaut Barbie” in seconds. The robots needed expensive reprogramming for every dress change.</li>
@@ -329,7 +329,7 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
                 <p><strong>Topic:</strong> Crisis Management &amp; Supply Chain Strategy<br>
 <strong>The Scenario:</strong> A quality defect is found. All inventory at the customer and your warehouse is quarantined (useless). You are at Zero.</p><h3 id="part-1-the-cost-of-silence">Part 1: The Cost of Silence</h3>
 <p>In the automotive industry, a “Line Down” situation is the ultimate failure.<br>Production lines are continuous. If one station stops, the whole factory stops.</p><ul>
-<li><strong>The Fine:</strong> Penalties often range from <strong>$1,000 to $10,000 per minute</strong>.</li>
+<li><strong>The Fine:</strong> Penalties often range from <strong>\$1,000 to \$10,000 per minute</strong>.</li>
 <li><strong>The Logistics:</strong> Even if you have the part in your hand at the gate, it might take 20 minutes just to walk through a massive plant (like Tesla or Daimler-Benz) to reach the line. That walk alone costs $20,000+ in fines.</li>
 </ul>
 <h3 id="part-2-the-math-of-the-death-spiral">Part 2: The Math of the “Death Spiral”</h3>
