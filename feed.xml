@@ -3,12 +3,63 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-02-20T22:34:43+08:00</updated>
+    <updated>2026-02-24T15:21:39+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
+    <entry>
+        <title>The Gray Zone: How to Make a Concession Like a Pro</title>
+        <author>
+            <name>Tim Y</name>
+        </author>
+        <link href="https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html"/>
+        <id>https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html</id>
+
+        <updated>2025-09-24T15:21:00+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Topic: Quality Judgments &amp; Concessions The Academic View: Specifications are black and white. Good parts ship. Bad parts are scrapped. The Reality: Manufacturing&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Topic:</strong> Quality Judgments &amp; Concessions<br>
+<strong>The Academic View:</strong> Specifications are black and white. Good parts ship. Bad parts are scrapped.<br>
+<strong>The Reality:</strong> Manufacturing lives in the gray zone. If you scrap every part with a microscopic anomaly, your company will go bankrupt. </p><p>Sometimes, you have to make a <strong>Concession</strong> (accepting a part that deviates slightly from the perfect standard). Here is how to make that judgment call without risking your job.</p><h3 id="1-the-golden-rule-form-fit-and-function">1. The Golden Rule: Form, Fit, and Function</h3>
+<p>When you find a deviation, ask one question: <em>Does this affect Form, Fit, or Function (FFF)?</em></p><ul>
+<li><strong>Internal Concession:</strong> If the defect is strictly cosmetic (e.g., a scratch on a surface hidden inside the machine), it does not affect FFF. You can document the deviation, approve it internally, and ship it. You save the company money.</li>
+<li><strong>External Concession:</strong> If the deviation changes how the part fits or works, you <strong>must</strong> ask the customer for a formal waiver. Never hide a functional defect. That is a breach of contract.</li>
+</ul>
+<h3 id="2-the-undefined-defect-creating-the-boundary">2. The “Undefined” Defect (Creating the Boundary)</h3>
+<p>What happens when you find a weird visual defect that isn’t even listed in your SIP? You have to create the standard on the spot. </p><ol>
+<li>Find the absolute worst-case part that you still believe is acceptable. </li>
+<li>This physical part becomes your <strong>Boundary Sample</strong> (Limit Sample). </li>
+<li>Sign it, date it, and place it at the inspection station. Now the operators aren’t guessing; they are comparing.</li>
+</ol>
+<h3 id="3-judging-the-borderline-the-batch-context">3. Judging the “Borderline” (The Batch Context)</h3>
+<p>When dealing with a minor cosmetic issue, you have to judge the context of the whole batch. 
+Customers usually accept a tiny percentage of minor cosmetic flaws (called an Acceptable Quality Limit, or AQL). </p><ul>
+<li><strong>Healthy Batch:</strong> If the rest of the batch is running perfectly, you can afford to be slightly lenient and internally concede a few <em>borderline</em> cosmetic parts. </li>
+<li><strong>Sick Batch:</strong> If the process is unstable and the batch is already close to the rejection limit, your buffer is gone. Every borderline part must be strictly scrapped to protect the shipment.</li>
+</ul>
+<h3 id="4-the-complaint-tax-dynamic-standards">4. The “Complaint Tax” (Dynamic Standards)</h3>
+<p>Here is the secret they don’t teach in school: <strong>The passing score is dynamic.</strong></p><p>Let’s say your standard inspection strictness is a 90/100. 
+If the customer called you yesterday screaming about a quality issue, <strong>your new passing score is 95/100.</strong> </p><ul>
+<li>Why? Because the customer is currently hyper-sensitive. They will inspect your next shipment with a magnifying glass. </li>
+<li>A borderline defect that you safely approved last month is an immediate “Scrap” this month. You must temporarily over-inspect to rebuild trust.</li>
+</ul>
+<h3 id="the-takeaway">The Takeaway</h3>
+<p>Making a concession is not “cheating.” It is calculated risk management. </p><ol>
+<li>Protect Form, Fit, and Function above all else.</li>
+<li>Let the context of the batch dictate how you handle the gray area.</li>
+<li>Adjust your strictness based on the customer’s current trust level.</li>
+</ol>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Stop Being a Janitor: How to Master the 6S Audit</title>
         <author>
@@ -360,16 +411,19 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
         </author>
         <link href="https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html"/>
         <id>https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html</id>
+        <media:content url="https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png" medium="image" />
             <category term="The Lean Thinking"/>
 
         <updated>2025-09-07T17:02:00+08:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png" alt="" />
                     Topic: The True Purpose of PPAP (Production Part Approval Process) The Academic View: PPAP demonstrates that a supplier can meet manufacturing requirements at&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>Topic:</strong> The True Purpose of PPAP (Production Part Approval Process)<br>
 <strong>The Academic View:</strong> PPAP demonstrates that a supplier can meet manufacturing requirements at the quoted production rate.<br>
 <strong>The Reality:</strong> PPAP is a <strong>Legal Contract</strong>. It is the “Constitution” of your product.</p><p>Here is why you need to treat it like a weapon, not a checklist.</p><h3 id="1-the-shield-protecting-your-company">1. The Shield: Protecting Your Company</h3>
