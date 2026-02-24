@@ -3,12 +3,61 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-02-24T15:21:39+08:00</updated>
+    <updated>2026-02-24T15:44:06+08:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
+    <entry>
+        <title>Building a Production Line from Scratch: The NPI Playbook</title>
+        <author>
+            <name>Tim Y</name>
+        </author>
+        <link href="https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html"/>
+        <id>https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html</id>
+            <category term="The Lean Thinking"/>
+            <category term="Industrial Engineering"/>
+
+        <updated>2025-09-25T15:39:00+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Topic: New Product Introduction (NPI) &amp; Line Setup The Academic View: You are given a list of tasks with perfect cycle times, and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Topic:</strong> New Product Introduction (NPI) &amp; Line Setup<br>
+<strong>The Academic View:</strong> You are given a list of tasks with perfect cycle times, and you draw a perfectly balanced U-shaped cell on paper.<br>
+<strong>The Reality:</strong> You are given a 3D model, half the parts are missing, the cycle times are guesses, and production starts in three months. </p><p>If you are a new Industrial Engineer assigned to an NPI team, setting up the physical production line can feel overwhelming. Here is the roadmap for how a line actually comes to life, and the paperwork you use to build it.</p><h3 id="phase-1-the-document-cascade">Phase 1: The Document Cascade</h3>
+<p>You cannot draw a physical floor plan until you know what you are building. In NPI, documents are generated in a strict sequence. One feeds the next.</p><ol>
+<li><strong>The BOM (Bill of Materials):</strong> Tells you <em>what</em> parts you need.</li>
+<li><strong>The Process Flow Diagram (PFD):</strong> Based on the BOM, you map out the step-by-step logic. <em>(e.g., Step 1: Screw base. Step 2: Attach wire. Step 3: Test).</em></li>
+<li><strong>The PFMEA &amp; Control Plan:</strong> Quality reviews the PFD to decide where things might fail. <em>This tells you exactly where you must place inspection and testing stations on the physical line.</em></li>
+<li><strong>The Time Study:</strong> You estimate or measure how long each step takes. </li>
+<li><strong>The Line Balance:</strong> You group the steps together to meet the customer’s Takt Time. <em>This tells you how many operators and workstations you need.</em></li>
+<li><strong>The Physical Line Layout:</strong> <strong>This is your final output.</strong></li>
+</ol>
+<p><strong>Rule of Thumb:</strong> Never start drawing the physical layout in AutoCAD until the Process Flow and Line Balance are drafted. </p><h3 id="phase-2-the-evolution-of-the-line">Phase 2: The Evolution of the Line</h3>
+<p>You do not build the final mass-production line on Day 1. The layout scales with the product’s maturity phases:</p><ul>
+<li><strong>Prototype Stage:</strong> No line is needed. Engineers are just building the product on a workbench to see if it turns on. </li>
+<li><strong>EVT / DVT (Engineering &amp; Design Validation):</strong> You build a <strong>Temporary Line</strong>. It will be ugly. You use folding tables, rolling carts, and PVC pipes. You are simply proving out the assembly sequence and figuring out which tools are required. </li>
+<li><strong>PVT (Production Validation):</strong> This is the <strong>Pilot Line</strong>. You lock down the physical layout, assign operators to specific seats, and run at production speed to prove your cycle times. </li>
+<li><strong>Mass Production (MP):</strong> The line is fixed, and your job shifts from “Setup” to “Continuous Improvement” (Kaizen).</li>
+</ul>
+<h3 id="phase-3-the-perfection-trap">Phase 3: The Perfection Trap</h3>
+<p>The biggest mistake young engineers make is trying to design a 100% perfect, highly efficient line before a single part is mass-produced. </p><p>During EVT and PVT, the product design <em>will</em> change. An operator will complain that a tool is too heavy. A cycle time you estimated at 10 seconds will actually take 30. </p><ul>
+<li><strong>Do not bolt the tables to the floor.</strong></li>
+<li>Design the initial layout to be <strong>80% good</strong>. </li>
+<li>Put your workstations and material racks on caster wheels. </li>
+<li>Leave empty space between stations so you can add buffer inventory or extra test equipment later when things go wrong.</li>
+</ul>
+<h3 id="the-takeaway">The Takeaway</h3>
+<p>In NPI, the initial setup is just a starting line, not the finish line. 
+Get the sequence right, balance the math as best as you can, and put everything on wheels. Let the reality of Mass Production tell you where the line needs to improve.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Gray Zone: How to Make a Concession Like a Pro</title>
         <author>
@@ -16,6 +65,8 @@
         </author>
         <link href="https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html"/>
         <id>https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html</id>
+            <category term="The Lean Toolkit"/>
+            <category term="Quality Engineering"/>
 
         <updated>2025-09-24T15:21:00+08:00</updated>
             <summary type="html">
@@ -511,74 +562,6 @@ me.”</p></blockquote>
 </ol>
 <p>When the boss says, “We are doing this,” the team follows. You are just the architect; let the Department Head be the enforcer.</p><h3 id="the-takeaway">The Takeaway</h3>
 <p><strong>Phase 1 (Fixing)</strong> requires IQ.<br><strong>Phase 2 (Sustaining)</strong> requires EQ (Emotional Intelligence) and Guts.</p><p>Don’t just be a smart engineer. Be a loud one.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>De-escalation: The Ultimate Mindset to Solve a Complaint</title>
-        <author>
-            <name>Tim Y</name>
-        </author>
-        <link href="https://mymy-us.github.io/the-art-of-de-escalation-saving-money-and-face-2.html"/>
-        <id>https://mymy-us.github.io/the-art-of-de-escalation-saving-money-and-face-2.html</id>
-            <category term="The Lean Toolkit"/>
-            <category term="Quality Engineering"/>
-
-        <updated>2025-09-06T16:03:00+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    Topic: Handling Customer Complaints The Academic View: “The Voice of the Customer is sacred. Whatever they ask for, do it.” The Reality: The&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><strong>Topic</strong>: Handling Customer Complaints<br>
-<strong>The Academic View</strong>: “The Voice of the Customer is sacred. Whatever they ask for, do it.”<br>
-<strong>The Reality</strong>: The customer’s “wants” are a bottomless pit that will bankrupt you.</p><h3 id="the-golden-rule">The Golden Rule</h3>
-<p>In Cantonese, there is a saying that perfectly describes the life of a Quality Engineer:</p><div style="text-align: center;"> <img decoding="async" loading="lazy" src="golden-rule.jpg" alt="大事化小，小事化無" width="400" data-is-external-image="true"> </div>
-
-<p>Translation: “Make big problems small, and make small problems disappear.”</p><p>This is the art of <span style="color: #920D14;"><em><strong>De-escalation</strong></em></span>.</p><h3 id="the-trap-the-perfect-solution">The Trap: “The Perfect Solution”</h3>
-<p>When a defect happens, the customer (usually an SQE - Supplier Quality Engineer) naturally panics. They demand the moon: 100% third-party sorting, brand new tooling, air freight, and a 50-page report.</p><p>If you say “Yes” to everything, you fail.</p><ul>
-<li><strong>The Cost</strong>: Your company eats the bill for sorting and rework.</li>
-<li><strong>The Precedent</strong>: You teach the customer that they can bully you every time.</li>
-</ul>
-<h3 id="the-psychology-of-your-counterpart">The Psychology of Your Counterpart</h3>
-<p>To win, you have to understand who you are talking to. The SQE on the other side isn’t evil. They are just having a really bad day:</p><ol>
-<li><strong>Their Production Team</strong> is yelling at them because the line stopped.</li>
-<li><strong>Their Boss</strong> is asking for a report.</li>
-<li><strong>They are scared</strong> they can’t handle it.</li>
-</ol>
-<p>Key Insight: If they feel like they can’t handle the issue, they will <em><strong>Escalate</strong></em>.
-Escalation = Management gets involved = Trust goes down = Future business is lost.</p><p>Your job isn’t just to fix the part. It is to <strong>make the SQE feel safe</strong> so they don’t hit the panic button.</p><h3 id="the-playbook-how-to-de-escalate">The Playbook: How to De-escalate</h3>
-<p> <strong>Internal Rule #1:</strong>
-<strong>Never lie to yourself.</strong> Internally, you must find the true Root Cause, fix the process, and update the control plan. If you don’t fix it, the problem comes back, and you die.</p><p><strong>External Rule #2:</strong><br><strong>Filter the noise.</strong> Once the internal fix is solid, your communication strategy changes based on the severity.</p><p><span style="font-size: 0.8em;"><strong>Scenario A: The “Small” Thing (Low Risk/Low FMEA score)</strong></span></p><ul>
-<li>The Situation: A minor cosmetic defect or a one-off glitch.</li>
-<li>The Goal: Make it disappear (“let it go”).</li>
-<li>The Move: Leverage your relationship. Show them the data.</li>
-</ul>
-<blockquote>
-<p>“Hey, looking at the FMEA, the risk is negligible. We’ve already
-implemented [Fix X] internally so it won’t happen again. Let’s treat
-this as an isolated incident. No need for third-party sorting.”</p></blockquote>
-<p><span style="font-size: 0.8em;"><strong>Scenario A: The “Small” Thing (Low Risk/Low FMEA score)</strong></span></p><ul>
-<li>The Situation: It’s bad.</li>
-<li>The Goal: Make it small.</li>
-<li>The Move: Provide an “Easy Button.”<ul>
-<li>Don’t let them panic about air freight or line-down.</li>
-<li>Give them a containment plan immediately that makes them look good to their boss.</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>“We have a containment team ready. Here is the immediate clean point.
-You don’t need to stop the line; we have you covered.”</p></blockquote>
-<h3 id="lean-corner-why-this-is-technical-not-just-political">Lean Corner: Why this is Technical, not just Political</h3>
-<p>You might think, “Tim, isn’t this just playing politics?”<br>No. This is <strong>Lean Manufacturing</strong>.</p><p>One of the deadly wastes in Lean is <strong>Over-processing</strong> (doing more work than the customer actually needs).</p><ul>
-<li><strong>Reactive Engineering:</strong> The customer yells -&gt; You panic -&gt; You spend $10k on air freight for a \$50 issue. <strong>(Waste)</strong></li>
-<li><strong>Lean Engineering:</strong> You analyze the risk -&gt; You prove the process is safe -&gt; You ship standard ground. <strong>(Value)</strong></li>
-</ul>
-<p>De-escalation isn’t about hiding problems. It’s about Confidence. <strong>Don’t let panic create waste.</strong>
-<strong>Fix the part. Manage the panic. Save the money.</strong></p>
             ]]>
         </content>
     </entry>
