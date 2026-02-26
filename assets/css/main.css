@@ -3379,3 +3379,139 @@ h1, h2, h3, h4, h5, h6, #nav ul.links, .button {
 .post__entry h2, .post__entry h3 {
     text-transform: none !important; 
 }
+
+
+/* =========================================
+   EDGE-TO-EDGE WHITE BACKGROUND
+   ========================================= */
+
+/* 1. Force the main white container to touch the screen edges */
+#main {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* 2. Keep all the content inside (articles, related posts) 
+      constrained to the original width and perfectly centered */
+#main > * {
+    width: calc(100% - 4rem) !important;
+    max-width: 72rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* 3. Mobile fix: Ensure it doesn't get squished on phones */
+@media screen and (max-width: 480px) {
+    #main > * {
+        width: 100% !important;
+    }
+}
+
+
+
+/* =========================================
+   1. TURN GENERAL GREY TO DEEP DARK
+   ========================================= */
+/* Change the bluish-grey outer background to a sleek, modern dark/black */
+body, #wrapper, #wrapper > .bg {
+    background-color: #121212 !important; 
+    background-image: none !important;
+}
+
+
+/* =========================================
+   2. COMPRESS FOOTER MARGINS
+   ========================================= */
+/* Shrink the huge gaps above and below the Bible verse */
+#copyright {
+    margin: 2rem auto 2rem auto !important; /* Was 4rem top and 8rem bottom */
+    padding: 20px 20px 0 20px !important; 
+}
+#copyright p {
+    margin-bottom: 15px !important; /* Shrink gap below the verse */
+}
+
+
+/* =========================================
+   3. WIDEN THE CONTENT BLOCK
+   ========================================= */
+/* Make the white container wider on your screen */
+#main > * {
+    max-width: 88rem !important; /* Increased from 72rem */
+}
+
+/* Reduce the massive blank white padding inside the post */
+#main > .post {
+    padding: 3rem 5rem !important; /* Less white space on the edges */
+}
+
+/* Let the text stretch to fill the new space */
+@media screen and (min-width: 1200px) {
+    .post__inner {
+        max-width: 100% !important; /* Forces the text to use all available width */
+    }
+    
+    .engineering-wrapper {
+        grid-template-columns: 1fr 300px !important; /* Text takes main space, sidebar stays 300px */
+        gap: 80px !important; /* Gives nice breathing room between text and sidebar */
+    }
+}
+
+/* Keep it looking good on mobile phones */
+@media screen and (max-width: 768px) {
+    #main > .post {
+        padding: 2rem 1.5rem !important;
+    }
+}
+
+
+
+/* =========================================
+   BRIGHT NAVIGATION MENU (Island ECC Style)
+   ========================================= */
+
+/* 1. Make the bar bright white, floating, and offset */
+#nav {
+    background-color: #ffffff !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important; /* Stronger shadow to make it "float" */
+    border-top: 4px solid #972222 !important; 
+    border-radius: 8px !important; /* Round all corners */
+    
+    /* THE OFFSET: This pulls it up into the black space, and pushes the white text box 3rem down */
+    margin: -4rem auto 3rem auto !important; 
+    
+    /* Make it slightly narrower than the article block for the "floating pill" look */
+    width: calc(100% - 4rem) !important;
+    max-width: 68rem !important; 
+}
+
+/* Optional: Round the top corners of the main white article block to match the modern look */
+#main {
+    border-radius: 8px 8px 0 0 !important;
+}
+
+/* 2. Make the menu links dark grey so they are visible */
+#nav ul.links li a {
+    color: #333333 !important;
+    font-weight: 700 !important;
+    transition: color 0.2s ease;
+}
+
+/* 3. Add the Red Hover Effect */
+#nav ul.links li a:hover {
+    color: #972222 !important;
+    background-color: transparent !important;
+}
+
+/* 4. Style the "Active" (Current Page) Tab */
+#nav ul.links li.active {
+    background-color: #fcfcfc !important; /* Very subtle grey background */
+}
+#nav ul.links li.active a {
+    color: #972222 !important;
+}
+
+/* 5. Fix the Mobile Menu Button (Hamburger icon) */
+#navPanelToggle {
+    color: #ffffff !important; /* Keeps hamburger icon visible on dark backgrounds */
+}
