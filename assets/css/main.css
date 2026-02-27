@@ -3515,3 +3515,107 @@ body, #wrapper, #wrapper > .bg {
 #navPanelToggle {
     color: #ffffff !important; /* Keeps hamburger icon visible on dark backgrounds */
 }
+
+
+/* =========================================
+   REMOVE *** FROM FOOTER LINE
+   ========================================= */
+#copyright hr::before {
+    content: none !important;
+    display: none !important;
+}
+
+/* =========================================
+   CENTER AND EVENLY SPACE THE MENU
+   ========================================= */
+#nav ul.links {
+    display: flex !important;
+    justify-content: center !important; /* Forces items to the middle */
+    align-items: center !important;
+    width: 100% !important;
+    gap: 1rem; /* Adds even spacing between the buttons */
+}
+
+/* Stops the buttons from stretching weirdly */
+#nav ul.links li {
+    flex: 0 1 auto !important; 
+}
+
+/* Ensures the text is perfectly centered in its own clickable space */
+#nav ul.links li a {
+    text-align: center !important;
+    padding: 0 1.5rem !important;
+}
+
+
+
+/* =========================================
+   1. ENABLE "STICKY" TOC (Desktop Floating)
+   ========================================= */
+/* Override the theme's hidden overflow so the sticky sidebar can travel */
+#wrapper {
+    overflow: visible !important;
+}
+/* Keep it hidden only during the initial loading fade-in animation */
+body.is-preload #wrapper {
+    overflow: hidden !important; 
+}
+
+
+/* =========================================
+   2. FIX MENU (Desktop Only, Protect Mobile)
+   ========================================= */
+/* Only apply the flexbox centering to computer screens */
+@media screen and (min-width: 981px) {
+    #nav ul.links {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        gap: 1rem;
+    }
+    #nav ul.links li {
+        flex: 0 1 auto !important; 
+    }
+    #nav ul.links li a {
+        text-align: center !important;
+        padding: 0 1.5rem !important;
+    }
+}
+
+
+/* =========================================
+   3. MOBILE TOC (Move to Top & Disable Sticky)
+   ========================================= */
+@media screen and (max-width: 1199px) {
+    /* Change layout to a vertical stack on small screens */
+    .engineering-wrapper {
+        display: flex !important;
+        flex-direction: column !important; 
+    }
+    
+    /* Put the Article Content on the bottom */
+    .engineering-content {
+        order: 2 !important; 
+    }
+    
+    /* Put the TOC on the top, make it look like an index card */
+    .engineering-sidebar {
+        display: block !important; 
+        order: 1 !important; 
+        margin-bottom: 3rem !important;
+        background-color: #fcfcfc;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eeeeee;
+    }
+    
+    /* Disable sticky floating on phones so it scrolls away naturally */
+    .toc-sticky {
+        position: relative !important; 
+        top: 0 !important;
+        border-left: none !important;
+        padding-left: 0 !important;
+    }
+}
+
