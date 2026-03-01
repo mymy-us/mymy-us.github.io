@@ -1,0 +1,59 @@
+<!-- START Custom Footer -->
+<footer id="copyright" style="text-align: center !important; width: 100%; padding: 40px 20px; color: #eeeeee !important;">
+    
+    <!-- The Verse -->
+    <p style="
+        text-align: center !important; 
+        font-family: 'Merriweather', serif; /* CHANGED */
+        font-style: italic; 
+        font-size: 1.4em; /* CHANGED (Was 1.1em) */
+        line-height: 1.6; 
+        text-transform: none !important; 
+        letter-spacing: normal !important;
+        margin: 0 auto 25px auto; 
+        max-width: 800px;
+        color: #ffffff !important;">
+        "Why are ye so fearful? how is it that ye have no faith?" 
+        <br>
+        <span style="font-style: normal; font-size: 0.85em; opacity: 0.7; font-weight: bold;">
+            — Mark 4:40
+        </span>
+    </p>
+    
+    <!-- The Divider Line -->
+    <hr style="
+        border: 0; 
+        border-top: 1px solid rgba(255,255,255,0.2); 
+        width: 150px; 
+        margin: 0 auto 25px auto;">
+
+    <!-- Copyright -->
+    <div style="
+        text-align: center !important;
+        font-size: 0.8em;
+        opacity: 0.6;
+        text-transform: none !important;
+        letter-spacing: 0.5px;
+        font-family: system-ui, 'Segoe UI', Calibri, Arial, sans-serif !important;">
+        &copy;&nbsp;<script>document.write(new Date().getFullYear())</script>&nbsp;Tim Y. All rights reserved.
+    </div>
+<!-- END Custom Footer -->
+
+</div>
+
+<script  src="{{js "jquery.min.js"}}"></script>
+<script  src="{{js "jquery.scrollex.min.js"}}"></script>
+<script  src="{{js "jquery.scrolly.min.js"}}"></script>
+<script  src="{{js "browser.min.js"}}"></script>
+<script  src="{{js "breakpoints.min.js"}}"></script>
+<script  src="{{js "util.min.js"}}"></script>
+<script  src="{{js "main.min.js"}}"></script>
+
+{{#if @config.site.mediaLazyLoad}}
+   <script>/*<![CDATA[*/var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};/*]]>*/</script>
+{{/if}}
+
+{{{@footerCustomCode}}}
+{{{ publiiFooter }}}
+</body>
+</html>

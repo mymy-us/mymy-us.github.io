@@ -3167,87 +3167,127 @@ hr::before,
    CUSTOM ENGINEERING THEME OVERRIDES 
    ========================================= */
 
-/* --- Animations --- */
+/* 1. Target the arrow button in the Intro section */
 #intro .scrolly {
     border: none !important;      
     box-shadow: none !important;  
     background: transparent !important;
     animation: breathe 2.5s infinite ease-in-out; 
 }
+
+/* 3. Define the "Dim Down / Bright Up" Animation */
 @keyframes breathe {
-    0%   { opacity: 1; transform: scale(1); }
-    50%  { opacity: 0.3; transform: scale(0.9); }
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.3; transform: scale(0.9); }
     100% { opacity: 1; transform: scale(1); }
 }
 
-/* --- Typography & Colors --- */
-:root {
-    --line-height: 1.6 !important;
-    --letter-spacing: 0 !important;
-}
-html { font-size: 15px !important; }
-
-body, #wrapper, #wrapper > .bg {
-    background-color: #121212 !important; 
-    background-image: none !important;
-}
-
-/* 3. FIX WHITE TEXT BUG IN TAG VIEWS */
-#main { background-color: #ffffff !important; color: #111111 !important; }
-#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 { color: #111111 !important; }
-#main p, #main li, #main .post__entry, #main .engineering-content, .page-header p {
+/* 1. MAKE NORMAL TEXT LIGHTER (Increases contrast) */
+body, p, li, .post__entry {
     font-weight: 400 !important;
     color: #333333 !important; 
 }
-p { margin-bottom: 1.2rem !important; text-align: left !important; }
 
+/* FORCE BOLD TO BE BLACK AND HEAVY FOR MERRIWEATHER */
 strong, b {
     font-family: 'Merriweather', serif; 
     font-weight: 700 !important;
     color: #000000 !important;
 }
-h1, h2, h3, h4, h5, h6, #nav ul.links, .button {
-    font-family: 'Oswald', sans-serif !important;
-    letter-spacing: 0.5px !important; 
-    font-weight: 600 !important;      
-    text-transform: uppercase;        
+
+/* MAKE TABLES LOOK LIKE ENGINEERING TABLES */
+table {
+    border-collapse: collapse !important;
+    width: 100%;
 }
+table th {
+    background-color: rgba(0,0,0,0.05);
+    font-weight: 900;
+    border: 1px solid #ddd !important;
+}
+table td {
+    border: 1px solid #ddd !important;
+}
+
+/* =========================================
+   CUSTOM SCROLLBAR (#972222)
+   ========================================= */
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb {
+    background: #972222; 
+    border-radius: 6px;
+    border: 3px solid #f1f1f1; 
+}
+::-webkit-scrollbar-thumb:hover { background: #7a1b1b; }
+
+/* =========================================
+   COMPACT FONTS & SPACING (Engineering Style)
+   ========================================= */
+:root {
+    --line-height: 1.6 !important; 
+    --letter-spacing: 0 !important; 
+}
+
+html { font-size: 15px !important; }
+
+p {
+    margin-bottom: 1.2rem !important;
+    text-align: left !important; 
+}
+
 h1 { font-size: 3rem !important; margin-bottom: 1rem !important; }
 h2 { font-size: 2rem !important; margin-bottom: 0.8rem !important; margin-top: 2rem !important; }
 h3 { font-size: 1.5rem !important; margin-bottom: 0.5rem !important; }
+
+#main > .post { padding-top: 4rem !important; }
+
+/* Keep the article body titles mixed case */
 .post__entry h2, .post__entry h3 { text-transform: none !important; }
 
-/* --- Scrollbar & Tables --- */
-::-webkit-scrollbar { width: 12px; }
-::-webkit-scrollbar-track { background: #f1f1f1; }
-::-webkit-scrollbar-thumb { background: #972222; border-radius: 6px; border: 3px solid #f1f1f1; }
-::-webkit-scrollbar-thumb:hover { background: #7a1b1b; }
-table { border-collapse: collapse !important; width: 100%; }
-table th { background-color: rgba(0,0,0,0.05); font-weight: 900; border: 1px solid #ddd !important; }
-table td { border: 1px solid #ddd !important; }
 
-/* --- Main Layout --- */
-/* Removed overflow overrides to permanently fix infinite scroll */
-
+/* =========================================
+   EDGE-TO-EDGE WHITE BACKGROUND
+   ========================================= */
 #main {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 !important;
-    border: none !important;
     border-radius: 8px 8px 0 0 !important;
 }
 #main > * {
     width: calc(100% - 4rem) !important;
-    max-width: 88rem !important;
+    max-width: 72rem !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
-#main > .post { padding: 3rem 5rem !important; }
+@media screen and (max-width: 480px) {
+    #main > * { width: 100% !important; }
+}
 
-/* --- Footer --- */
-#copyright { margin: 2rem auto 2rem auto !important; padding: 20px 20px 0 20px !important; }
+
+/* =========================================
+   TURN GENERAL GREY TO DEEP DARK
+   ========================================= */
+body, #wrapper, #wrapper > .bg {
+    background-color: #121212 !important; 
+    background-image: none !important;
+}
+
+
+/* =========================================
+   COMPRESS FOOTER MARGINS
+   ========================================= */
+#copyright {
+    margin: 2rem auto 2rem auto !important; 
+    padding: 20px 20px 0 20px !important; 
+}
 #copyright p { margin-bottom: 15px !important; }
-#copyright hr::before { content: none !important; display: none !important; }
+
+#copyright hr::before {
+    content: none !important;
+    display: none !important;
+}
+
 #copyright, #copyright div, #copyright p, #copyright span {
     font-size: 1rem !important; 
     font-weight: 400 !important;
@@ -3256,10 +3296,42 @@ table td { border: 1px solid #ddd !important; }
     opacity: 1 !important; 
 }
 
-/* --- Table of Contents (Static) --- */
-.engineering-wrapper { align-items: start !important; }
-.engineering-sidebar { position: relative !important; height: 100% !important; }
-.toc-sticky { border-left: 2px solid #eee; padding-left: 20px; }
+
+/* =========================================
+   WIDEN THE CONTENT BLOCK & TOC LAYOUT
+   ========================================= */
+#main > * { max-width: 88rem !important; }
+#main > .post { padding: 3rem 5rem !important; }
+
+@media screen and (min-width: 1200px) {
+    .post__inner { max-width: 100% !important; }
+    
+    .engineering-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 300px !important; 
+        gap: 80px !important; 
+        align-items: start;
+    }
+    .engineering-sidebar {
+        display: block; 
+        margin-top: 1rem;
+        position: relative; /* Static, kills infinite scroll bug */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main > .post { padding: 2rem 1.5rem !important; }
+}
+
+
+/* =========================================
+   STATIC TOC STYLING (No longer floating)
+   ========================================= */
+.toc-sticky {
+    position: relative; 
+    border-left: 2px solid #eee;
+    padding-left: 20px;
+}
 .toc-title { margin-bottom: 10px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; color: #972222; }
 #auto-toc { list-style: none; padding: 0; margin: 0; }
 #auto-toc li { margin-bottom: 8px; line-height: 1.3; padding-left: 0; border: none; }
@@ -3269,24 +3341,46 @@ table td { border: 1px solid #ddd !important; }
 
 
 /* =========================================
-   ISLAND ECC MENU SYSTEM
+   MOBILE TOC (Move to Top)
+   ========================================= */
+@media screen and (max-width: 1199px) {
+    .engineering-wrapper {
+        display: flex !important;
+        flex-direction: column !important; 
+    }
+    .engineering-content { order: 2 !important; }
+    .engineering-sidebar {
+        display: block !important; 
+        order: 1 !important; 
+        margin-bottom: 3rem !important;
+        background-color: #fcfcfc;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eeeeee;
+    }
+    .toc-sticky { border-left: none !important; padding-left: 0 !important; }
+}
+
+
+/* =========================================
+   ISLAND ECC MENU (Advanced CSS Architecture)
    ========================================= */
 
-/* 1 & 2. Hamburger Button (Top 30px, Flush Left, Always Visible) */
+/* --- 1. The Hamburger Button (Flush Top Left) --- */
 #navPanelToggle {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
     position: fixed !important;
-    top: 30px !important;  
-    left: 0 !important;   
+    top: 0 !important;
+    left: 0 !important; /* Flush to the edge */
     right: auto !important;
     width: 65px !important; 
     height: 65px !important;
     background-color: #121212 !important; 
     color: #ffffff !important; 
-    border-radius: 0 4px 4px 0 !important; 
+    border-radius: 0 !important; /* Sharp square corners */
     z-index: 10005 !important;
     padding: 0 !important;
     font-family: 'Oswald', sans-serif !important;
@@ -3295,117 +3389,22 @@ table td { border: 1px solid #ddd !important; }
     text-decoration: none !important;
     border: none !important;
     cursor: pointer !important;
-    pointer-events: auto !important;
 }
-#navPanelToggle:before { content: "\f0c9" !important; margin: 0 0 4px 0 !important; font-size: 1.4rem !important; }
-#navPanelToggle.alt { box-shadow: 2px 2px 10px rgba(0,0,0,0.5) !important; background-color: #121212 !important; }
-/* Force hide the hamburger icon when the menu pops out */
-body.is-navPanel-visible a#navPanelToggle { 
-    display: none !important; 
+#navPanelToggle:before {
+    content: "\f0c9" !important;
+    margin: 0 0 4px 0 !important; 
+    font-size: 1.4rem !important; 
 }
-
-
-/* 3. Slide-Out Panel (Works perfectly everywhere now) */
-#navPanel {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: auto !important;
-    background-color: #1a1a1a !important; 
-    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.8) !important; 
-    width: 20rem !important;
-    height: 100vh !important;
-    padding: 5rem 2rem 2rem 2rem !important;
-    z-index: 10004 !important;
-    margin: 0 !important;
-    border: none !important;
-    border-radius: 0 !important;
-    transform: translateX(-20rem) !important; 
-    transition: transform 0.5s ease, visibility 0.5s !important;
-    visibility: hidden !important;
-    display: block !important;
-    overflow-y: auto !important;
+#navPanelToggle.alt {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5) !important;
 }
 
-body.is-navPanel-visible #navPanel {
-    transform: translateX(0) !important; 
-    visibility: visible !important;
-}
 
-/* Panel Links */
-#navPanel ul.links { display: flex !important; flex-direction: column !important; margin-top: 0 !important; padding: 0 !important; }
-#navPanel ul.links > li { width: 100% !important; border-top: 1px solid rgba(255, 255, 255, 0.05) !important; padding: 0 !important; margin: 0 !important; display: block !important; }
-#navPanel ul.links > li:first-child { border-top: none !important; }
-
-#navPanel ul.links > li > a,
-#navPanel ul.links > li > span { 
-    color: #ffffff !important; 
-    font-family: 'Oswald', sans-serif !important; 
-    text-transform: uppercase !important; 
-    font-size: 1.1rem !important; 
-    padding: 1.2rem 0 !important; 
-    text-align: left !important; 
-    display: block !important; 
-    background: transparent !important; 
-    border: none !important;
-    cursor: pointer !important;
-}
-#navPanel ul.links > li > a:hover { color: #972222 !important; }
-
-/* Always Expand Submenus in Sidebar */
-#navPanel ul.links ul { 
-    display: flex !important; 
-    flex-direction: column !important;
-    position: static !important; 
-    opacity: 1 !important;
-    visibility: visible !important;
-    box-shadow: none !important;
-    transform: none !important;
-    background: transparent !important;
-    padding-left: 1.5rem !important; 
-    margin-bottom: 1rem !important; 
-    border-left: 2px solid rgba(255,255,255,0.1) !important; 
-    list-style: none !important; 
-}
-#navPanel ul.links ul li { border-top: none !important; }
-#navPanel ul.links ul li a { 
-    font-size: 0.9rem !important; 
-    padding: 0.5rem 0 !important; 
-    font-family: 'Merriweather', serif !important; 
-    text-transform: none !important; 
-    color: #aaaaaa !important; 
-}
-#navPanel ul.links ul li a:hover { color: #ffffff !important; }
-
-#navPanel .close { right: 0 !important; left: auto !important; top: 0 !important; }
-#navPanel .close::before { color: #ffffff !important; }
-
-/* Fix Active Menu Item in Dark Sidebar (White Box Bug) */
-#navPanel ul.links > li.active {
-    background-color: transparent !important; 
-    border-left: 4px solid #972222 !important; 
-}
-#navPanel ul.links > li.active > a {
-    color: #972222 !important; 
-}
-
-/* =========================================
-   MEDIA QUERIES
-   ========================================= */
-
-/* Desktop (1200px+) */
-@media screen and (min-width: 1200px) {
-    .post__inner { max-width: 100% !important; }
-    .engineering-wrapper {
-        display: grid !important;
-        grid-template-columns: 1fr 300px !important;
-        gap: 80px !important;
-    }
-    .engineering-sidebar { display: block; margin-top: 1rem; }
-}
-
-/* Homepage White Menu (Desktop Only) */
+/* --- 2. HOMEPAGE DESKTOP (White Horizontal Bar) --- */
 @media screen and (min-width: 981px) {
+    .home-template #navPanelToggle { display: none !important; } /* Hide Hamburger */
+    .home-template #navPanel { display: none !important; } /* Hide JS Panel */
+    
     .home-template #nav {
         position: relative !important;
         background-color: #ffffff !important;
@@ -3416,146 +3415,106 @@ body.is-navPanel-visible #navPanel {
         width: calc(100% - 4rem) !important;
         max-width: 68rem !important; 
         display: flex !important;
-        height: auto !important;
-        min-height: 4rem !important;
+        height: 4rem !important;
         visibility: visible !important;
         transform: none !important;
-        padding: 0 2rem !important;
-        z-index: 100;
     }
-    .home-template #nav ul.links { display: flex !important; flex-direction: row !important; justify-content: center !important; align-items: center !important; width: 100% !important; gap: 1rem; margin: 0 !important; padding: 0 !important;}
-    .home-template #nav ul.links > li { flex: 0 1 auto !important; border: none !important; width: auto !important; margin: 0 !important;}
-    .home-template #nav ul.links > li > a, .home-template #nav ul.links > li > span.is-separator { text-align: center !important; padding: 0 1.5rem !important; color: #333333 !important; font-weight: 700 !important; border: none !important; display: block !important; line-height: 4rem !important; cursor: pointer;}
-    .home-template #nav ul.links > li > a:hover { color: #972222 !important; background-color: transparent !important;}
-    .home-template #nav ul.links > li.active { background-color: #fcfcfc !important; }
-    .home-template #nav ul.links > li.active > a { color: #972222 !important; }
+    .home-template #nav ul.links { display: flex !important; flex-direction: row !important; justify-content: center !important; align-items: center !important; width: 100% !important; gap: 1rem; margin-top: 0 !important; padding: 0 !important;}
+    .home-template #nav ul.links li { flex: 0 1 auto !important; border: none !important; width: auto !important;}
+    .home-template #nav ul.links li a { text-align: center !important; padding: 0 1.5rem !important; color: #333333 !important; font-weight: 700 !important; border: none !important; display: block !important;}
+    .home-template #nav ul.links li a:hover { color: #972222 !important; background-color: transparent !important;}
+    .home-template #nav ul.links li.active { background-color: #fcfcfc !important; }
+    .home-template #nav ul.links li.active a { color: #972222 !important; }
+}
+
+
+/* --- 3. POST PAGES DESKTOP (Dark Left Sidebar) --- */
+/* (Fixes the "No Reaction" bug by styling #nav instead of #navPanel) */
+@media screen and (min-width: 981px) {
+    body:not(.home-template) #navPanel { display: none !important; } 
     
-    /* White Menu Dropdowns */
-    .home-template #nav > ul > li > ul {
-        background-color: #ffffff !important;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
-        border-radius: 4px !important;
-        padding: 10px 0 !important;
+    body:not(.home-template) #nav {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: auto !important;
+        background-color: #1a1a1a !important; 
+        box-shadow: 5px 0 25px rgba(0, 0, 0, 0.8) !important; 
+        width: 20rem !important;
+        height: 100vh !important;
+        padding: 5rem 2rem 2rem 2rem !important;
+        z-index: 10004 !important;
+        margin: 0 !important;
+        border: none !important;
+        border-radius: 0 !important;
+        transform: translateX(-20rem) !important; 
+        transition: transform 0.5s ease, visibility 0.5s !important;
+        visibility: hidden !important;
+        display: block !important;
     }
-    .home-template #nav > ul > li > ul li a {
-        color: #333333 !important;
-        line-height: 2.5rem !important;
-        padding: 0 1.5rem !important;
-        text-transform: none !important;
-        font-family: 'Merriweather', serif !important;
-        font-weight: 400 !important;
+    
+    /* Slides out when Hamburger is clicked */
+    body.is-navPanel-visible:not(.home-template) #nav {
+        transform: translateX(0) !important; 
+        visibility: visible !important;
     }
-    .home-template #nav > ul > li > ul li a:hover { background-color: #f5f5f5 !important; color: #972222 !important;}
+
+    body:not(.home-template) #nav ul.links { display: flex !important; flex-direction: column !important; margin-top: 0 !important; padding: 0 !important; }
+    body:not(.home-template) #nav ul.links li { width: 100% !important; border-top: 1px solid rgba(255, 255, 255, 0.05) !important; padding: 0 !important; }
+    body:not(.home-template) #nav ul.links > li:first-child { border-top: none !important; }
+    body:not(.home-template) #nav ul.links li a { color: #ffffff !important; font-family: 'Oswald', sans-serif !important; text-transform: uppercase !important; font-size: 1.1rem !important; padding: 1.2rem 0 !important; text-align: left !important; display: block !important; background: transparent !important; border: none !important;}
+    body:not(.home-template) #nav ul.links li a:hover { color: #972222 !important; }
+    
+    /* Indent the submenus */
+    body:not(.home-template) #nav ul.links ul { padding-left: 1.5rem !important; margin-bottom: 1rem !important; border-left: 2px solid #333333 !important; list-style: none !important; flex-direction: column !important; display: flex !important; }
+    body:not(.home-template) #nav ul.links ul li { border-top: none !important; }
+    body:not(.home-template) #nav ul.links ul li a { font-size: 0.9rem !important; padding: 0.5rem 0 !important; font-family: 'Merriweather', serif !important; text-transform: none !important; color: #aaaaaa !important; }
+    body:not(.home-template) #nav ul.links ul li a:hover { color: #ffffff !important; }
 }
 
-/* Tablet & Mobile Layouts */
-@media screen and (max-width: 1199px) {
-    .engineering-wrapper { display: flex !important; flex-direction: column !important; width: 100% !important; }
-    .engineering-content { order: 2 !important; width: 100% !important; }
-    .engineering-sidebar {
-        display: block !important; 
-        order: 1 !important; 
-        position: relative !important; 
-        margin-bottom: 3rem !important;
-        background-color: #fcfcfc;
-        padding: 1.5rem;
-        border-radius: 8px;
-        border: 1px solid #eeeeee;
-        width: 100% !important;
-        box-sizing: border-box !important;
-    }
-    .toc-sticky { border-left: none !important; padding-left: 0 !important; }
-}
 
+/* --- 4. ALL MOBILE PAGES (Dark Left Sidebar) --- */
 @media screen and (max-width: 980px) {
-    #nav { display: none !important; } /* Ensure horizontal menu hides */
-}
-
-@media screen and (max-width: 768px) {
-    #main > .post { 
-        padding: 2rem 1.5rem !important; 
-        box-sizing: border-box !important; 
-        width: 100% !important;
+    #nav { display: none !important; } 
+    
+    #navPanel {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: auto !important;
+        background-color: #1a1a1a !important; 
+        box-shadow: 5px 0 25px rgba(0, 0, 0, 0.8) !important; 
+        width: 20rem !important;
+        height: 100vh !important;
+        padding: 5rem 2rem 2rem 2rem !important;
+        z-index: 10004 !important;
+        margin: 0 !important;
+        border: none !important;
+        border-radius: 0 !important;
+        transform: translateX(-20rem) !important; 
+        transition: transform 0.5s ease, visibility 0.5s !important;
+        visibility: hidden !important;
+        display: block !important;
     }
-    #main > * { 
-        width: 100% !important; 
-        box-sizing: border-box !important;
+
+    /* Slides out when Hamburger is clicked */
+    body.is-navPanel-visible #navPanel {
+        transform: translateX(0) !important; 
+        visibility: visible !important;
     }
+
+    #navPanel ul.links { display: flex !important; flex-direction: column !important; margin-top: 0 !important; padding: 0 !important; }
+    #navPanel ul.links li { width: 100% !important; border-top: 1px solid rgba(255, 255, 255, 0.05) !important; padding: 0 !important; }
+    #navPanel ul.links > li:first-child { border-top: none !important; }
+    #navPanel ul.links li a { color: #ffffff !important; font-family: 'Oswald', sans-serif !important; text-transform: uppercase !important; font-size: 1.1rem !important; padding: 1.2rem 0 !important; text-align: left !important; display: block !important; background: transparent !important; border: none !important;}
+    #navPanel ul.links li a:hover { color: #972222 !important; }
+    
+    /* Indent the submenus */
+    #navPanel ul.links ul { padding-left: 1.5rem !important; margin-bottom: 1rem !important; border-left: 2px solid #333333 !important; list-style: none !important; flex-direction: column !important; display: flex !important;}
+    #navPanel ul.links ul li { border-top: none !important; }
+    #navPanel ul.links ul li a { font-size: 0.9rem !important; padding: 0.5rem 0 !important; font-family: 'Merriweather', serif !important; text-transform: none !important; color: #aaaaaa !important; }
+    #navPanel ul.links ul li a:hover { color: #ffffff !important; }
+    
+    #navPanel .close { right: 0 !important; left: auto !important; top: 0 !important; }
+    #navPanel .close::before { color: #ffffff !important; }
 }
-
-
-/* Fix Active Menu Item in Dark Sidebar (White Box Bug) */
-body:not(.home-template) #nav ul.links > li.active,
-#navPanel ul.links > li.active {
-    background-color: transparent !important; 
-    border-left: 4px solid #972222 !important; /* Adds a nice red indicator line */
-}
-
-body:not(.home-template) #nav ul.links > li.active > a,
-#navPanel ul.links > li.active > a {
-    color: #972222 !important; /* Makes the active text red */
-}
-
-
-/* =========================================
-   HIDE HORIZONTAL MENU ON SUBPAGES
-   ========================================= */
-/* Hides the dark menu bar on all pages EXCEPT the homepage */
-body:not(.home-template) #nav {
-    display: none !important;
-}
-
-/* Pull the main content up on subpages to close the gap left by the hidden menu */
-body:not(.home-template) #main {
-    margin-top: -4rem !important; 
-}
-
-
-/* =========================================
-   POST GRID IMAGE RE-STYLING
-   ========================================= */
-#main > .posts > article .article-card-image {
-    display: block;
-    width: 100%;
-    height: 220px; /* Forces all images to be the exact same height */
-    margin: 0 0 1.5rem 0; /* Pushes the title down slightly */
-    border-radius: 6px; /* Adds a nice modern rounded edge */
-    overflow: hidden; /* Keeps the zoom effect contained */
-}
-
-#main > .posts > article .article-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Magic property: crops the image perfectly to fit without squishing it */
-    transition: transform 0.4s ease; /* Smooth animation setup */
-}
-
-/* Subtle zoom effect when hovering over the card image */
-#main > .posts > article .article-card-image:hover img {
-    transform: scale(1.05);
-}
-
-/* Fix spacing for posts that DO NOT have an image */
-#main > .posts > article {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-
-/* =========================================
-   COMPACT POST GRID SETTINGS
-   ========================================= */
-#main > .posts > article.grid-post-card {
-    padding: 2rem !important; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-@media screen and (max-width: 768px) {
-    #main > .posts > article.grid-post-card {
-        padding: 1.5rem !important;
-    }
-}
-

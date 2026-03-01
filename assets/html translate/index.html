@@ -1,0 +1,129 @@
+{{> head}}
+{{> top}}
+<main id="main">
+   {{#if @renderer.isFirstPage}}
+      {{#featuredPosts}}
+         <article class="post featured">
+            <header class="major">
+               <h2 style="margin-bottom: 0.5rem;">
+                  <a href="{{url}}">{{title}}</a>
+               </h2>
+               {{#if @config.custom.feedDate}}
+                  <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" style="font-size: 0.85rem; color: #777; font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2rem; display: block;">
+                     {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                        {{date createdAt @config.custom.formatDate}}
+                     {{else}}
+                        {{date createdAt @config.custom.formatDateCustom}}
+                     {{/checkIf}}
+                  </time>
+               {{/if}}
+               
+               <!-- SHOW ONLY CUSTOM EXCERPT (BLANK IF NONE) -->
+               {{#if hasCustomExcerpt}}
+               <p style="max-width: 800px; margin: 0 auto 2rem auto;">
+                  {{{ excerpt }}}
+               </p>
+               {{/if}}
+            </header>
+
+            {{#if @config.custom.feedFeaturedImage}}
+               {{#featuredImage}}
+                  {{#if url}}
+                     <a href="{{../url}}" class="image main">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                           {{responsiveImageAttributes 'featuredImage' srcset.post sizes.post}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  {{/if}}
+               {{/featuredImage}}
+            {{/if}}
+
+            {{#if @config.custom.feedReadMore}}
+               <ul class="actions special">
+                  <li>
+                     <a href="{{url}}" class="button large">{{ translate 'post.readMore' }}</a>
+                  </li>
+               </ul>
+            {{/if}}
+
+         </article>
+      {{/featuredPosts}}
+   {{/if}}
+
+   <section class="posts">
+      {{#each posts}}
+         <article class="grid-post-card">
+            
+            <!-- IMAGE AT THE TOP -->
+            {{#if @config.custom.feedFeaturedImage}}
+               {{#featuredImage}}
+                  {{#if url}}
+                     <a href="{{../url}}" class="image fit article-card-image">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                           {{responsiveImageAttributes 'featuredImage' srcset.card sizes.card}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  {{/if}}
+               {{/featuredImage}}
+            {{/if}}
+
+            <header style="margin-bottom: 1rem;">
+               <h2 style="font-size: 1.5rem; line-height: 1.3; margin-bottom: 0.4rem;">
+                  <a href="{{url}}">{{title}}</a>
+               </h2>
+               
+               <!-- DATE MOVED UNDER TITLE -->
+               {{#if @config.custom.feedDate}}
+                  <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" style="font-size: 0.75rem; color: #888; font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 1px; display: block;">
+                     {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                        {{date createdAt @config.custom.formatDate}}
+                     {{else}}
+                        {{date createdAt @config.custom.formatDateCustom}}
+                     {{/checkIf}}
+                  </time>
+               {{/if}}
+            </header>
+
+            <!-- SHOW ONLY CUSTOM EXCERPT (BLANK IF NONE) -->
+            {{#if hasCustomExcerpt}}
+               <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; flex-grow: 1;">
+                  {{{ excerpt }}}
+               </p>
+            {{else}}
+               <!-- Empty space to push the button down if no excerpt -->
+               <div style="flex-grow: 1;"></div>
+            {{/if}}
+
+            <!-- READ MORE BUTTON (Forced to bottom) -->
+            {{#if @config.custom.feedReadMore}}
+               <ul class="actions special" style="margin-bottom: 0;">
+                  <li>
+                     <a href="{{url}}" class="button" style="width: 100%;">{{ translate 'post.readMore' }}</a>
+                  </li>
+               </ul>
+            {{/if}}
+         
+         </article>
+      {{/each}}
+   </section>
+
+   {{#if @pagination}}
+      <footer>
+         {{> pagination}}
+      </footer>
+   {{/if}}
+</main>
+
+{{> footer}}
