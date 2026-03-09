@@ -3,7 +3,7 @@
     <title>My, Oh My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-03-02T16:57:06+08:00</updated>
+    <updated>2026-03-09T07:44:10-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="The Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
-        <updated>2025-09-25T15:39:00+08:00</updated>
+        <updated>2025-09-25T03:39:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Overwhelmed by NPI line setup? Discover the practical playbook to bridge the gap between academic theory and the reality of building a production&hellip;
@@ -68,7 +68,7 @@ Get the sequence right, balance the math as best as you can, and put everything 
             <category term="The Lean Toolkit"/>
             <category term="Quality Engineering"/>
 
-        <updated>2025-09-24T15:21:00+08:00</updated>
+        <updated>2025-09-24T03:21:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: Quality Judgments &amp; Concessions The Academic View: Specifications are black and white. Good parts ship. Bad parts are scrapped. The Reality: Manufacturing&hellip;
@@ -121,7 +121,7 @@ If the customer called you yesterday screaming about a quality issue, <strong>yo
             <category term="The Lean Toolkit"/>
             <category term="Industrial Engineering"/>
 
-        <updated>2025-09-16T23:49:00+08:00</updated>
+        <updated>2025-09-16T11:49:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: 5S Implementation &amp; Auditing The Academic View: 5S (Sort, Set in Order, Shine, Standardize, Sustain) + Safety is about organizing the workplace.
@@ -175,16 +175,19 @@ You are a <strong>Detective</strong>.</p><ol>
         </author>
         <link href="https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html"/>
         <id>https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html</id>
+        <media:content url="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" medium="image" />
             <category term="The Lean Thinking"/>
 
-        <updated>2025-09-13T22:22:00+08:00</updated>
+        <updated>2025-09-13T10:22:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" alt="" />
                     Topic: Automation Strategy vs. Reality The Academic View: Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>Topic:</strong> Automation Strategy vs. Reality<br>
 <strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.<br>
 <strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at Mattel. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
@@ -229,7 +232,7 @@ If you try to automate a manual process that isn’t robust, you will fail.</p><
             <category term="The Lean Thinking"/>
             <category term="Supply Chain Optimization"/>
 
-        <updated>2025-09-12T18:20:00+08:00</updated>
+        <updated>2025-09-12T06:20:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: Financial Motivation &amp; Organizational Structure The Academic View: Lean is about eliminating waste to improve flow. Everyone cooperates because it optimizes the&hellip;
@@ -283,7 +286,7 @@ If your team finds a better way to run a machine, you might keep it secret to ma
             <category term="The Lean Thinking"/>
             <category term="Quality Engineering"/>
 
-        <updated>2025-09-10T18:02:00+08:00</updated>
+        <updated>2025-09-10T06:02:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: Process Capability &amp; Risk Assessment The Academic View: Calculate $C_{pk}$. If the result is $&gt;1.33$, the process is capable. The Reality: Your&hellip;
@@ -371,7 +374,7 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
         <id>https://mymy-us.github.io/the-hidden-roi-why-operator-happiness-is-an-engineering-problem.html</id>
             <category term="The Lean Thinking"/>
 
-        <updated>2025-09-09T17:50:00+08:00</updated>
+        <updated>2025-09-09T05:50:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: The Human Element of Lean The Academic View: Operators are “resources.” You calculate their Cycle Time and Ergonomics. If the math works,&hellip;
@@ -420,7 +423,7 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
             <category term="The Lean Toolkit"/>
             <category term="Supply Chain Optimization"/>
 
-        <updated>2025-09-09T17:37:00+08:00</updated>
+        <updated>2025-09-09T05:37:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: Crisis Management &amp; Supply Chain Strategy The Scenario: A quality defect is found. All inventory at the customer and your warehouse is&hellip;
@@ -462,19 +465,19 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
         </author>
         <link href="https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html"/>
         <id>https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html</id>
-        <media:content url="https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png" medium="image" />
+        <media:content url="https://mymy-us.github.io/media/posts/5/shield-banner.png" medium="image" />
             <category term="The Lean Thinking"/>
 
-        <updated>2025-09-07T17:02:00+08:00</updated>
+        <updated>2025-09-07T05:02:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png" alt="" />
+                        <img src="https://mymy-us.github.io/media/posts/5/shield-banner.png" alt="" />
                     Topic: The True Purpose of PPAP (Production Part Approval Process) The Academic View: PPAP demonstrates that a supplier can meet manufacturing requirements at&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://mymy-us.github.io/media/posts/5/shield-banner.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>Topic:</strong> The True Purpose of PPAP (Production Part Approval Process)<br>
 <strong>The Academic View:</strong> PPAP demonstrates that a supplier can meet manufacturing requirements at the quoted production rate.<br>
 <strong>The Reality:</strong> PPAP is a <strong>Legal Contract</strong>. It is the “Constitution” of your product.</p><p>Here is why you need to treat it like a weapon, not a checklist.</p><h3 id="1-the-shield-protecting-your-company">1. The Shield: Protecting Your Company</h3>
@@ -516,7 +519,7 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
         <id>https://mymy-us.github.io/the-two-halves-of-your-lean-job-and-why-the-second-half-is-harder.html</id>
             <category term="The Lean Thinking"/>
 
-        <updated>2025-09-07T16:46:00+08:00</updated>
+        <updated>2025-09-07T04:46:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Topic: The Reality of a Lean Engineer’s Role The Trap: Thinking your job is just “fixing things.” If you ask a professor what&hellip;
@@ -529,10 +532,8 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
 <li><strong>The Attack:</strong> Continuously Eliminating Waste.</li>
 <li><strong>The Defense:</strong> Sustaining the Gains.</li>
 </ol>
-<p>Most new grads crush the first part and fail the second. Here is why.</p><hr>
-<h3 id="phase-1-the-maverick-the-attack">Phase 1: The Maverick (The Attack)</h3>
-<p>This is the fun part. You are the detective.</p><p>You walk onto the floor, clipboard in hand, looking for Shingo’s <strong>7 Wastes</strong> (Defects, Overproduction, Waiting, etc.) plus the deadliest one: <strong>The Waste of Human Talent/Ideas.</strong></p><p>In this phase, you can be a <strong>Maverick</strong>. You can run the data, identify the bottleneck, and design a fix all by yourself. You are the hero with the spreadsheet.</p><p><strong>The result:</strong> You save the company money. You feel like a genius.</p><hr>
-<h3 id="phase-2-the-politician-the-defense">Phase 2: The Politician (The Defense)</h3>
+<p>Most new grads crush the first part and fail the second. Here is why.</p><h3 id="phase-1-the-maverick-the-attack">Phase 1: The Maverick (The Attack)</h3>
+<p>This is the fun part. You are the detective.</p><p>You walk onto the floor, clipboard in hand, looking for Shingo’s <strong>7 Wastes</strong> (Defects, Overproduction, Waiting, etc.) plus the deadliest one: <strong>The Waste of Human Talent/Ideas.</strong></p><p>In this phase, you can be a <strong>Maverick</strong>. You can run the data, identify the bottleneck, and design a fix all by yourself. You are the hero with the spreadsheet.</p><p><strong>The result:</strong> You save the company money. You feel like a genius.</p><h3 id="phase-2-the-politician-the-defense">Phase 2: The Politician (The Defense)</h3>
 <p>This is where the “Introvert Tax” hits hard.</p><p>You improved the process. Great. Now, how do you make sure the operators don’t go back to the old way the second you leave the room?</p><p><strong>The “Paper Shield” is Weak</strong><br>In school, they teach you to update the documentation:</p><ul>
 <li>Control Plans</li>
 <li>Standard Operating Procedures (SOPs)</li>
@@ -543,8 +544,7 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
 <li><strong>LPA (Layered Process Audits):</strong> If management doesn’t check it, operators won’t do it.</li>
 <li><strong>Gemba Walks:</strong> You need to be seen on the floor, verifying the fix.</li>
 </ol>
-<p>But even with these tools, you need <strong>Influence</strong>.</p><hr>
-<h3 id="the-owner-mindset">The “Owner” Mindset</h3>
+<p>But even with these tools, you need <strong>Influence</strong>.</p><h3 id="the-owner-mindset">The “Owner” Mindset</h3>
 <p>To survive Phase 2, you need to drop the “I’m just a new grad” attitude.</p><p>You need to walk into the Kaizen project with absolute, unwavering confidence. You need the attitude of:</p><blockquote>
 <p>“I am the Subject Matter Expert. Nobody knows this data better than
 me.”</p></blockquote>

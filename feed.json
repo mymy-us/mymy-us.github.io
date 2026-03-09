@@ -22,8 +22,8 @@
                    "The Lean Thinking",
                    "Industrial Engineering"
             ],
-            "date_published": "2025-09-25T15:39:00+08:00",
-            "date_modified": "2026-03-02T16:57:06+08:00"
+            "date_published": "2025-09-25T03:39:00-04:00",
+            "date_modified": "2026-03-02T03:57:06-05:00"
         },
         {
             "id": "https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html",
@@ -38,8 +38,8 @@
                    "The Lean Toolkit",
                    "Quality Engineering"
             ],
-            "date_published": "2025-09-24T15:21:00+08:00",
-            "date_modified": "2026-03-01T12:42:46+08:00"
+            "date_published": "2025-09-24T03:21:00-04:00",
+            "date_modified": "2026-02-28T23:42:46-05:00"
         },
         {
             "id": "https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html",
@@ -54,8 +54,8 @@
                    "The Lean Toolkit",
                    "Industrial Engineering"
             ],
-            "date_published": "2025-09-16T23:49:00+08:00",
-            "date_modified": "2026-02-20T00:01:29+08:00"
+            "date_published": "2025-09-16T11:49:00-04:00",
+            "date_modified": "2026-03-09T06:36:38-04:00"
         },
         {
             "id": "https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html",
@@ -63,14 +63,15 @@
             "title": "Industry 4.0 is a Trap. Meet &quot;Squirrel 4.0.&quot;",
             "summary": "Topic: Automation Strategy vs. Reality The Academic View: Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human&hellip;",
             "content_html": "<p><strong>Topic:</strong> Automation Strategy vs. Reality<br>\n<strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.<br>\n<strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at Mattel. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id=\"the-billion-dollar-lesson\">The Billion-Dollar Lesson</h3>\n<p>At the time, the company was aggressively pushing “Industry 4.0.”\nThe goal was simple: Eliminate human labor to cut costs. They installed complex, fully automated machines to assemble the dolls.</p><p>As an intern, I watched these expensive robots try to do the job. <strong>It was a catastrophe.</strong></p><ol>\n<li><strong>Zero Flexibility:</strong> Barbie fashions change every season. Humans can switch from “Beach Barbie” to “Astronaut Barbie” in seconds. The robots needed expensive reprogramming for every dress change.</li>\n<li><strong>Constant Downtime:</strong> When a human drops a doll, they pick it up. When a robot drops a doll, it jams the machine, stops the line, and requires a technician to fix it.</li>\n<li><strong>Cost:</strong> The depreciation and maintenance of the robots cost <em>more</em> than the labor they replaced.</li>\n</ol>\n<p>Eventually, they had to scrap the automation plans and bring the humans back.</p><h3 id=\"enter-squirrel-40\">Enter “Squirrel 4.0”</h3>\n<p>The engineers realized they couldn’t leap from “Manual” to “Full Auto.” They needed a bridge.\nThey launched a project playfully named <strong>Squirrel 4.0</strong>.</p><p><strong>The Philosophy:</strong>\nJust as a squirrel gathers nuts one by one to prepare for winter, an engineer must gather <strong>small, standardized improvements</strong> one by one to prepare for automation.</p><p><strong>You cannot automate what you cannot stabilize.</strong></p><h3 id=\"how-it-works-the-roadmap\">How It Works (The Roadmap)</h3>\n<p>Instead of buying a $500,000 robot, the team focused on <strong>LCIA (Low Cost Intelligent Automation)</strong>.</p><p><strong>Phase 1: The Human Sensor (Gathering the Nuts)</strong>\nThey kept the operators but standardized their movements strictly. They identified exactly where the “pain points” were.</p><ul>\n<li><em>The “Nut”:</em> Every small kaizen. Every standardized work instruction. Every error-proofing device.</li>\n</ul>\n<p><strong>Phase 2: Partial Automation</strong>\nThey didn’t replace the operator; they gave them tools (Karakuri).</p><ul>\n<li><em>Example:</em> Instead of a robot arm placing a screw, they installed a simple gravity-fed chute ($50) that delivers the screw to the operator’s hand.</li>\n<li><em>Result:</em> Cycle time dropped, consistency went up, but the human flexibility remained.</li>\n</ul>\n<p><strong>Phase 3: The “Winter” (Full Automation)</strong>\nOnly after the process was 100% stable—when they had “stored enough nuts”—did they look at robots again. By then, they knew exactly what the machine needed to do because the humans had already perfected the motion.</p><h3 id=\"the-takeaway\">The Takeaway</h3>\n<p>Don’t let the “Industry 4.0” hype blind you.\nIf you try to automate a manual process that isn’t robust, you will fail.</p><p><strong>Be a Squirrel.</strong></p><ol>\n<li>Standardize the manual work first.</li>\n<li>Implement cheap, partial automation (LCIA) second.</li>\n<li><strong>Then</strong> buy the robot.</li>\n</ol>\n",
+            "image": "https://mymy-us.github.io/media/posts/10/squirrel-banner.png",
             "author": {
                 "name": "Tim Y"
             },
             "tags": [
                    "The Lean Thinking"
             ],
-            "date_published": "2025-09-13T22:22:00+08:00",
-            "date_modified": "2026-02-20T22:34:43+08:00"
+            "date_published": "2025-09-13T10:22:00-04:00",
+            "date_modified": "2026-03-09T07:14:57-04:00"
         },
         {
             "id": "https://mymy-us.github.io/amoeba-management-turning-employees-into-business-owners.html",
@@ -85,8 +86,8 @@
                    "The Lean Thinking",
                    "Supply Chain Optimization"
             ],
-            "date_published": "2025-09-12T18:20:00+08:00",
-            "date_modified": "2026-02-20T00:03:24+08:00"
+            "date_published": "2025-09-12T06:20:00-04:00",
+            "date_modified": "2026-03-09T06:39:20-04:00"
         },
         {
             "id": "https://mymy-us.github.io/translating-geek-speak-to-business-speak-from-cpk-to-dppm.html",
@@ -102,8 +103,8 @@
                    "The Lean Thinking",
                    "Quality Engineering"
             ],
-            "date_published": "2025-09-10T18:02:00+08:00",
-            "date_modified": "2026-02-20T12:41:04+08:00"
+            "date_published": "2025-09-10T06:02:00-04:00",
+            "date_modified": "2026-03-09T06:40:52-04:00"
         },
         {
             "id": "https://mymy-us.github.io/the-hidden-roi-why-operator-happiness-is-an-engineering-problem.html",
@@ -117,8 +118,8 @@
             "tags": [
                    "The Lean Thinking"
             ],
-            "date_published": "2025-09-09T17:50:00+08:00",
-            "date_modified": "2026-02-20T00:00:54+08:00"
+            "date_published": "2025-09-09T05:50:00-04:00",
+            "date_modified": "2026-03-09T06:43:05-04:00"
         },
         {
             "id": "https://mymy-us.github.io/the-1000-per-minute-nightmare-line-stoppages-and-the-air-freight-trap.html",
@@ -133,8 +134,8 @@
                    "The Lean Toolkit",
                    "Supply Chain Optimization"
             ],
-            "date_published": "2025-09-09T17:37:00+08:00",
-            "date_modified": "2026-02-20T22:16:32+08:00"
+            "date_published": "2025-09-09T05:37:00-04:00",
+            "date_modified": "2026-03-09T06:44:48-04:00"
         },
         {
             "id": "https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html",
@@ -142,30 +143,30 @@
             "title": "PPAP: It’s Not Just Paperwork, It’s Your Legal Shield",
             "summary": "Topic: The True Purpose of PPAP (Production Part Approval Process) The Academic View: PPAP demonstrates that a supplier can meet manufacturing requirements at&hellip;",
             "content_html": "<p><strong>Topic:</strong> The True Purpose of PPAP (Production Part Approval Process)<br>\n<strong>The Academic View:</strong> PPAP demonstrates that a supplier can meet manufacturing requirements at the quoted production rate.<br>\n<strong>The Reality:</strong> PPAP is a <strong>Legal Contract</strong>. It is the “Constitution” of your product.</p><p>Here is why you need to treat it like a weapon, not a checklist.</p><h3 id=\"1-the-shield-protecting-your-company\">1. The Shield: Protecting Your Company</h3>\n<p>Once the customer signs the <strong>PSW (Part Submission Warrant)</strong>, the rules are frozen.</p><p><strong>The Scenario:</strong><br>You are six months into mass production. The customer complains that the surface texture is “too rough” or the color is “slightly off.”</p><p><strong>The Defense:</strong><br>You pull out the approved PPAP and the “Master Sample” (the physical part they signed).</p><ul>\n<li><strong>If your current parts match the Master Sample:</strong> You are safe. The customer agreed to this standard. If they want to change it now, <strong>they must pay for it</strong>.</li>\n<li><strong>If you don’t have a signed PPAP:</strong> The customer can change their mind daily, and you have to pay for the rework.</li>\n</ul>\n<p><strong>Key Lesson:</strong> The signed PSW protects you from the customer’s changing opinions.</p><h3 id=\"2-the-trap-the-cycle-time-lie\">2. The Trap: The “Cycle Time” Lie</h3>\n<p>This is where Lean Engineers get burned.<br>In the PPAP, you document your <strong>Cycle Time</strong> (e.g., 60 seconds per part).</p><ul>\n<li><strong>Do not cheat here.</strong></li>\n<li>Do not run the machine slow just to get good parts for the sample.</li>\n</ul>\n<p>If you PPAP at 60 seconds but run Mass Production at 45 seconds to make more money, you have committed a <strong>Process Violation</strong>. If quality issues appear later, the customer will void your approval because you are running a different process than the one they approved.</p><h3 id=\"3-the-warning-unapproved-changes\">3. The Warning: Unapproved Changes</h3>\n<p>This is the “Third Rail”—touch it and you die.</p><p>If you change anything in the process after the PPAP is signed, you must tell the customer.</p><ul>\n<li>Changing a cutting tool brand? <strong>Notify them.</strong></li>\n<li>Moving the machine to a different spot on the floor? <strong>Notify them.</strong></li>\n<li>Reducing inspection frequency? <strong>Notify them.</strong></li>\n</ul>\n<p>If you make a change without approval (even if it makes the part better), and a recall happens:</p><ol>\n<li><strong>You are liable.</strong> The lawyers will see you didn’t follow the PPAP.</li>\n<li><strong>You lose your certification (IATF 16949).</strong></li>\n<li><strong>Your company faces massive fines.</strong></li>\n</ol>\n<h3 id=\"the-takeaway\">The Takeaway</h3>\n<p>Don’t copy-paste your PPAP documents just to get it done.</p><ul>\n<li><strong>Be Honest:</strong> Only promise a cycle time and tolerance you can actually hit every day.</li>\n<li><strong>Be Strict:</strong> Once it is signed, the factory floor must follow it exactly.</li>\n</ul>\n<p><strong>Treat the PPAP like a court testimony. Because one day, it might be the only thing standing between you and a million-dollar fine.</strong></p>",
-            "image": "https://mymy-us.github.io/media/posts/5/Image_vwh886vwh886vwh8.png",
+            "image": "https://mymy-us.github.io/media/posts/5/shield-banner.png",
             "author": {
                 "name": "Tim Y"
             },
             "tags": [
                    "The Lean Thinking"
             ],
-            "date_published": "2025-09-07T17:02:00+08:00",
-            "date_modified": "2026-02-21T11:13:12+08:00"
+            "date_published": "2025-09-07T05:02:00-04:00",
+            "date_modified": "2026-03-09T07:44:10-04:00"
         },
         {
             "id": "https://mymy-us.github.io/the-two-halves-of-your-lean-job-and-why-the-second-half-is-harder.html",
             "url": "https://mymy-us.github.io/the-two-halves-of-your-lean-job-and-why-the-second-half-is-harder.html",
             "title": "The Two Halves of Your Lean Job (And Why the Second Half is Harder)",
             "summary": "Topic: The Reality of a Lean Engineer’s Role The Trap: Thinking your job is just “fixing things.” If you ask a professor what&hellip;",
-            "content_html": "<p><strong>Topic:</strong> The Reality of a Lean Engineer’s Role<br>\n<strong>The Trap:</strong> Thinking your job is just “fixing things.”</p><p>If you ask a professor what a Lean Engineer does, they’ll say: “Continuous Improvement.”<br>If you ask me, I’ll tell you the job is actually two distinct battles:</p><ol>\n<li><strong>The Attack:</strong> Continuously Eliminating Waste.</li>\n<li><strong>The Defense:</strong> Sustaining the Gains.</li>\n</ol>\n<p>Most new grads crush the first part and fail the second. Here is why.</p><hr>\n<h3 id=\"phase-1-the-maverick-the-attack\">Phase 1: The Maverick (The Attack)</h3>\n<p>This is the fun part. You are the detective.</p><p>You walk onto the floor, clipboard in hand, looking for Shingo’s <strong>7 Wastes</strong> (Defects, Overproduction, Waiting, etc.) plus the deadliest one: <strong>The Waste of Human Talent/Ideas.</strong></p><p>In this phase, you can be a <strong>Maverick</strong>. You can run the data, identify the bottleneck, and design a fix all by yourself. You are the hero with the spreadsheet.</p><p><strong>The result:</strong> You save the company money. You feel like a genius.</p><hr>\n<h3 id=\"phase-2-the-politician-the-defense\">Phase 2: The Politician (The Defense)</h3>\n<p>This is where the “Introvert Tax” hits hard.</p><p>You improved the process. Great. Now, how do you make sure the operators don’t go back to the old way the second you leave the room?</p><p><strong>The “Paper Shield” is Weak</strong><br>In school, they teach you to update the documentation:</p><ul>\n<li>Control Plans</li>\n<li>Standard Operating Procedures (SOPs)</li>\n<li>Publishing via the PLM (Product Lifecycle Management) system</li>\n</ul>\n<p><strong>The Reality:</strong> Documents are passive. They live on servers. To sustain change, you need <strong>Active Enforcement</strong>:</p><ol>\n<li><strong>Visual Management:</strong> Don’t just write a rule; put tape on the floor or a shadow board on the wall. Make it impossible to ignore.</li>\n<li><strong>LPA (Layered Process Audits):</strong> If management doesn’t check it, operators won’t do it.</li>\n<li><strong>Gemba Walks:</strong> You need to be seen on the floor, verifying the fix.</li>\n</ol>\n<p>But even with these tools, you need <strong>Influence</strong>.</p><hr>\n<h3 id=\"the-owner-mindset\">The “Owner” Mindset</h3>\n<p>To survive Phase 2, you need to drop the “I’m just a new grad” attitude.</p><p>You need to walk into the Kaizen project with absolute, unwavering confidence. You need the attitude of:</p><blockquote>\n<p>“I am the Subject Matter Expert. Nobody knows this data better than\nme.”</p></blockquote>\n<p>It sounds arrogant? Good.<br>If you are leading a change, you are the <strong>de facto leader</strong> in that room.</p><ul>\n<li><strong>Don’t</strong> sit in the back corner of the meeting.</li>\n<li><strong>Don’t</strong> be afraid of the Production Manager.</li>\n<li><strong>Do</strong> speak first. Frame the problem. Own the solution.</li>\n<li><strong>Do</strong> actively seek helps from your own department.</li>\n</ul>\n<h3 id=\"how-to-win-the-turf-war\">How to Win the “Turf War”</h3>\n<p>You cannot order people from other departments to listen to you. You have no authority over them.</p><p>You have to use <strong>“The Borrowed Sword.”</strong></p><ol>\n<li><strong>Find the Department Head:</strong> The person who actually owns the staff you are trying to change.</li>\n<li><strong>Sell the Benefit (WIIFM):</strong> Don’t tell them “It’s Lean.” Tell them, “This change will save your team 20 hours of overtime a month.”</li>\n<li><strong>Get the Endorsement:</strong> Once the Department Head sees the benefit, ask them to announce it.</li>\n</ol>\n<p>When the boss says, “We are doing this,” the team follows. You are just the architect; let the Department Head be the enforcer.</p><h3 id=\"the-takeaway\">The Takeaway</h3>\n<p><strong>Phase 1 (Fixing)</strong> requires IQ.<br><strong>Phase 2 (Sustaining)</strong> requires EQ (Emotional Intelligence) and Guts.</p><p>Don’t just be a smart engineer. Be a loud one.</p>",
+            "content_html": "<p><strong>Topic:</strong> The Reality of a Lean Engineer’s Role<br>\n<strong>The Trap:</strong> Thinking your job is just “fixing things.”</p><p>If you ask a professor what a Lean Engineer does, they’ll say: “Continuous Improvement.”<br>If you ask me, I’ll tell you the job is actually two distinct battles:</p><ol>\n<li><strong>The Attack:</strong> Continuously Eliminating Waste.</li>\n<li><strong>The Defense:</strong> Sustaining the Gains.</li>\n</ol>\n<p>Most new grads crush the first part and fail the second. Here is why.</p><h3 id=\"phase-1-the-maverick-the-attack\">Phase 1: The Maverick (The Attack)</h3>\n<p>This is the fun part. You are the detective.</p><p>You walk onto the floor, clipboard in hand, looking for Shingo’s <strong>7 Wastes</strong> (Defects, Overproduction, Waiting, etc.) plus the deadliest one: <strong>The Waste of Human Talent/Ideas.</strong></p><p>In this phase, you can be a <strong>Maverick</strong>. You can run the data, identify the bottleneck, and design a fix all by yourself. You are the hero with the spreadsheet.</p><p><strong>The result:</strong> You save the company money. You feel like a genius.</p><h3 id=\"phase-2-the-politician-the-defense\">Phase 2: The Politician (The Defense)</h3>\n<p>This is where the “Introvert Tax” hits hard.</p><p>You improved the process. Great. Now, how do you make sure the operators don’t go back to the old way the second you leave the room?</p><p><strong>The “Paper Shield” is Weak</strong><br>In school, they teach you to update the documentation:</p><ul>\n<li>Control Plans</li>\n<li>Standard Operating Procedures (SOPs)</li>\n<li>Publishing via the PLM (Product Lifecycle Management) system</li>\n</ul>\n<p><strong>The Reality:</strong> Documents are passive. They live on servers. To sustain change, you need <strong>Active Enforcement</strong>:</p><ol>\n<li><strong>Visual Management:</strong> Don’t just write a rule; put tape on the floor or a shadow board on the wall. Make it impossible to ignore.</li>\n<li><strong>LPA (Layered Process Audits):</strong> If management doesn’t check it, operators won’t do it.</li>\n<li><strong>Gemba Walks:</strong> You need to be seen on the floor, verifying the fix.</li>\n</ol>\n<p>But even with these tools, you need <strong>Influence</strong>.</p><h3 id=\"the-owner-mindset\">The “Owner” Mindset</h3>\n<p>To survive Phase 2, you need to drop the “I’m just a new grad” attitude.</p><p>You need to walk into the Kaizen project with absolute, unwavering confidence. You need the attitude of:</p><blockquote>\n<p>“I am the Subject Matter Expert. Nobody knows this data better than\nme.”</p></blockquote>\n<p>It sounds arrogant? Good.<br>If you are leading a change, you are the <strong>de facto leader</strong> in that room.</p><ul>\n<li><strong>Don’t</strong> sit in the back corner of the meeting.</li>\n<li><strong>Don’t</strong> be afraid of the Production Manager.</li>\n<li><strong>Do</strong> speak first. Frame the problem. Own the solution.</li>\n<li><strong>Do</strong> actively seek helps from your own department.</li>\n</ul>\n<h3 id=\"how-to-win-the-turf-war\">How to Win the “Turf War”</h3>\n<p>You cannot order people from other departments to listen to you. You have no authority over them.</p><p>You have to use <strong>“The Borrowed Sword.”</strong></p><ol>\n<li><strong>Find the Department Head:</strong> The person who actually owns the staff you are trying to change.</li>\n<li><strong>Sell the Benefit (WIIFM):</strong> Don’t tell them “It’s Lean.” Tell them, “This change will save your team 20 hours of overtime a month.”</li>\n<li><strong>Get the Endorsement:</strong> Once the Department Head sees the benefit, ask them to announce it.</li>\n</ol>\n<p>When the boss says, “We are doing this,” the team follows. You are just the architect; let the Department Head be the enforcer.</p><h3 id=\"the-takeaway\">The Takeaway</h3>\n<p><strong>Phase 1 (Fixing)</strong> requires IQ.<br><strong>Phase 2 (Sustaining)</strong> requires EQ (Emotional Intelligence) and Guts.</p><p>Don’t just be a smart engineer. Be a loud one.</p>",
             "author": {
                 "name": "Tim Y"
             },
             "tags": [
                    "The Lean Thinking"
             ],
-            "date_published": "2025-09-07T16:46:00+08:00",
-            "date_modified": "2026-02-20T00:00:37+08:00"
+            "date_published": "2025-09-07T04:46:00-04:00",
+            "date_modified": "2026-03-09T06:47:30-04:00"
         }
     ]
 }
