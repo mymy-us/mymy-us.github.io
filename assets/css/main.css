@@ -3189,7 +3189,7 @@ html { font-size: 15px !important; }
 
 body, #wrapper, #wrapper > .bg {
     background-color: #121212 !important; 
-    background-image: none !important;
+    background-image: none !important; /* We will override this in the HBS file */
 }
 
 /* 3. FIX WHITE TEXT BUG IN TAG VIEWS */
