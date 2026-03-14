@@ -3,7 +3,7 @@
     <title>MY, MY!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-03-09T07:44:10-04:00</updated>
+    <updated>2026-03-14T04:36:23-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -22,12 +22,12 @@
         <updated>2025-09-25T03:39:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Overwhelmed by NPI line setup? Discover the practical playbook to bridge the gap between academic theory and the reality of building a production&hellip;
+                    Topic: New Product Introduction (NPI) &amp; Line Setup The Academic View: You are given a list of tasks with perfect cycle times, and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Overwhelmed by NPI line setup? Discover the practical playbook to bridge the gap between academic theory and the reality of building a production line fast.</p><p><strong>Topic:</strong> New Product Introduction (NPI) &amp; Line Setup<br>
+                <p><strong>Topic:</strong> New Product Introduction (NPI) &amp; Line Setup<br>
 <strong>The Academic View:</strong> You are given a list of tasks with perfect cycle times, and you draw a perfectly balanced U-shaped cell on paper.<br>
 <strong>The Reality:</strong> You are given a 3D model, half the parts are missing, the cycle times are guesses, and production starts in three months. </p><p>If you are a new Industrial Engineer assigned to an NPI team, setting up the physical production line can feel overwhelming. Here is the roadmap for how a line actually comes to life, and the paperwork you use to build it.</p><h3 id="phase-1-the-document-cascade">Phase 1: The Document Cascade</h3>
 <p>You cannot draw a physical floor plan until you know what you are building. In NPI, documents are generated in a strict sequence. One feeds the next.</p><ol>
