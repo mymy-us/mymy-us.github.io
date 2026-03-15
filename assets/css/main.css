@@ -3260,12 +3260,19 @@ table td { border: 1px solid #ddd !important; }
 #copyright { margin: 2rem auto 2rem auto !important; padding: 20px 20px 0 20px !important; }
 #copyright p { margin-bottom: 15px !important; }
 #copyright hr::before { content: none !important; display: none !important; }
-#copyright, #copyright div, #copyright p, #copyright span {
-    font-size: 1rem !important; 
+
+/* Keep the standard styling for the rest of the footer */
+#copyright p, #copyright span {
     font-weight: 400 !important;
     letter-spacing: 0 !important; 
     text-transform: none !important; 
     opacity: 1 !important; 
+}
+
+/* THE FIX: Specifically target the copyright line to shrink it */
+#copyright > div:last-child {
+    font-size: 0.8rem !important; /* 0.8rem looks great, but you can change this to 0.7rem or 0.5rem if you want it even smaller! */
+    opacity: 0.6 !important;
 }
 
 /* --- Table of Contents (Static) --- */
@@ -3582,17 +3589,26 @@ body:not(.home-template) #main {
 }
 
 /* --- NEW: UNIFIED TITLE HEIGHT --- */
-/* Forces the title to be exactly 2 lines tall, and vertically centers 1-line titles */
-#main > .posts > article.grid-post-card .card-content h2 {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 4.6rem !important; 
-    
-    /* THE FIX: Increased from 0.4rem to 1.2rem to add elegant breathing room above the author line */
-    margin-bottom: 1.2rem !important; 
-    
-    overflow: visible !important; 
+
+/* DESKTOP ONLY: Forces the title to be exactly 2 lines tall, and vertically centers 1-line titles */
+@media screen and (min-width: 769px) {
+    #main > .posts > article.grid-post-card .card-content h2 {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 5rem !important; 
+        margin-bottom: 1.5rem !important; 
+        overflow: visible !important; 
+    }
+}
+
+/* MOBILE ONLY: Reverts to natural height so long titles don't crash into the author text */
+@media screen and (max-width: 768px) {
+    #main > .posts > article.grid-post-card .card-content h2 {
+        display: block !important;
+        height: auto !important; 
+        margin-bottom: 1rem !important;
+    }
 }
 
 /* Keep paragraph text left-aligned for better readability */
