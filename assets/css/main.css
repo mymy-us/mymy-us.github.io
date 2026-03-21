@@ -3257,7 +3257,7 @@ table td { border: 1px solid #ddd !important; }
 #main > .post { padding: 3rem 5rem !important; }
 
 /* --- Footer --- */
-#copyright { margin: 2rem auto 2rem auto !important; padding: 20px 20px 0 20px !important; }
+#copyright { margin: 1rem auto 1rem auto !important; padding: 20px 20px 0 20px !important; }
 #copyright p { margin-bottom: 15px !important; }
 #copyright hr::before { content: none !important; display: none !important; }
 
@@ -3271,7 +3271,7 @@ table td { border: 1px solid #ddd !important; }
 
 /* THE FIX: Specifically target the copyright line to shrink it */
 #copyright > div:last-child {
-    font-size: 0.8rem !important; /* 0.8rem looks great, but you can change this to 0.7rem or 0.5rem if you want it even smaller! */
+    /* font-size: 0.8rem !important; 0.8rem looks great, but you can change this to 0.7rem or 0.5rem if you want it even smaller! */
     opacity: 0.6 !important;
 }
 
