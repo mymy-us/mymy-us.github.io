@@ -3,7 +3,7 @@
     <title>MY, MY!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-04-22T11:02:41-04:00</updated>
+    <updated>2026-04-30T03:21:38-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -27,8 +27,8 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> Total Productive Maintenance (TPM) &amp; Automation
-<strong>The Academic View:</strong> Lean is about reducing operator walking time and balancing manual assembly cells.
+                <p><strong>Topic:</strong> Total Productive Maintenance (TPM) &amp; Automation<br>
+<strong>The Academic View:</strong> Lean is about reducing operator walking time and balancing manual assembly cells.<br>
 <strong>The Reality:</strong> You will be assigned to a highly automated robotic line. You will realize you have no idea how it works, and you will feel useless.</p><p>It is intimidating. The Electrical Engineers are talking about “CAN bus communication,” and the Mechanical Engineers are talking about “servo torque.” </p><p>Take a breath. <strong>You do not need to know how to program the PLC.</strong> 
 Your job is to find the problem, measure the loss, and lead the technical team to fix it. Here is how you apply Lean to a machine you don’t fully understand using the <strong>TPM (Total Productive Maintenance)</strong> framework.</p><div style="text-align: center;"> <img decoding="async" loading="lazy" src="media/files/tpm.png" alt="House of Total Productive Maintenance" width="800" data-is-external-image="true"> </div>
 
@@ -81,8 +81,8 @@ As a junior engineer, you do not own the budget to schedule major Planned Mainte
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> Root Cause Analysis &amp; The 5 Whys
-<strong>The Academic View:</strong> To find a root cause, just sit down and ask “Why?” five times until you reach the core problem.
+                <p><strong>Topic:</strong> Root Cause Analysis &amp; The 5 Whys<br>
+<strong>The Academic View:</strong> To find a root cause, just sit down and ask “Why?” five times until you reach the core problem.<br>
 <strong>The Reality:</strong> If you ask the wrong “Why,” you will end up blaming “Human Error” or “Bad Management.” You cannot engineer a fix for either of those.</p><p>The biggest mistake novices make with the 5 Whys is focusing on the <em>answer</em>. The secret is actually knowing how to ask a better <em>question</em>.</p><h3 id="the-novice-5-whys-the-blame-trap">The Novice 5 Whys (The “Blame” Trap)</h3>
 <p>Let’s look at a classic example of a bad 5 Whys analysis:</p><ul>
 <li><strong>Problem:</strong> The car broke down on the highway.</li>
