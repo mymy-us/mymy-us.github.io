@@ -3,7 +3,7 @@
     <title>MY, MY!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-04-30T03:21:38-04:00</updated>
+    <updated>2026-05-30T12:25:41-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -29,7 +29,7 @@
             <![CDATA[
                 <p><strong>Topic:</strong> Total Productive Maintenance (TPM) &amp; Automation<br>
 <strong>The Academic View:</strong> Lean is about reducing operator walking time and balancing manual assembly cells.<br>
-<strong>The Reality:</strong> You will be assigned to a highly automated robotic line. You will realize you have no idea how it works, and you will feel useless.</p><p>It is intimidating. The Electrical Engineers are talking about “CAN bus communication,” and the Mechanical Engineers are talking about “servo torque.” </p><p>Take a breath. <strong>You do not need to know how to program the PLC.</strong> 
+<strong>The Reality:</strong> You will be assigned to a highly automated robotic production line. You will then realize you have no idea how it works, and somehow you will feel useless and frustrated.</p><p>It is intimidating. The Electrical Engineers are talking about “CAN bus communication,” and the Mechanical Engineers are talking about “servo torque.” </p><p>Take a breath. <strong>You do not need to know how to program the PLC.</strong> 
 Your job is to find the problem, measure the loss, and lead the technical team to fix it. Here is how you apply Lean to a machine you don’t fully understand using the <strong>TPM (Total Productive Maintenance)</strong> framework.</p><div style="text-align: center;"> <img decoding="async" loading="lazy" src="media/files/tpm.png" alt="House of Total Productive Maintenance" width="800" data-is-external-image="true"> </div>
 
 <h3 id="1-the-foundation-5s-is-actually-inspection">1. The Foundation: 5S is Actually Inspection</h3>
@@ -46,9 +46,9 @@ If you keep the machine to a strict 5S standard, you will catch 80% of machine f
 When the operator maintains the basic health of the machine, the mechanics can focus on the complex breakdowns.</li>
 </ul>
 <h3 id="3-focused-improvement-leading-the-experts">3. Focused Improvement (Leading the Experts)</h3>
-<p>This is where you earn your paycheck. The mechanical engineer knows <em>how</em> to fix the machine. But they usually don’t know <em>what</em> to fix first. </p><p>You bring the <strong>Data</strong>. Specifically, you track the <strong>OEE (Overall Equipment Effectiveness)</strong> and hunt for two things:</p><ul>
-<li><strong>The “Micro-Stoppage”:</strong> Automated machines rarely suffer massive, hour-long breakdowns. Instead, they suffer from 10-second “minor stops” (e.g., a part gets jammed, the machine faults, the operator clears it, and hits reset). This happens 50 times a shift and destroys efficiency. You track this data and show the engineers <em>exactly</em> which sensor is causing the jams.</li>
-<li><strong>The Changeover (SMED):</strong> You don’t need a robotics degree to reduce setup time. If a machine takes 1 hour to swap from Product A to Product B, use SMED (Single-Minute Exchange of Die). Organize the tooling, stage the materials beforehand, and standardize the bolting process. You can cut downtime in half without touching a line of code.</li>
+<p>This is where you show your corporate value. The mechanical engineer knows <em>how</em> to fix the machine. But they usually don’t know <em>what</em> to fix and <em>how</em> to integrate the result into the system. </p><p>You bring the <strong>Data</strong>. Specifically, you track the <strong>OEE (Overall Equipment Effectiveness)</strong> and search for two things:</p><ul>
+<li><strong>The Micro-Stoppage:</strong> Automated machines rarely suffer massive, hour-long breakdowns. Instead, they suffer from 10-second minor stops (e.g., a part gets jammed, and the operator clears it and hits reset in mere seconds). This happens 50 times a shift and destroys efficiency. You track this data and show the engineers <em>exactly</em> which part of the machine is causing the jams.</li>
+<li><strong>The Changeover (SMED):</strong> You don’t need a robotics degree to reduce setup time. If a station/machine takes 1 hour to swap from Product A to Product B, use SMED (Single-Minute Exchange of Die). By just taking actions like organizing the tooling, staging the materials beforehand, and standardizing the process, you can cut downtime in half without knowing a line of code.</li>
 </ul>
 <h3 id="4-why-i-skipped-the-other-pillars-the-real-world-rule">4. Why I Skipped the Other Pillars (The Real World Rule)</h3>
 <p>If you look at the TPM House, there are 5 other pillars (Planned Maintenance, Early Equipment Management, etc.). </p><p><strong>Ignore them for now.</strong> 
