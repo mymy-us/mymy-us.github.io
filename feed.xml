@@ -3,7 +3,7 @@
     <title>MY, MY!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-05-30T12:25:41-04:00</updated>
+    <updated>2026-06-01T04:17:08-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -22,43 +22,43 @@
         <updated>2025-10-23T10:55:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Total Productive Maintenance (TPM) &amp; Automation The Academic View: Lean is about reducing operator walking time and balancing manual assembly cells. The&hellip;
+                    Topic: Total Productive Maintenance (TPM) &amp; Automation The Academic View: Lean is more about reducing operator cycle time and balancing manual assembly cells.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><strong>Topic:</strong> Total Productive Maintenance (TPM) &amp; Automation<br>
-<strong>The Academic View:</strong> Lean is about reducing operator walking time and balancing manual assembly cells.<br>
-<strong>The Reality:</strong> You will be assigned to a highly automated robotic production line. You will then realize you have no idea how it works, and somehow you will feel useless and frustrated.</p><p>It is intimidating. The Electrical Engineers are talking about “CAN bus communication,” and the Mechanical Engineers are talking about “servo torque.” </p><p>Take a breath. <strong>You do not need to know how to program the PLC.</strong> 
-Your job is to find the problem, measure the loss, and lead the technical team to fix it. Here is how you apply Lean to a machine you don’t fully understand using the <strong>TPM (Total Productive Maintenance)</strong> framework.</p><div style="text-align: center;"> <img decoding="async" loading="lazy" src="media/files/tpm.png" alt="House of Total Productive Maintenance" width="800" data-is-external-image="true"> </div>
+<strong>The Academic View:</strong> Lean is more about reducing operator cycle time and balancing manual assembly cells.<br>
+<strong>The Reality:</strong> You will be assigned to a highly automated robotic production line. You will then realize you have no idea how it works, and somehow you will feel useless and frustrated.</p><p>It is really intimidating. The electrical engineers are talking about “CAN bus communication,” and the mechanical engineers are talking about “servo torque.” </p><p>Take a breath. You feel like you have to be omniscient and know all those obscure contents. But you don’t. 
+Your job is to find the problem, measure the loss, and LEAD the technical TEAM to fix it. Here is how you apply lean to a machine you don’t fully understand using the <strong>TPM (Total Productive Maintenance)</strong> framework.</p><div style="text-align: center;"> <img decoding="async" loading="lazy" src="media/files/tpm.png" alt="House of Total Productive Maintenance" width="800" data-is-external-image="true"> </div>
 
 <h3 id="1-the-foundation-5s-is-actually-inspection">1. The Foundation: 5S is Actually Inspection</h3>
-<p>Look at the TPM House. The entire structure sits on one foundation: <strong>5S</strong>.
-If you don’t know how the robot’s gearbox works, that’s fine. Can you see if it’s leaking oil? </p><p>On automated equipment, 5S is not about making the machine look pretty. <strong>Cleaning is Inspection.</strong></p><ul>
-<li>Wipe down the pneumatic lines to see if there is a fresh air leak.</li>
+<p>Look at the TPM House. The entire structure sits on one foundation: 5S.
+If you don’t know how the robot’s gearbox works, that’s totaly fine. Can you see if it’s leaking oil? If it’s vibrating? If it’s making noise? If it’s creating metal shavings?</p><p>On automated equipment, 5S is not just about making the machine look pretty. Cleaning is inspection.</p><ul>
+<li>Wipe down the pneumatic lines to see if there is an air leak.</li>
 <li>Sweep the floor to see if a loose bolt vibrated off the conveyor. 
 If you keep the machine to a strict 5S standard, you will catch 80% of machine failures before they break the line.</li>
 </ul>
 <h3 id="2-autonomous-maintenance-the-operators-job">2. Autonomous Maintenance (The Operator’s Job)</h3>
-<p>The “hardcore” maintenance technicians are expensive and busy. They should not be wasting time changing air filters or wiping dust off sensors. </p><p>As the Lean Engineer, your job is to create visual standards for the machine operators. </p><ul>
-<li>Mark the pressure gauges with a green “safe” zone and a red “danger” zone. </li>
-<li>Create a simple daily checklist: <em>Check oil level, wipe Sensor A, listen for rattling.</em>
+<p>The hardcore maintenance technicians are expensive and busy. They should not be wasting time changing air filters or wiping dust off sensors. </p><p>As the Lean Engineer, your job is to create visual standards for the machine operators. </p><ul>
+<li>Mark the pressure gauges with a green safe zone and a red danger zone. </li>
+<li>Create a simple daily checklist, like: <em>Check oil level, wipe Sensor A, listen for rattling.</em>
 When the operator maintains the basic health of the machine, the mechanics can focus on the complex breakdowns.</li>
 </ul>
 <h3 id="3-focused-improvement-leading-the-experts">3. Focused Improvement (Leading the Experts)</h3>
 <p>This is where you show your corporate value. The mechanical engineer knows <em>how</em> to fix the machine. But they usually don’t know <em>what</em> to fix and <em>how</em> to integrate the result into the system. </p><p>You bring the <strong>Data</strong>. Specifically, you track the <strong>OEE (Overall Equipment Effectiveness)</strong> and search for two things:</p><ul>
 <li><strong>The Micro-Stoppage:</strong> Automated machines rarely suffer massive, hour-long breakdowns. Instead, they suffer from 10-second minor stops (e.g., a part gets jammed, and the operator clears it and hits reset in mere seconds). This happens 50 times a shift and destroys efficiency. You track this data and show the engineers <em>exactly</em> which part of the machine is causing the jams.</li>
-<li><strong>The Changeover (SMED):</strong> You don’t need a robotics degree to reduce setup time. If a station/machine takes 1 hour to swap from Product A to Product B, use SMED (Single-Minute Exchange of Die). By just taking actions like organizing the tooling, staging the materials beforehand, and standardizing the process, you can cut downtime in half without knowing a line of code.</li>
+<li><strong>The Changeover (SMED):</strong> You don’t need a robotics degree to reduce setup time. If a station/machine takes 1 hour to swap from Product A to Product B, use Single-Minute Exchange of Die. By just taking actions like organizing the tooling, staging the materials beforehand, and standardizing the process, you can cut downtime in half without knowing a line of code.</li>
 </ul>
-<h3 id="4-why-i-skipped-the-other-pillars-the-real-world-rule">4. Why I Skipped the Other Pillars (The Real World Rule)</h3>
+<h3 id="4-why-i-skipped-the-other-pillars">4. Why I Skipped the Other Pillars</h3>
 <p>If you look at the TPM House, there are 5 other pillars (Planned Maintenance, Early Equipment Management, etc.). </p><p><strong>Ignore them for now.</strong> 
-As a junior engineer, you do not own the budget to schedule major Planned Maintenance, and you don’t have the authority to redesign the machine (Early Equipment Management). If you try to do everything, you will step on the toes of the Maintenance Manager and the Senior Engineers. </p><p>Stay in your lane. Master the foundation (<strong>5S</strong>), empower the operators (<strong>Autonomous Maintenance</strong>), and bring the data (<strong>Focused Improvement</strong>). </p><p>Master those three, and the technical experts will follow your lead.</p><h3 id="the-takeaway">The Takeaway</h3>
+As a junior engineer, you do not own the budget to schedule major planned maintenance, and you don’t have the authority to redesign the machine early equipment management. If you try to do everything, you will step on the toes of the maintenance manager and the senior engineers. </p><p>Stay in your lane. Master the foundation 5S, empower the operators (autonomous maintenance), and bring the data (focused improvement). Master those three sections, and the technical experts will follow your lead.</p><h3 id="the-takeaway">The Takeaway</h3>
 <p>Do not let highly automated machines intimidate you. You don’t need an advanced degree in robotics to improve a robotic cell. </p><ol>
 <li><strong>Maintain 5S</strong> so mechanical problems are visible.</li>
 <li><strong>Empower the operators</strong> to do the basic daily checks.</li>
-<li><strong>Use OEE data</strong> to point the technical experts at the real bottlenecks.</li>
+<li><strong>Use data</strong> to point the technical experts at the real bottlenecks.</li>
 </ol>
-<p><strong>The automation engineers write the code. You manage the system. That is how you lead.</strong></p>
+<p>The automation engineers write the code. You manage the system. That is how you work.</p>
             ]]>
         </content>
     </entry>
@@ -76,43 +76,41 @@ As a junior engineer, you do not own the budget to schedule major Planned Mainte
         <updated>2025-10-22T10:29:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Root Cause Analysis &amp; The 5 Whys The Academic View: To find a root cause, just sit down and ask “Why?” five&hellip;
+                    Topic: Root Cause Analysis &amp; The 5 Whys The Academic View: To find a root cause, sit down and ask yourself “Why?” five&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><strong>Topic:</strong> Root Cause Analysis &amp; The 5 Whys<br>
-<strong>The Academic View:</strong> To find a root cause, just sit down and ask “Why?” five times until you reach the core problem.<br>
-<strong>The Reality:</strong> If you ask the wrong “Why,” you will end up blaming “Human Error” or “Bad Management.” You cannot engineer a fix for either of those.</p><p>The biggest mistake novices make with the 5 Whys is focusing on the <em>answer</em>. The secret is actually knowing how to ask a better <em>question</em>.</p><h3 id="the-novice-5-whys-the-blame-trap">The Novice 5 Whys (The “Blame” Trap)</h3>
+<strong>The Academic View:</strong> To find a root cause, sit down and ask yourself “Why?” five times until you reach the core problem.<br>
+<strong>The Reality:</strong> If you ask the wrong “Why,” the direction will deviate and you will probably end up blaming human error or bad management. You cannot engineer a fix for either of those.</p><p>The biggest mistake novices make with the 5 Whys is focusing on the <em>answer</em>. But the real challenge is actually knowing how to ask a better <em>question</em>.</p><h3 id="a-novices-5-whys">A Novice’s 5 Whys</h3>
 <p>Let’s look at a classic example of a bad 5 Whys analysis:</p><ul>
 <li><strong>Problem:</strong> The car broke down on the highway.</li>
-<li><strong>Why 1:</strong> Because the engine failed.</li>
-<li><strong>Why 2:</strong> Because the engine oil went bad.</li>
-<li><strong>Why 3:</strong> Because I didn’t change the oil in time.</li>
-<li><strong>Why 4:</strong> Because I forgot to check the mileage.</li>
-<li><strong>Why 5:</strong> Because of poor personal planning (Management/Human Error).</li>
+<li><strong>Why 1: Why the car broke on the middle of a road?</strong>—Because the engine failed.</li>
+<li><strong>Why 2: Why the engine failed?</strong>—Because the engine oil went bad.</li>
+<li><strong>Why 3: Why the engine oil went bad?</strong>—Because I didn’t change the oil in time.</li>
+<li><strong>Why 4: Why did you forget to get an oil change?</strong>—Because I forgot to check the mileage.</li>
+<li><strong>Why 5: Why did you forget to check the mileage?</strong>—Because of poor personal planning (management/human error).</li>
 </ul>
-<p><strong>The Result:</strong> The corrective action is “Try harder to remember next time” or “Retrain the driver.” </p><p><strong>In the manufacturing world, this is a useless fix.</strong> If you submit a report to a customer that says “Operator forgot,” they will reject it. If your root cause relies on a human “trying harder,” the defect <em>will</em> happen again.</p><h3 id="the-pro-methodology-how-to-ask-better-questions">The Pro Methodology: How to Ask Better Questions</h3>
-<p>To do a high-quality 5 Whys analysis, you must change how and where you ask the questions. Here are the 4 rules:</p><p><strong>Rule 1: Ban the words “Forgot,” “Careless,” and “Management.”</strong>
-If an operator forgot a step, do not ask <em>“Why did they forget?”</em> (That leads to psychology). 
-Instead, ask: <em>“Why did the system allow the process to continue after a step was missed?”</em> (That leads to engineering).</p><p><strong>Rule 2: Focus on Physics and Process, not Psychology.</strong>
-Always steer the questions back to the physical mechanics of the workstation, the wear on the tooling, or the rigid logic of the system. </p><p><strong>Rule 3: Split the Problem (Occurrence vs. Escape)</strong>
-Always run two separate tracks of Whys:</p><ol>
+<p><strong>The Result:</strong> The corrective action is “Try harder to remember me next time” or “Retrain the driver.” </p><p><strong>In the manufacturing world, this is pretty much a useless fix.</strong> If you submit a report like this to a customer that says “Operator forgot,” they will reject it and note you as incompetent. If your root cause relies on a human “trying harder,” the defect <em>will</em>  definitely happen again, no matter how hard he/she tries.</p><h3 id="how-to-ask-better-questions">How to Ask Better Questions</h3>
+<p>To do a high-quality 5 Whys analysis, you need to change how and where you ask the questions:</p><p><strong>Rule 1: Ban the words “Forgot,” “Careless,” and “Management.”</strong>
+If an operator forgot a step, do not ask <em>“Why did they forget?”</em> That always leads to psychology and objection. Instead, ask: <em>“Why did the production system allow the following process to continue even after a step was completely missed?”</em> And that leads to engineering.</p><p><strong>Rule 2: Focus on Physics and Process, not Psychology.</strong>
+Always direct the questions back to the physical mechanics of the workstation, the wear on the tooling, or the rigid logic of the system. </p><p><strong>Rule 3: Split the Problem in Views of Occurrence vs. Escape</strong>
+You can run two separate tracks of Whys:</p><ol>
 <li><em>Occurrence:</em> Why did the machine make the bad part?</li>
 <li><em>Escape:</em> Why did our inspection fail to catch it before it shipped?</li>
 </ol>
 <p><strong>Rule 4: Never do it at your desk.</strong>
-You cannot ask “Why?” to a spreadsheet. You must go to the <strong>Gemba</strong> (the factory floor). Look at the broken part, watch the machine cycle, and ask the operator. If you guess the answers in a conference room, you will fix the wrong problem.</p><h3 id="the-professional-5-whys-the-system-fix">The Professional 5 Whys (The “System” Fix)</h3>
-<p>Let’s redo the car example using the engineering methodology. </p><ul>
+You cannot ask “Why?” to a white board. You must go to the gemba—the factory floor. Look at the broken part, watch the machine cycle, and ask the operator. If you keep guessing the answers in a conference room and are too busy or introvert to walk on the field, you will fix the wrong problem.</p><h3 id="the-professional-5-whys">The Professional 5 Whys</h3>
+<p>Let’s re-do the car example using the mindset. </p><ul>
 <li><strong>Problem:</strong> The car broke down from engine failure.</li>
-<li><strong>Why 1:</strong> The oil lost its viscosity and failed to lubricate the cylinders. <em>(Physics)</em></li>
-<li><strong>Why 2:</strong> The oil remained in the car 5,000 miles past its operational limit. <em>(Process)</em></li>
-<li><strong>Why 3:</strong> The driver was not notified that the limit was reached. <em>(System)</em></li>
-<li><strong>Why 4:</strong> The car does not have a sensor to track mileage and alert the user automatically. <em>(Design)</em></li>
+<li><strong>Why 1: Why the car broke in the middle of a road?</strong>—The oil lost its viscosity and failed to lubricate the cylinders. <em>(Physics)</em></li>
+<li><strong>Why 2: Why the oil lost its viscosity?</strong>—The oil remained in the car 5,000 miles past its operational limit. <em>(Process)</em></li>
+<li><strong>Why 3: Why the car could still drive after passing the mile limit by so much?</strong>—The driver was not notified that the limit was reached. <em>(System)</em></li>
+<li><strong>Why 4: Why there was no notification?</strong>—The car does not have a sensor to track mileage and alert the user automatically. <em>(Design)</em></li>
 </ul>
-<p><strong>The Result:</strong> The corrective action is to <strong>install a maintenance light on the dashboard</strong> that triggers every 5,000 miles to alert the driver. </p><h3 id="the-takeaway">The Takeaway</h3>
-<p>If your 5 Whys end with “Management problem” or “Operator error,” you stopped too early. 
-People are flawed. They will always forget, get tired, and make mistakes. </p>
+<p><strong>The Result:</strong> The corrective action is to install a maintenance light on the dashboard that triggers to alert the driver. </p><h3 id="the-takeaway">The Takeaway</h3>
+<p>If your 5 Whys end with management problem or operator error, you have stopped too early. People are flawed. They will always forget, get tired, and make mistakes. So don’t blame people, focus on process and physics.</p>
             ]]>
         </content>
     </entry>
@@ -135,27 +133,27 @@ People are flawed. They will always forget, get tired, and make mistakes. </p>
         <content type="html">
             <![CDATA[
                 <p><strong>Topic:</strong> New Product Introduction (NPI) &amp; Line Setup<br>
-<strong>The Academic View:</strong> You are given a list of tasks with perfect cycle times, and you draw a perfectly balanced U-shaped cell on paper.<br>
-<strong>The Reality:</strong> You are given a 3D model, half the parts are missing, the cycle times are guesses, and production starts in three months. </p><p>If you are a new Industrial Engineer assigned to an NPI team, setting up the physical production line can feel overwhelming. Here is the roadmap for how a line actually comes to life, and the paperwork you use to build it.</p><h3 id="phase-1-the-document-cascade">Phase 1: The Document Cascade</h3>
+<strong>The Academic View:</strong> You are given a list of tasks with perfect cycle times, and you draw a perfectly balanced U-shaped cell workstation on paper.<br>
+<strong>The Reality:</strong> You are given only a 3D model (and sometime your computer’s crappy 3D viewer exhausts you because the company spends money on good licensing only for the design team), half the parts are missing, the cycle times are guesses, the floor has occupied by existed products and production starts in three months. </p><p>If you are a new Industrial Engineer assigned to an NPI team, setting up the physical  line can be overwhelming. Here is the roadmap for how a line actually comes to life, and the paperwork you need to build it.</p><h3 id="phase-1-the-document-cascade">Phase 1: The Document Cascade</h3>
 <p>You cannot draw a physical floor plan until you know what you are building. In NPI, documents are generated in a strict sequence. One feeds the next.</p><ol>
-<li><strong>The BOM (Bill of Materials):</strong> Tells you <em>what</em> parts you need.</li>
-<li><strong>The Process Flow Diagram (PFD):</strong> Based on the BOM, you map out the step-by-step logic. <em>(e.g., Step 1: Screw base. Step 2: Attach wire. Step 3: Test).</em></li>
-<li><strong>The PFMEA &amp; Control Plan:</strong> Quality reviews the PFD to decide where things might fail. <em>This tells you exactly where you must place inspection and testing stations on the physical line.</em></li>
+<li><strong>The BOM (Bill of Materials):</strong> Tells you what parts you need.</li>
+<li><strong>The Process Flow Diagram (PFD):</strong> Based on the BOM, you map out the steps you need to take. <em>(e.g., Step 1: Screw base. Step 2: Attach wire. Step 3: Test).</em></li>
+<li><strong>The PFMEA &amp; Control Plan:</strong> Quality reviews the PFD to decide where things might fail. This tells you exactly where you must place inspection and testing stations on the physical line.</li>
 <li><strong>The Time Study:</strong> You estimate or measure how long each step takes. </li>
-<li><strong>The Line Balance:</strong> You group the steps together to meet the customer’s Takt Time. <em>This tells you how many operators and workstations you need.</em></li>
-<li><strong>The Physical Line Layout:</strong> <strong>This is your final output.</strong></li>
+<li><strong>The Line Balance:</strong> You group the steps together to meet the customer’s Takt Time. This tells you how many operators and workstations you need.</li>
+<li><strong>The Physical Line Layout.</strong></li>
 </ol>
-<p><strong>Rule of Thumb:</strong> Never start drawing the physical layout in AutoCAD until the Process Flow and Line Balance are drafted. </p><h3 id="phase-2-the-evolution-of-the-line">Phase 2: The Evolution of the Line</h3>
+<p><strong>Rule of Thumb:</strong> Never start drawing the physical layout in AutoCAD until the Process Flow and Line Balance are drafted. </p><h3 id="phase-2-the-evolution-of-a-line">Phase 2: The Evolution of a Line</h3>
 <p>You do not build the final mass-production line on Day 1. The layout scales with the product’s maturity phases:</p><ul>
-<li><strong>Prototype Stage:</strong> No line is needed. Engineers are just building the product on a workbench to see if it turns on. </li>
-<li><strong>EVT / DVT (Engineering &amp; Design Validation):</strong> You build a <strong>Temporary Line</strong>. It will be ugly. You use folding tables, rolling carts, and PVC pipes. You are simply proving out the assembly sequence and figuring out which tools are required. </li>
-<li><strong>PVT (Production Validation):</strong> This is the <strong>Pilot Line</strong>. You lock down the physical layout, assign operators to specific seats, and run at production speed to prove your cycle times. </li>
-<li><strong>Mass Production (MP):</strong> The line is fixed, and your job shifts from “Setup” to “Continuous Improvement” (Kaizen).</li>
+<li><strong>Prototype Stage:</strong> No line is needed. Engineers are just building the product on a workbench, or even at his own desk, to see if it turns on. </li>
+<li><strong>EVT / DVT (Engineering &amp; Design Validation):</strong> You build a temporary line. It will be ugly and messy. You use folding tables, rolling carts, and PVC pipes in the lab. You are simply proving out the assembly sequence and figuring out what tools are required. </li>
+<li><strong>PVT (Production Validation):</strong> This is the pilot line. You lock down the space in the real jobshop and physical layout, assign operators to specific seats, and run at production speed to prove your cycle times. </li>
+<li><strong>Mass Production (SOP):</strong> The line is fixed, and your job shifts from “Setup” to continuous improvement.</li>
 </ul>
 <h3 id="phase-3-the-perfection-trap">Phase 3: The Perfection Trap</h3>
-<p>The biggest mistake young engineers make is trying to design a 100% perfect, highly efficient line before a single part is mass-produced. </p><p>During EVT and PVT, the product design <em>will</em> change. An operator will complain that a tool is too heavy. A cycle time you estimated at 10 seconds will actually take 30. </p><ul>
-<li><strong>Do not bolt the tables to the floor.</strong></li>
-<li>Design the initial layout to be <strong>80% good</strong>. </li>
+<p>The biggest mistake young engineers make is trying to design a 100% perfect line before a single part is mass-produced. </p><p>During EVT and PVT, the product design <em>will</em> change. An operator will complain that a tool is too heavy. A cycle time you estimated at 10 seconds will actually take 30. </p><ul>
+<li>Do not bolt the tables to the floor.</li>
+<li>Design the initial layout to be 80% good then it is enough. </li>
 <li>Put your workstations and material racks on caster wheels. </li>
 <li>Leave empty space between stations so you can add buffer inventory or extra test equipment later when things go wrong.</li>
 </ul>
@@ -178,38 +176,37 @@ Get the sequence right, balance the math as best as you can, and put everything 
         <updated>2025-09-24T03:21:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Quality Judgments &amp; Concessions The Academic View: Specifications are black and white. Good parts ship. Bad parts are scrapped. The Reality: Manufacturing&hellip;
+                    Topic: Quality Judgments &amp; Concessions The Academic View: Specifications are black and white. Good parts ship. Bad parts are scrapped. Nobody can change&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><strong>Topic:</strong> Quality Judgments &amp; Concessions<br>
-<strong>The Academic View:</strong> Specifications are black and white. Good parts ship. Bad parts are scrapped.<br>
-<strong>The Reality:</strong> Manufacturing lives in the gray zone. If you scrap every part with a microscopic anomaly, your company will go bankrupt. </p><p>Sometimes, you have to make a <strong>Concession</strong> (accepting a part that deviates slightly from the perfect standard). Here is how to make that judgment call without risking your job.</p><h3 id="1-the-golden-rule-form-fit-and-function">1. The Golden Rule: Form, Fit, and Function</h3>
-<p>When you find a deviation, ask one question: <em>Does this affect Form, Fit, or Function (FFF)?</em></p><ul>
-<li><strong>Internal Concession:</strong> If the defect is strictly cosmetic (e.g., a scratch on a surface hidden inside the machine), it does not affect FFF. You can document the deviation, approve it internally, and ship it. You save the company money.</li>
+<strong>The Academic View:</strong> Specifications are black and white. Good parts ship. Bad parts are scrapped. Nobody can change nothing.<br>
+<strong>The Reality:</strong> Manufacturing lives in the gray zone. If you scrap every part with a microscopic anomaly, the profit margin of the product would be eaten up easily. </p><p>Sometimes, you have to make a concession (accepting a part that deviates slightly from the perfect standard, as said in ISO9001), balance the cost and risk like a pro. </p><h3 id="1-the-golden-rule-form-fit-and-function">1. The Golden Rule: Form, Fit, and Function</h3>
+<p>When you find a deviation, ask yourself one question: <em>Does this affect Form, Fit, or Function (FFF) of the product?</em></p><ul>
+<li><strong>Internal Concession:</strong> If the defect is strictly cosmetic (e.g., a scratch on a surface), it does not affect FFF. You can document the deviation, approve it internally, and ship it and you have saved the company some money like a senior engineer. But remember, sometime cosmetic is the fuction, if the part is used at the outer side of the final product and final customers can easily see it.</li>
 <li><strong>External Concession:</strong> If the deviation changes how the part fits or works, you <strong>must</strong> ask the customer for a formal waiver. Never hide a functional defect. That is a breach of contract.</li>
 </ul>
-<h3 id="2-the-undefined-defect-creating-the-boundary">2. The “Undefined” Defect (Creating the Boundary)</h3>
-<p>What happens when you find a weird visual defect that isn’t even listed in your SIP? You have to create the standard on the spot. </p><ol>
+<h3 id="2-the-undefined-defect">2. The Undefined Defect</h3>
+<p>What happens when you find a weird defect that isn’t even listed in your SIP or could be found in PPAP documents? You have to solve it and create the standard on the spot for the parts that has been produced. </p><ol>
 <li>Find the absolute worst-case part that you still believe is acceptable. </li>
-<li>This physical part becomes your <strong>Boundary Sample</strong> (Limit Sample). </li>
+<li>This physical part becomes your boundary sample, or limit sample. </li>
 <li>Sign it, date it, and place it at the inspection station. Now the operators aren’t guessing; they are comparing.</li>
 </ol>
-<h3 id="3-judging-the-borderline-the-batch-context">3. Judging the “Borderline” (The Batch Context)</h3>
-<p>When dealing with a minor cosmetic issue, you have to judge the context of the whole batch. 
-Customers usually accept a tiny percentage of minor cosmetic flaws (called an Acceptable Quality Limit, or AQL). </p><ul>
+<p>No matter what, an internal report to your superior is always required and knowledge sharing between your colleagues is in favor. </p><p>However, it is a little bit tricky on communication strategy to the customer about this matter. If the undefined defect affects the FFF, or the related term has a higher FMEA score, you should always ask the customer for a formal approval. And you always ought to prepare the customer rejecting your request without a reason and doing you a favor, simply saying: “The PSW has signed and PPAP has frozen. It is your problem.”</p><h3 id="3-judging-the-borderline-in-a-batch-context">3. Judging the Borderline in a Batch Context</h3>
+<p>When dealing with a minor cosmetic issue, you have to judge the context of the whole batch. Customers usually accept a tiny percentage of minor cosmetic flaws (called an Acceptable Quality Limit, or AQL). </p><ul>
 <li><strong>Healthy Batch:</strong> If the rest of the batch is running perfectly, you can afford to be slightly lenient and internally concede a few <em>borderline</em> cosmetic parts. </li>
 <li><strong>Sick Batch:</strong> If the process is unstable and the batch is already close to the rejection limit, your buffer is gone. Every borderline part must be strictly scrapped to protect the shipment.</li>
 </ul>
-<h3 id="4-the-complaint-tax-dynamic-standards">4. The “Complaint Tax” (Dynamic Standards)</h3>
-<p>Here is the secret they don’t teach in school: <strong>The passing score is dynamic.</strong></p><p>Let’s say your standard inspection strictness is a 90/100. 
-If the customer called you yesterday screaming about a quality issue, <strong>your new passing score is 95/100.</strong> </p><ul>
+<h3 id="4-the-complaint-tax-dynamic-standards">4. The Complaint Tax Dynamic Standards</h3>
+<p>Here is the secret they don’t teach in school: <strong>The passing score is dynamic.</strong></p><p>Let’s say your standard inspection strictness is a 90/100 in a mathmatical view. 
+If the customer called you yesterday screaming about a quality issue, your new passing score has definitely become higher, like to 95/100 for example.</p><ul>
 <li>Why? Because the customer is currently hyper-sensitive. They will inspect your next shipment with a magnifying glass. </li>
-<li>A borderline defect that you safely approved last month is an immediate “Scrap” this month. You must temporarily over-inspect to rebuild trust.</li>
+<li>A borderline defect that made your last month in peace is an immediate “Scrap” this month. You must temporarily over-inspect to rebuild trust.</li>
 </ul>
 <h3 id="the-takeaway">The Takeaway</h3>
-<p>Making a concession is not “cheating.” It is calculated risk management. </p><ol>
+<p>Making a concession is not cheating. It is calculated risk management. </p><ol>
 <li>Protect Form, Fit, and Function above all else.</li>
 <li>Let the context of the batch dictate how you handle the gray area.</li>
 <li>Adjust your strictness based on the customer’s current trust level.</li>
@@ -238,45 +235,40 @@ If the customer called you yesterday screaming about a quality issue, <strong>yo
             <![CDATA[
                 <p><strong>Topic:</strong> 5S Implementation &amp; Auditing<br>
 <strong>The Academic View:</strong> 5S (Sort, Set in Order, Shine, Standardize, Sustain) + Safety is about organizing the workplace.<br>
-<strong>The Reality:</strong> Most new engineers treat 5S audits like a cleaning inspection. You walk around, check a box if the floor is swept, and leave. This is useless.</p><p><strong>A clean factory can still be a dangerous, inefficient factory.</strong>
-As a novice, you need to stop looking at the dirt and start looking for the “Band-Aids.”</p><p>Here is your methodology for a real 6S Audit.</p><h3 id="level-1-the-dont-die-check-safety">Level 1: The “Don’t Die” Check (Safety)</h3>
+<strong>The Reality:</strong> Most new engineers treat 5S audits like a cleaning inspection. You walk around, check a box if the floor is swept, and leave. This does nothing.</p><p>A clean factory can still be a dangerous, inefficient factory. As a novice, you need to stop looking at the dirt and start looking for the band-aids.</p><p>Here is your methodology for a real 6S audit in a more head-friendly way, especially you are new and don’t know too much about the process.</p><h3 id="level-1-the-most-fundamental-safety-check">Level 1: The Most Fundamental Safety Check</h3>
 <p>Before you look for organization, look for immediate threats.</p><ul>
-<li><strong>The Fire Trap:</strong> Is there cardboard or wood sitting next to a heat source (drying oven, welding bot)? This is the #1 audit finding for new grads.</li>
+<li><strong>The Fire Trap:</strong> Is there cardboard or wood sitting next to a heat source (drying oven, welding bot)? </li>
 <li><strong>The Trip Wire:</strong> Are air hoses or extension cords running across the walkway?</li>
-<li><strong>The “Jury Rig”:</strong> Look for duct tape. If you see duct tape holding a guard or a sensor in place, that is a safety violation disguised as a “temporary fix.”</li>
+<li><strong>The “Jury Rig”:</strong> Look for duct tape. For example, if you see duct tape holding a guard or a sensor in place, that is a safety violation disguised as a “temporary fix.”</li>
+<li>Etc.</li>
 </ul>
-<h3 id="level-2-the-band-aid-hunt-shine--inspection">Level 2: The “Band-Aid” Hunt (Shine = Inspection)</h3>
-<p>This is where you separate the novices from the pros.
+<h3 id="level-2-the-band-aid-hunt">Level 2: The Band-Aid Hunt</h3>
+<p>This is where people separate the novices from the pros.
 A novice sees a crumpled plastic bag stuffed into a gap in the machine and thinks: <em>“Trash. 5S violation.”</em>
-A pro sees the bag and thinks: <em>“Why is that there?”</em></p><ul>
+A pro sees the crumpled bag and thinks: <em>“Why is that there?”</em></p><ul>
 <li><strong>The Leak:</strong> Is the bag/rag there to catch an oil leak?</li>
 <li><strong>The Vibration:</strong> Is it wedged there to stop a panel from rattling?</li>
 <li><strong>The Sensor:</strong> Is it blocking a sensor to force the machine to run?</li>
 </ul>
-<p><strong>The Rule:</strong> If you see trash <em>inside</em> or <em>on</em> a machine, it is usually hiding a mechanical failure. <strong>Cleaning is Inspection.</strong> Don’t just pick it up; find the leak.</p><h3 id="level-3-the-struggle-check-set-in-order">Level 3: The “Struggle” Check (Set in Order)</h3>
-<p>Stand at the station and watch the operator for 5 cycles. Do not look at the papers; look at their hands.</p><ul>
+<p><strong>The Rule:</strong> If you see trash <em>inside</em> or <em>on</em> a machine, it is usually hiding a mechanical failure. Cleaning is also inspection. Think beyond just picking it up; find the leak.</p><h3 id="level-3-the-struggle-check">Level 3: The Struggle Check</h3>
+<p>Stand at the station and watch the operator does his job for a few cycles. Do not look at the SOP papers first; look at their hands.</p><ul>
 <li><strong>The Search:</strong> Do they have to turn around, walk away, or dig through a bin to find a wrench?</li>
 <li><strong>The Reach:</strong> Are they reaching over a moving part to grab a bolt?</li>
-<li><strong>The Reset:</strong> When they are done, do they have a specific place to put the tool back (Shadow Board), or do they just set it on the table?</li>
+<li><strong>The Reset:</strong> When they are done, do they have a specific place to put the tool back, or do they just set it on the table?</li>
 </ul>
-<p>If the operator has to <strong>think</strong> about where to put the tool, you failed “Set in Order.”</p><h3 id="level-4-the-ghost-check-standardize">Level 4: The “Ghost” Check (Standardize)</h3>
-<p>Look at the <strong>Shadow Board</strong> or the <strong>Tool Outline</strong>.</p><ul>
+<p>If the operator has to think about how to start and finish a motion, you failed the set-in-order check.</p><h3 id="level-4-the-ghost-check">Level 4: The Ghost Check</h3>
+<p>Look at the shadow board or the tool outline.</p><ul>
 <li><strong>Empty Shadows:</strong> If there is an outline for a hammer, but no hammer, where is it? Is the operator using a heavy wrench instead because the hammer is missing?</li>
-<li><strong>Ghost Tools:</strong> Are there tools on the desk that <em>don’t</em> have a home? This means the process changed, but the 5S didn’t keep up.</li>
+<li><strong>Ghost Tools:</strong> Are there tools on the desk that <em>don’t</em> have a place for reset? This means the process changed, or negelected, but the 5S didn’t keep up.</li>
 </ul>
 <h3 id="the-takeaway">The Takeaway</h3>
 <p>Don’t walk around with a clipboard looking for dust bunnies. You are not a maid.
-You are a <strong>Detective</strong>.</p><ol>
-<li><strong>Find the heat sources.</strong></li>
-<li><strong>Find the duct tape and oil rags.</strong></li>
-<li><strong>Watch the operator’s hands for struggle.</strong></li>
-</ol>
-<p>If you fix the <strong>root cause</strong> of the mess, the mess goes away forever. If you just tell them to “clean it up,” it will be back tomorrow.</p>
+You are hired to be an engineer, a detective!</p><p>If you fix the root cause of the issue, the mess would be gone forever. If you just tell the line leader to clean it up, things will be back tomorrow.</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>Industry 4.0 is a Trap. Meet &quot;Squirrel 4.0.&quot;</title>
+        <title>Industry 4.0 is a Trap. Meet Squirrel 4.0.</title>
         <author>
             <name>Tim Y</name>
         </author>
@@ -297,33 +289,30 @@ You are a <strong>Detective</strong>.</p><ol>
                     <p><img src="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>Topic:</strong> Automation Strategy vs. Reality<br>
 <strong>The Academic View:</strong> Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human labor and solve all quality issues.<br>
-<strong>The Reality:</strong> If you automate a mess, you just get a faster mess.</p><p>I learned this the hard way while interning at Mattel. I watched them try to automate the Barbie line, and I saw exactly why it failed.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
-<p>At the time, the company was aggressively pushing “Industry 4.0.”
-The goal was simple: Eliminate human labor to cut costs. They installed complex, fully automated machines to assemble the dolls.</p><p>As an intern, I watched these expensive robots try to do the job. <strong>It was a catastrophe.</strong></p><ol>
-<li><strong>Zero Flexibility:</strong> Barbie fashions change every season. Humans can switch from “Beach Barbie” to “Astronaut Barbie” in seconds. The robots needed expensive reprogramming for every dress change.</li>
-<li><strong>Constant Downtime:</strong> When a human drops a doll, they pick it up. When a robot drops a doll, it jams the machine, stops the line, and requires a technician to fix it.</li>
+<strong>The Reality:</strong> If you automate a mess, you just get a faster and more expensive mess.</p><p>I learned this from watching them trying to automate the Barbie line.</p><h3 id="the-billion-dollar-lesson">The Billion-Dollar Lesson</h3>
+<p>At the time, the company was aggressively pushing Industry 4.0 ideology. The goal was eliminating human labor to cut costs. They installed complex, fully automated production lines from a 3rd party company to assemble the dolls.</p><p>These expensive robots trying to do the job was a catastrophe.</p><ol>
+<li><strong>Zero Flexibility:</strong> Barbie fashions change every month. Humans can switch from Beach Barbie to Astronaut Barbie in seconds. However, the robots needed expensive reprogramming for every dress change.</li>
+<li><strong>Frequent Downtime:</strong> When a human drops a doll, they pick it up and discard it. When a robot drops a doll, it jams the machine, stops the line, and requires a technician to fix it and a whole set of reset procedure.</li>
 <li><strong>Cost:</strong> The depreciation and maintenance of the robots cost <em>more</em> than the labor they replaced.</li>
 </ol>
-<p>Eventually, they had to scrap the automation plans and bring the humans back.</p><h3 id="enter-squirrel-40">Enter “Squirrel 4.0”</h3>
-<p>The engineers realized they couldn’t leap from “Manual” to “Full Auto.” They needed a bridge.
-They launched a project playfully named <strong>Squirrel 4.0</strong>.</p><p><strong>The Philosophy:</strong>
-Just as a squirrel gathers nuts one by one to prepare for winter, an engineer must gather <strong>small, standardized improvements</strong> one by one to prepare for automation.</p><p><strong>You cannot automate what you cannot stabilize.</strong></p><h3 id="how-it-works-the-roadmap">How It Works (The Roadmap)</h3>
-<p>Instead of buying a $500,000 robot, the team focused on <strong>LCIA (Low Cost Intelligent Automation)</strong>.</p><p><strong>Phase 1: The Human Sensor (Gathering the Nuts)</strong>
-They kept the operators but standardized their movements strictly. They identified exactly where the “pain points” were.</p><ul>
-<li><em>The “Nut”:</em> Every small kaizen. Every standardized work instruction. Every error-proofing device.</li>
+<p>Eventually, they had to scrap the automation plans and brought the humans back.</p><h3 id="enter-squirrel-40">Enter Squirrel 4.0</h3>
+<p>The engineers and managers realized they couldn’t leap from manual to full auto without bridging. So the board launched a project playfully named: Squirrel 4.0.</p><p><strong>The Philosophy:</strong>
+Just as a squirrel gathers nuts one by one to prepare for winter, engineers gather small, standardized improvements one by one (actually with a monthly quota, lmao) to prepare for automation.</p><p>You cannot automate what you cannot stabilize.</p><h3 id="how-it-works">How It Works</h3>
+<p>Instead of buying expensive robots, the team focused on <strong>LCIA (Low Cost Intelligent Automation)</strong>.</p><p><strong>Phase 1: The Human Sensor</strong>
+They kept the operators but standardized their movements strictly. They identified exactly where the pain points were.</p><ul>
+<li>The “Nut” includes every small kaizen, every standardized work instruction, every error-proofing device.</li>
 </ul>
 <p><strong>Phase 2: Partial Automation</strong>
-They didn’t replace the operator; they gave them tools (Karakuri).</p><ul>
-<li><em>Example:</em> Instead of a robot arm placing a screw, they installed a simple gravity-fed chute ($50) that delivers the screw to the operator’s hand.</li>
+They didn’t replace the operator; they gave them better tools.</p><ul>
+<li><em>Example:</em> Instead of a robot arm placing a screw, they installed a simple gravity-fed chute (costing around \$20) that delivers the screw to the operator’s handside without moving his head.</li>
 <li><em>Result:</em> Cycle time dropped, consistency went up, but the human flexibility remained.</li>
 </ul>
-<p><strong>Phase 3: The “Winter” (Full Automation)</strong>
-Only after the process was 100% stable—when they had “stored enough nuts”—did they look at robots again. By then, they knew exactly what the machine needed to do because the humans had already perfected the motion.</p><h3 id="the-takeaway">The Takeaway</h3>
-<p>Don’t let the “Industry 4.0” hype blind you.
-If you try to automate a manual process that isn’t robust, you will fail.</p><p><strong>Be a Squirrel.</strong></p><ol>
+<p><strong>Phase 3: Full Automation</strong>
+Only after the process was 100% stable—as they had stored enough nuts—did they look at robots again. By then, they knew exactly what the machine needed to be because the humans had already perfected the motion.</p><h3 id="the-takeaway">The Takeaway</h3>
+<p>If you try to automate a manual process that isn’t robust, you will fail eventually. Don’t let the Industry 4.0 hype blind you. </p><p><strong>Be a Squirrel.</strong></p><ol>
 <li>Standardize the manual work first.</li>
 <li>Implement cheap, partial automation (LCIA) second.</li>
-<li><strong>Then</strong> buy the robot.</li>
+<li>Then buy the robot.</li>
 </ol>
 
             ]]>
@@ -348,42 +337,42 @@ If you try to automate a manual process that isn’t robust, you will fail.</p><
         <content type="html">
             <![CDATA[
                 <p><strong>Topic:</strong> Financial Motivation &amp; Organizational Structure<br>
-<strong>The Academic View:</strong> Lean is about eliminating waste to improve flow. Everyone cooperates because it optimizes the whole system.<br>
-<strong>The Reality:</strong> Most employees are not motivated by “system optimization.” They are motivated by their paycheck.</p><p>If you want to understand why some departments fight over pennies, or why your boss refuses to spend money to help another team, you need to understand <strong>Amoeba Management</strong> (or “Profit Center” management).</p><h3 id="what-is-it">What is it?</h3>
+<strong>The Academic View:</strong> Lean is about eliminating waste to improve flow. Everyone cooperates because it optimizes the whole system, creating the result of 1 + 1 &gt; 2.<br>
+<strong>The Reality:</strong> Most employees are not motivated by system optimization. They are motivated by their paycheck.</p><p>If you want to understand why some departments fight over pennies, or why your bosses, like managers or directors, refuse to give some graces to help another team, you need to understand <strong>Amoeba Management</strong> (or “Profit Center” management).</p><h3 id="what-is-it">What is it?</h3>
 <p>In a traditional company, only the CEO worries about Profit &amp; Loss (P&amp;L).
-In Amoeba Management (created by Kyocera), the company is sliced into tiny units. <strong>Every department acts like a separate small business.</strong></p><ul>
-<li><strong>The Machining Dept</strong> “sells” parts to the Assembly Dept.</li>
-<li><strong>The Assembly Dept</strong> “sells” finished goods to Sales.</li>
-<li><strong>The Maintenance Dept</strong> charges an hourly rate to fix machines.</li>
+In Amoeba Management, created by Kyocera, the company is sliced into tiny business units—Every department acts like a separate small business.</p><ul>
+<li>The Machining Dept sells parts to the Assembly Dept.</li>
+<li>The Assembly Dept sells finished goods to Sales.</li>
+<li>The Maintenance Dept charges an hourly rate to fix machines.</li>
 </ul>
-<h3 id="the-good-why-it-drives-lean">The Good: Why it Drives Lean</h3>
-<p>This system turns “Employees” into “Business Owners.”</p><p><strong>1. Kaizen = Cash in Pocket</strong>
-In a normal company, if you save \$100,000 through improvements, the money disappears into a corporate black hole. You get a “Thank You” email.
-In this system, that \$100,000 stays on your department’s P&amp;L. It directly funds your team’s equipment and <strong>year-end bonuses</strong>.</p><ul>
-<li><strong>Result:</strong> You don’t have to beg people to do Lean. They hunt for waste aggressively because waste is literally stealing money from their bonus.</li>
+<h3 id="why-it-drives-lean">Why it Drives Lean</h3>
+<p>This system turns employees into business owners.</p><p><strong>1. Kaizen = Cash in Pocket</strong>
+In a normal company, if you save \$100,000 through improvements, the money disappears into the corporate banking account that you have no access to. You get a “Thank You” email, maybe with a pizza party.
+In this system, that \$100,000 stays on your department’s P&amp;L. It directly funds your team’s year-end bonuses.</p><ul>
+<li><strong>Result:</strong> You don’t have to beg anyone to do lean. They hunt for waste aggressively because waste is literally stealing money from their bonus.</li>
 </ul>
 <p><strong>2. The “Internal Customer” is Real</strong>
 Lean teaches: <em>“The next process is your customer.”</em>
-Usually, this is a metaphor. Under Amoeba Management, it is literal.
-If you send a defective part to the next department, they will <strong>refuse to pay for it</strong>.</p><ul>
+Usually, this is just a metaphor. But under amoeba management, it is literal.
+If you send a defective part to the next department, they will refuse to accept the whole batch and not pay a dime, and you are legally required to send out people to their jobshop to do 100% sorting.</p><ul>
 <li><strong>Result:</strong> Quality isn’t enforced by inspectors; it is enforced by the wallet.</li>
 </ul>
 <h3 id="the-bad-the-silo-trap">The Bad: The “Silo” Trap</h3>
-<p>There is a dark side. When every department fights for their own profit, they stop caring about the whole company.</p><p><strong>1. The “Transfer Price” War</strong>
-Department A wants to sell a part for \$10. Department B only wants to pay \$8.
-Instead of solving a technical problem, engineers waste hours arguing about internal pricing.</p><p><strong>2. Innovation Hoarding</strong>
+<p>There is still a bad side. When every department fights for their own profit, they stop caring about the whole company, or cooperation.</p><p><strong>1. The Transfer Price War</strong>
+Department A wants to receive a reimbursement of a part for \$10 for a crisis happened between Department B. But Department B only wants to pay \$8.
+Instead of solving a technical problem, people waste hours arguing about internal pricing, even though it is basically a manager’s job.</p><p><strong>2. Innovation Hoarding</strong>
 If your team finds a better way to run a machine, you might keep it secret to maintain your advantage over other departments. This kills company-wide improvement.</p><h3 id="the-takeaway">The Takeaway</h3>
 <p>You might not be able to change your company’s accounting system. But you must understand the mindset:
-<strong>Engineering decisions are Financial decisions.</strong></p><ul>
-<li>If your company treats departments as <strong>Profit Centers</strong>, expect fierce internal competition.</li>
-<li>If your company treats departments as <strong>Cost Centers</strong>, expect budget restrictions.</li>
+Engineering decisions are financial decisions.</p><ul>
+<li>If your company treats departments as profit centers, expect fierce internal competition.</li>
+<li>If your company treats departments as cost centers, expect budget restrictions.</li>
 </ul>
-<p><strong>Learn how your boss is measured. If you save them money <em>in the way they are measured</em>, you become their most valuable asset.</strong></p>
+<p>Learn how your boss is measured. If you save them money <em>in the way they are measured</em>, you become their most valuable asset.</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>Translating &quot;Geek Speak&quot; to Business Speak: From Cpk to DPPM</title>
+        <title>Translating Geek to Business: From Cpk to DPPM</title>
         <author>
             <name>Tim Y</name>
         </author>
@@ -403,15 +392,15 @@ If your team finds a better way to run a machine, you might keep it secret to ma
             <![CDATA[
                 <p><strong>Topic:</strong> Process Capability &amp; Risk Assessment<br>
 <strong>The Academic View:</strong> Calculate $C_{pk}$. If the result is $&gt;1.33$, the process is capable.<br>
-<strong>The Reality:</strong> Your boss and the Finance team do not care about the number “1.33.” They care about <strong>Risk</strong> and <strong>Scrap Costs</strong>.</p><p>You need to stop reporting just the index number and start translating it into <strong>DPPM (Defects Per Million)</strong>.</p><h3 id="the-logic-why-convert">The Logic: Why Convert?</h3>
-<p>In a boardroom, nobody asks, “What is the standard deviation within the subgroup?”
-They ask: <em>“How many bad parts are we going to ship?”</em></p><p>According to the ASQ (American Society for Quality) and standard Six Sigma textbooks, there is a direct mathematical link between your Process Capability ($C_{pk}$) and the probability of a defect.</p><ul>
-<li><strong>$C_{pk}$</strong> = How well your process fits inside the goal posts (Specification Limits).</li>
+<strong>The Reality:</strong> Your big boss and the finance team do not care about the number “1.33.” It has nothing to do with their knowledge and dues. They care about risk and scrap costs.</p><p>You need to stop reporting just the index number and start translating it into DPPM (Defects Per Million).</p><h3 id="why-convert">Why Convert?</h3>
+<p>In a boardroom, nobody asks beside quality and project teams, “What is the standard deviation within the subgroup?”
+They ask: <em>“How many bad parts are we going to ship?”</em></p><p>According to the American Society for Quality and standard six sigma textbooks, there is a direct mathematical link between process capability ($C_{pk}$) and the probability of a defect.</p><ul>
+<li><strong>$C_{pk}$</strong> = How well your process fits inside the goal specification limits.</li>
 <li><strong>Sigma Level</strong> = The statistical robustness of the process.</li>
 <li><strong>DPPM</strong> = The predicted number of failures per million parts produced.</li>
 </ul>
-<h3 id="the-cheat-sheet-short-term-capability">The Cheat Sheet (Short Term Capability)</h3>
-<p>Based on standard statistical tables (assuming a centered, normal distribution), here is the translation you need to memorize.</p><span style="font-size: 0.9em;">
+<h3 id="the-cheat-sheetshort-term-capability">The Cheat Sheet—Short Term Capability</h3>
+<p>Based on standard statistical tables (assuming a centered, normal distribution), here is the translation you need to memorize.</p><span style="font-size: 1em;">
     
 <table>
 <thead>
@@ -426,7 +415,7 @@ They ask: <em>“How many bad parts are we going to ship?”</em></p><p>Accordin
 <td align="left">0.67</td>
 <td align="left">2.0 $\sigma$</td>
 <td align="left">45,500</td>
-<td align="left"><strong>Disaster.</strong> You are scrapping ~4.5% of your product. You are losing money on every run.</td>
+<td align="left"><strong>Disaster.</strong> You are scrapping ~4.5% of your product.</td>
 </tr>
 <tr>
 <td align="left">1.00</td>
@@ -438,7 +427,7 @@ They ask: <em>“How many bad parts are we going to ship?”</em></p><p>Accordin
 <td align="left">1.33</td>
 <td align="left">4.0 $\sigma$</td>
 <td align="left">63</td>
-<td align="left"><strong>The Industry Standard.</strong> This is why 1.33 is the “magic number.” You drop from thousands of defects to just 63.</td>
+<td align="left"><strong>The Industry Standard.</strong> This is why 1.33 is the magic number. You drop from thousands of defects to just 63.</td>
 </tr>
 <tr>
 <td align="left">1.67</td>
@@ -457,18 +446,18 @@ They ask: <em>“How many bad parts are we going to ship?”</em></p><p>Accordin
 
 <h3 id="how-to-use-this-in-a-meeting">How to Use This in a Meeting</h3>
 <p>Don’t just say: <em>“Our Cpk is 1.0.”</em>
-Say: <em>“Our Cpk is 1.0. This predicts we will produce <strong>2,700 defects per million parts</strong>. At our current volume, that is <strong>X</strong> bad parts per week. We need to improve the process to 1.33 to reduce that risk to near zero.”</em></p><h3 id="a-warning-on-sample-size">A Warning on Sample Size</h3>
+Say: <em>“Our Cpk is 1.0. This predicts we will produce <strong>2,700 defects per million parts</strong>. At our current volume, that is <strong>X</strong> bad parts per week. We need to improve the process to 1.33 to reduce that risk.”</em></p><h3 id="a-warning-on-sample-size">A Warning on Sample Size</h3>
 <p><strong>Garbage In, Garbage Out.</strong>
 You cannot calculate a real DPPM from 5 parts.</p><ul>
-<li><strong>Academic Math:</strong> You can calculate Standard Deviation with $n=2$.</li>
-<li><strong>Business Reality:</strong> To trust the DPPM prediction, you need a significant sample size (usually 30 to 50 parts minimum).</li>
+<li><strong>Academic Math:</strong> You can calculate standard deviation with $n=2$.</li>
+<li><strong>Business Reality:</strong> To trust the DPPM prediction, you need a significant sample size, usually 30 to 50 parts minimum. And new sampling will always be an on-going activity</li>
 </ul>
-<p>If you calculate a $C_{pk}$ of 1.67 based on 5 parts, you are lying to yourself. The sample is too small to predict the long-term behavior of the process.</p><h3 id="the-takeaway">The Takeaway</h3>
-<p>$C_{pk}$ is not just a badge of honor for the PPAP file. It is a <strong>Financial Prediction</strong>.</p><ul>
+<p>If you calculate a $C_{pk}$ of 1.67 based on 5 parts, nobody trusts you. The sample is too small to predict the long-term behavior of the process.</p><h3 id="the-takeaway">The Takeaway</h3>
+<p>$C_{pk}$ is not just a badge of honor for the PPAP file. It is a financial prediction.</p><ul>
 <li>Low $C_{pk}$ = High Defects = High Cost.</li>
 <li>High $C_{pk}$ = Low Defects = Low Cost.</li>
 </ul>
-<p><strong>Learn to speak the language of Defects (DPPM), and management will listen to your engineering proposals.</strong></p>
+<p>Learn to speak the language of defects, and management will listen to your engineering proposals.</p>
             ]]>
         </content>
     </entry>
@@ -484,44 +473,44 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
         <updated>2025-09-09T05:50:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: The Human Element of Lean The Academic View: Operators are “resources.” You calculate their Cycle Time and Ergonomics. If the math works,&hellip;
+                    Topic: The Human Element of Lean The Academic View: Operators are resources. You calculate their cycle time and ergonomics. If the math works,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><strong>Topic:</strong> The Human Element of Lean<br>
-<strong>The Academic View:</strong> Operators are “resources.” You calculate their Cycle Time and Ergonomics. If the math works, the line runs.<br>
-<strong>The Reality:</strong> Operators are the gatekeepers of your success. If they hate the culture, your process will fail, no matter how perfect your engineering is.</p><p>Here is why “treating people well” is a technical requirement, not just an HR slogan.</p><h3 id="1-the-tribal-knowledge-the-8th-waste">1. The “Tribal Knowledge” (The 8th Waste)</h3>
+<strong>The Academic View:</strong> Operators are resources. You calculate their cycle time and ergonomics. If the math works, the line runs.<br>
+<strong>The Reality:</strong> Operators are the gatekeepers of your success. If they hate the culture, your process will fail, no matter how perfect your engineering is.</p><h3 id="1-the-8th-waste">1. The 8th Waste</h3>
 <p>Engineers look at data; Operators look at reality.<br>An operator stands at that machine for 8 to 12 hours a day. You stand there for 10 minutes.</p><ul>
 <li><strong>The Gap:</strong> They might not know the engineering terms like “OEE” or “Six Sigma.”</li>
-<li><strong>The Gold Mine:</strong> They know exactly which jig is sticky, which tool is heavy, and which sensor glitches every day at 2:00 PM.</li>
-<li><strong>The Loss:</strong> If you ignore them because they have “lower education,” you commit the <strong>8th Waste: Non-Utilized Talent</strong>. You miss the root cause because you didn’t ask the only person who sees it happen.</li>
+<li><strong>The Gold:</strong> They know exactly which jig is sticky, which tool is too heavy, and which sensor glitches every day at 2:00 PM.</li>
+<li><strong>The Loss:</strong> If you ignore them because they are relatively lower educated and you feel hard to communicate with them with your master mind, you have committed the 8th Waste: Non-Utilized Talent. You miss the root cause, or go into a detour to find the root cause because you didn’t ask the only person who sees it happen frequently.</li>
 </ul>
-<h3 id="2-the-danger-of-malicious-compliance">2. The Danger of “Malicious Compliance”</h3>
-<p>If an operator feels disrespected, they disconnect. They stop caring.</p><ul>
+<h3 id="2-the-danger-of-malicious-compliance">2. The Danger of Malicious Compliance</h3>
+<p>If an operator feels disrespected, they will completely unsubscribe themselves from the corporate dramas. They stop caring at all.</p><ul>
 <li><strong>Scenario:</strong> A machine is drifting slightly out of spec, or creating a new characteristic that they do not seem before.</li>
-<li><strong>The Respected Operator:</strong> Stops the line, calls you, and prevents a defect.</li>
-<li><strong>The Disrespected Operator:</strong> Says, “Not my problem. The boss didn’t ask me.” They let 500 bad parts pass through.</li>
+<li><strong>The Respected Operator:</strong> Stops the line, notifies the QC team, calls you, and prevents a defect.</li>
+<li><strong>The Disrespected Operator:</strong> Says, “Not my problem. The boss didn’t ask me. Or just fire me. I don’t care.” They let 500 bad parts pass through.</li>
 </ul>
-<p>Later, when you face a customer complaint, you will wonder why your controls failed. They failed because the human element bypassed them. <strong>You cannot engineer a safeguard against apathy.</strong></p><h3 id="3-the-new-hire-tax-efficiency-loss">3. The “New Hire Tax” (Efficiency Loss)</h3>
-<p>Lean relies on stability. High turnover is the enemy of stability.<br>When an operator quits because the work environment is toxic, you pay a heavy tax.</p><p><strong>The Learning Curve Math:</strong></p><ul>
-<li><strong>Day 1:</strong> A new hire usually runs at <strong>2.0x Cycle Time</strong> (50% efficiency).</li>
-<li><strong>Day 2-3:</strong> They improve to <strong>1.8x Cycle Time</strong>.</li>
-<li><strong>Week 2:</strong> They might finally hit Standard Rate.</li>
+<p>Later, when you face a customer complaint, you will wonder why your controls failed. They failed because the human element bypassed them and you cannot engineer a safeguard against apathy.</p><h3 id="3-the-new-hire-tax">3. The New Hire Tax</h3>
+<p>Lean relies on stability. High turnover is an enemy of stability, no matter how well your process has developed to be, as long as humans are invovled.<br>When an operator quits because the work environment is toxic, you will pay a heavy tax.</p><p><strong>The Learning Curve Math:</strong></p><ul>
+<li><strong>Day 1:</strong> A new hire usually runs at 2.0x cycle time (50% efficiency).</li>
+<li><strong>Day 2-3:</strong> They improve to 1.8x cycle time or 1.5x cycle time.</li>
+<li><strong>Week 2:</strong> They might finally hit standard rate.</li>
 </ul>
-<p>If you have high turnover, your line is permanently running at 80% efficiency because you are always training someone new.</p><h3 id="4-the-method-how-to-bridge-the-gap">4. The Method: How to bridge the gap</h3>
-<p>You are the Engineer. It is your job to build the bridge.</p><ul>
-<li><strong>Ask “What,” not “Why”:</strong> Don’t ask “Why are you doing it that way?” (It sounds accusatory). Ask “What makes this step hard to do?”</li>
-<li><strong>Fix the Pebble in the Shoe:</strong> If they complain about a flickering light, a sharp edge on a bin, or a missing mat—fix it immediately.</li>
-<li><strong>The Result:</strong> When you fix the small things that annoy them, they will trust you with the big things that worry you.</li>
+<p>If you have high turnover, your line is permanently running at ~80% efficiency simply because you are always spending time on training someone new and waiting them to grow.</p><h3 id="4-the-method-how-to-bridge-the-gap">4. The Method: How to bridge the gap</h3>
+<p>You are the Engineer. It is your job to bridge the gap.</p><ul>
+<li><strong>Ask “What,” not “Why”:</strong> Don’t ask “Why are you doing it that way?” It might sound accusatory. Ask this instead “What makes this documented step hard to do?”</li>
+<li><strong>Fix the Pebble in the Shoe:</strong> If they complain about a flickering light, a sharp edge on a bin, or a missing mat—fix it, as long as their demands are reasonable, even though they sound less impactful.</li>
+<li><strong>The Result:</strong> When you fix the small things that annoy them, they will feel being respected and trust you with the big things that worry you.</li>
 </ul>
 <h3 id="the-takeaway">The Takeaway</h3>
-<p>You can have the best Control Plan in the world, but if the person pushing the button wants you to fail, you will fail.<br><strong>Treat operators like the Subject Matter Experts they are.</strong></p>
+<p>You can have the best control plan in the world, but if the person pushing the button wants you to fail, you will fail. Treat operators like the subject matter experts, as they are.</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>The $1,000 Per Minute Nightmare: Line Stoppages &amp; The Air Freight Trap</title>
+        <title>A $1,000 Per Minute Nightmare: Line Stoppages &amp; The Air Freight</title>
         <author>
             <name>Tim Y</name>
         </author>
@@ -533,35 +522,38 @@ You cannot calculate a real DPPM from 5 parts.</p><ul>
         <updated>2025-09-09T05:37:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Crisis Management &amp; Supply Chain Strategy The Scenario: A quality defect is found. All inventory at the customer and your warehouse is&hellip;
+                    Topic: Quality Crisis Management The Scenario: A quality defect is found. All inventory at the customer and your warehouse is quarantined. You now&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><strong>Topic:</strong> Crisis Management &amp; Supply Chain Strategy<br>
-<strong>The Scenario:</strong> A quality defect is found. All inventory at the customer and your warehouse is quarantined (useless). You are at Zero.</p><h3 id="part-1-the-cost-of-silence">Part 1: The Cost of Silence</h3>
-<p>In the automotive industry, a “Line Down” situation is the ultimate failure.<br>Production lines are continuous. If one station stops, the whole factory stops.</p><ul>
+                <p><strong>Topic:</strong> Quality Crisis Management<br>
+<strong>The Scenario:</strong> A quality defect is found. All inventory at the customer and your warehouse is quarantined. You now have zero inventory, whether at home, or at the customer’s site.</p><h3 id="part-1-the-cost-of-silence">Part 1: The Cost of Silence</h3>
+<p>In the automotive industry, a line stoppage means the ultimate failure. 
+Production lines are so continuous that if one station stops, the whole factory stops. There is basically no re-routing or sub-routing in production flow management to bypass an issue and give you some space to breathe.</p><ul>
 <li><strong>The Fine:</strong> Penalties often range from <strong>\$1,000 to \$10,000 per minute</strong>.</li>
-<li><strong>The Logistics:</strong> Even if you have the part in your hand at the gate, it might take 20 minutes just to walk through a massive plant (like Tesla or Daimler-Benz) to reach the line. That walk alone costs $20,000+ in fines.</li>
+<li><strong>The Logistics:</strong> Even if you have the part in your hand at the customer’s plant gate, it might take 20+ minutes just to walk through a massive plant, like Tesla or Daimler-Benz, to reach the line. And that walk alone already costs $20,000+ in fines.</li>
 </ul>
-<h3 id="part-2-the-math-of-the-death-spiral">Part 2: The Math of the “Death Spiral”</h3>
-<p>When inventory hits zero, most new engineers think: “I just need to rush parts there today.”<br>Wrong. You are facing a <strong>Pipeline Problem</strong>.</p><p><strong>The Example:</strong></p><ul>
+<h3 id="part-2-a-death-spiral-math">Part 2: A Death Spiral Math</h3>
+<p>When inventory hits zero completely, most new engineers think: “I just need to rush parts there today.” However. You are also facing a pipeline problem, especially if the supplier and customer are in different countries, or even different continents.</p><p><strong>Example:</strong></p><ul>
 <li><strong>Customer Demand:</strong> 10 parts/day.</li>
 <li><strong>Your Max Capacity:</strong> 12 parts/day.</li>
-<li><strong>Transit Time (Ocean):</strong> 30 days.</li>
+<li><strong>Transit Time (Marine Shipping, the Good Old Way):</strong> 30 days.</li>
 </ul>
-<p>If you produce 12 parts today, you must Air Freight them immediately to keep the line running tomorrow.<br><strong>But you can’t stop there.</strong><br>Because the cheaper option (Ocean Freight) takes 30 days, you must Air Freight your daily production <strong>every single day for 30 days</strong> until the first boat shipment arrives.</p><p><strong>The Result:</strong> You are paying premium freight for a whole month. This usually costs more than <strong>50% of the total failure cost</strong>. It wipes out the profit margin for the entire year.</p><h3 id="part-3-the-solution-postponement-localization--tooling">Part 3: The Solution (Postponement, Localization &amp; Tooling)</h3>
-<p>How do we prevent this without spending a fortune?<br>We cannot always move the whole factory from a low-cost country (like China or Vietnam) to the US. Labor is too expensive.</p><p>The answer is <strong>Strategic Postponement</strong> (or Near-shoring).</p><p><strong>1. The “Final Assembly” Node</strong><br>Keep the complex, labor-intensive fabrication in the low-cost country.<br>Move the final, simple steps (packaging, labeling, light assembly) to a location near the customer (e.g., a US subsidiary or a Mexico border facility).</p><ul>
-<li><strong>Routine:</strong> Ship semi-finished parts via cheap Ocean Freight to the local node.</li>
-<li><strong>Crisis:</strong> If a defect is found, your inventory is already local. You can purge, rework, or finish new parts in <strong>hours</strong>, not weeks.</li>
+<p>If you max out your own production capability and produce 12 parts today, you must air freight them by DHL or UPS immediately to keep the line running tomorrow.<br>And you can’t stop there.<br>Because the cheaper option–marine shipping takes 30 days, you must air freight your daily production <strong>every single day for 30 days</strong> until the first boat arrives, or you have to find a way to build up inventories at customer’s site by air shipping extra products .</p><p><strong>The Result:</strong> You are paying premium freight for a whole month. This can easily cost more than 50% of the total failure cost especially products are transitioning from the South &amp; East Asia manufacturing hubs to America and Mexico. It can wipe out the profit margin of the product for an entire year.</p><h3 id="part-3-possible-solutions">Part 3: Possible Solutions</h3>
+<p>We cannot always move the whole factory from a low-cost country, like China or Vietnam to the US or right in the customer’s country. Some business models would not work in some other countries, and it is a multifactorial problem.</p><p>But there still are some ways to mitigate the risk.</p><p><strong>1. The Final Assembly Node</strong><br>Keep the complex, and yet labor-intensive fabrication in the low-cost country.<br>Move the final, simple steps, like packaging, labeling, light assembly to a location near the customer, e.g., a US subsidiary or a Mexico border facility by setting up subsidiary companies.</p><ul>
+<li><strong>Routine:</strong> Ship semi-finished parts via cheap ocean freight to the local node.</li>
+<li><strong>Crisis:</strong> If a defect is found, your inventory is already local. You can purge, rework, or finish new parts in hours, not weeks.</li>
 </ul>
-<p><strong>2. The Forward Stocking Location (3PL)</strong><br>If you can’t build a factory, rent a warehouse.<br>Use a Third-Party Logistics (3PL) provider near the customer to hold 2 weeks of “Safety Stock.”</p><ul>
+<p><strong>2. The Forward Stocking Location (3PL)</strong><br>If you can’t build another factory, rent a warehouse.<br>Use a third-party logistics provider near the customer to hold a few weeks of safety stock.</p><ul>
 <li><strong>Lean Counter-point:</strong> Yes, Lean says inventory is waste.</li>
-<li><strong>Business Reality:</strong> Paying for 2 weeks of storage is “Waste.” But paying for 4 weeks of Air Freight is “Disaster.” Pick the cheaper waste.</li>
+<li><strong>Business Reality:</strong> Paying for 2 weeks of storage is a non-value-added acitivity But paying for 4 weeks of air freight is disastrous. You should balance the cost and risk by your own calculation.</li>
 </ul>
-<p> <strong>3. Redundant Tooling (The Backup Plan)</strong>
- If you cannot move assembly, you must have <strong>Redundant Tooling</strong>.<br>Don’t keep all your molds/dies in one factory. If a mold breaks or a quality issue is tied to a specific machine, you need a backup set of tooling ready to run at a different location immediately.</p><h3 id="the-takeaway">The Takeaway</h3>
-<p>Supply Chain optimization isn’t just about the “lowest piece price.”<br>It is about <strong>Recovery Speed</strong>.<br>If your factory is 30 days away from your customer, you are one quality spill away from bankruptcy. <strong>Shorten the distance.</strong></p>
+<p> <strong>3. Redundant Tooling</strong>
+If you cannot move assembly, you must have redundant toolings.
+Don’t keep all your molds and dies in one factory. If a mold breaks or a quality issue is tied to a specific machine, you need a backup set of tooling ready to run at a different location immediately.</p><h3 id="the-takeaway">The Takeaway</h3>
+<p>Supply chain optimization isn’t just about the lowest piece price.
+It is about recovery speed, or, in another term, resillience.<br>If your factory is 30 days away from your customer, you are one quality spill away from erasing product’s profit margin. </p>
             ]]>
         </content>
     </entry>
