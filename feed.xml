@@ -3,7 +3,7 @@
     <title>MY, MY!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-06-01T04:17:08-04:00</updated>
+    <updated>2026-06-02T07:06:22-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -164,7 +164,7 @@ Get the sequence right, balance the math as best as you can, and put everything 
         </content>
     </entry>
     <entry>
-        <title>The Gray Zone: How to Make a Concession Like a Pro</title>
+        <title>How to Make a Concession Like a Pro</title>
         <author>
             <name>Tim Y</name>
         </author>
@@ -393,8 +393,8 @@ Engineering decisions are financial decisions.</p><ul>
                 <p><strong>Topic:</strong> Process Capability &amp; Risk Assessment<br>
 <strong>The Academic View:</strong> Calculate $C_{pk}$. If the result is $&gt;1.33$, the process is capable.<br>
 <strong>The Reality:</strong> Your big boss and the finance team do not care about the number “1.33.” It has nothing to do with their knowledge and dues. They care about risk and scrap costs.</p><p>You need to stop reporting just the index number and start translating it into DPPM (Defects Per Million).</p><h3 id="why-convert">Why Convert?</h3>
-<p>In a boardroom, nobody asks beside quality and project teams, “What is the standard deviation within the subgroup?”
-They ask: <em>“How many bad parts are we going to ship?”</em></p><p>According to the American Society for Quality and standard six sigma textbooks, there is a direct mathematical link between process capability ($C_{pk}$) and the probability of a defect.</p><ul>
+<p>In a boardroom, no one asks beside quality and project teams, “What is the standard deviation within the subgroup?”
+They ask: <em>“How many bad parts are probably there?”</em></p><p>According to the American Society for Quality and standard six sigma textbooks, there is a direct mathematical link between process capability ($C_{pk}$) and the probability of a defect.</p><ul>
 <li><strong>$C_{pk}$</strong> = How well your process fits inside the goal specification limits.</li>
 <li><strong>Sigma Level</strong> = The statistical robustness of the process.</li>
 <li><strong>DPPM</strong> = The predicted number of failures per million parts produced.</li>
@@ -445,19 +445,8 @@ They ask: <em>“How many bad parts are we going to ship?”</em></p><p>Accordin
 </span>
 
 <h3 id="how-to-use-this-in-a-meeting">How to Use This in a Meeting</h3>
-<p>Don’t just say: <em>“Our Cpk is 1.0.”</em>
-Say: <em>“Our Cpk is 1.0. This predicts we will produce <strong>2,700 defects per million parts</strong>. At our current volume, that is <strong>X</strong> bad parts per week. We need to improve the process to 1.33 to reduce that risk.”</em></p><h3 id="a-warning-on-sample-size">A Warning on Sample Size</h3>
-<p><strong>Garbage In, Garbage Out.</strong>
-You cannot calculate a real DPPM from 5 parts.</p><ul>
-<li><strong>Academic Math:</strong> You can calculate standard deviation with $n=2$.</li>
-<li><strong>Business Reality:</strong> To trust the DPPM prediction, you need a significant sample size, usually 30 to 50 parts minimum. And new sampling will always be an on-going activity</li>
-</ul>
-<p>If you calculate a $C_{pk}$ of 1.67 based on 5 parts, nobody trusts you. The sample is too small to predict the long-term behavior of the process.</p><h3 id="the-takeaway">The Takeaway</h3>
-<p>$C_{pk}$ is not just a badge of honor for the PPAP file. It is a financial prediction.</p><ul>
-<li>Low $C_{pk}$ = High Defects = High Cost.</li>
-<li>High $C_{pk}$ = Low Defects = Low Cost.</li>
-</ul>
-<p>Learn to speak the language of defects, and management will listen to your engineering proposals.</p>
+<p>Don’t just say: <em>“Our Cpk is 1.0.”</em></p><p>Say: <em>“Our Cpk is 1.0. This predicts we will produce <strong>2,700 defects per million parts</strong>. At our current volume, that is <strong>X</strong> bad parts per week. We need to improve the process to 1.33 to reduce that risk.”</em></p><h3 id="the-takeaway">The Takeaway</h3>
+<p>$C_{pk}$ is not just a badge of honor for the PPAP file. It is also a financial prediction.</p><p>Learn to speak the language of defects, and management will listen to your engineering proposals.</p>
             ]]>
         </content>
     </entry>
