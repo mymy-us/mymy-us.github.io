@@ -3301,25 +3301,59 @@ table td { border: 1px solid #ddd !important; }
     top: 30px !important;  
     left: 0 !important;   
     right: auto !important;
-    width: 65px !important; 
-    height: 65px !important;
+    width: 75px !important;  /* INCREASED FROM 65px */
+    height: 75px !important; /* INCREASED FROM 65px */
     background-color: #121212 !important; 
     color: #ffffff !important; 
     border-radius: 0 4px 4px 0 !important; 
     z-index: 10005 !important;
     padding: 0 !important;
     font-family: 'Oswald', sans-serif !important;
-    font-size: 0.75rem !important; 
+    font-size: 0.85rem !important; /* INCREASED FROM 0.75rem */
     letter-spacing: 1px !important;
     text-decoration: none !important;
     border: none !important;
     cursor: pointer !important;
     pointer-events: auto !important;
 }
-#navPanelToggle:before { content: "\f0c9" !important; margin: 0 0 4px 0 !important; font-size: 1.4rem !important; }
+#navPanelToggle:before { content: "\f0c9" !important; margin: 0 0 4px 0 !important; font-size: 1.6rem !important; /* INCREASED FROM 1.4rem */ }
 #navPanelToggle.alt { box-shadow: 2px 2px 10px rgba(0,0,0,0.5) !important; background-color: #121212 !important; }
+
 /* Force hide the hamburger icon when the menu pops out */
 body.is-navPanel-visible a#navPanelToggle { 
+    display: none !important; 
+}
+
+/* =========================================
+   FIXED SIDE LOGO (Below Menu Button)
+   ========================================= */
+#fixed-side-logo {
+    position: fixed !important;
+    top: 130px !important; /* 30px (menu top) + 75px (menu height) + 25px (larger gap) */
+    left: 0 !important;
+    width: 75px !important;  
+    height: 75px !important; 
+    z-index: 10005 !important;
+    display: block !important;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5) !important;
+    border-radius: 0 4px 4px 0 !important; 
+    transition: transform 0.2s ease !important;
+    
+    /* THE CORRECT WAY TO IMPORT THE IMAGE */
+    /* Since main.css is in assets/css/, we go up two folders, then into media/files/ */
+    background-image: url('../../media/files/m_icon.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #121212 !important;
+}
+
+#fixed-side-logo:hover {
+    transform: scale(1.05) !important; /* Slight zoom when hovered */
+}
+
+/* Hide logo when the slide-out menu is open */
+body.is-navPanel-visible #fixed-side-logo { 
     display: none !important; 
 }
 
