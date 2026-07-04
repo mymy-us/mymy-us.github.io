@@ -3301,8 +3301,8 @@ table td { border: 1px solid #ddd !important; }
     top: 30px !important;  
     left: 0 !important;   
     right: auto !important;
-    width: 75px !important;  /* INCREASED FROM 65px */
-    height: 75px !important; /* INCREASED FROM 65px */
+    width: 65px !important;  /* INCREASED FROM 65px */
+    height: 65px !important; /* INCREASED FROM 65px */
     background-color: #121212 !important; 
     color: #ffffff !important; 
     border-radius: 0 4px 4px 0 !important; 
@@ -3331,8 +3331,8 @@ body.is-navPanel-visible a#navPanelToggle {
     position: fixed !important;
     top: 130px !important; /* 30px (menu top) + 75px (menu height) + 25px (larger gap) */
     left: 0 !important;
-    width: 75px !important;  
-    height: 75px !important; 
+    width: 65px !important;  
+    height: 65px !important; 
     z-index: 10005 !important;
     display: block !important;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5) !important;
@@ -3800,4 +3800,162 @@ time.date {
     color: #888 !important;
     display: block;
     margin-bottom: 1rem;
+}
+
+/* --- LOCAL APTOS FONTS --- */
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../webfonts/custom/Aptos-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Aptos';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../webfonts/custom/Aptos-ExtraBold-Italic.woff2') format('woff2');
+}
+
+/* Change Lower Menu Font to Aptos & Make it Slightly Bigger */
+#nav ul.links a, 
+#nav ul.links span.is-separator {
+    font-family: 'Aptos', sans-serif !important;
+    font-weight: 700 !important; /* Keeps it bold and highly readable */
+    font-size: 0.95rem !important; /* INCREASED FROM 0.8rem */
+}
+
+
+/* =========================================
+   DYNAMIC SIDEBAR REDESIGN (CORRECTED)
+   ========================================= */
+
+/* 1. Make the Menu Button slide with the sidebar, transition smoothly, and FORCE visibility */
+#navPanelToggle {
+    transition: transform 0.5s ease, background-color 0.2s ease, color 0.2s ease !important;
+}
+
+/* Force the button to stay visible when open, and translate right by 20rem */
+body.is-navPanel-visible #navPanelToggle,
+body.is-navPanel-visible a#navPanelToggle {
+    display: flex !important; /* Defeats the hidden menu rule */
+    transform: translateX(20rem) !important;
+    background-color: #1a1a1a !important; /* Matches sidebar */
+}
+
+/* Morph the hamburger icon into a Close "X" */
+body.is-navPanel-visible #navPanelToggle:before {
+    content: "\f00d" !important; /* FontAwesome 'X' close icon */
+}
+
+/* Hide the duplicate default close button inside the sidebar */
+#navPanel .close {
+    display: none !important;
+}
+
+/* 2. Move the whole sidebar content up */
+body #navPanel {
+    padding-top: 1.5rem !important; /* Removes the massive default 5rem top padding */
+}
+
+/* 3. Force all Sidebar elements to Aptos (Kills remaining Oswald) */
+body #navPanel, 
+body #navPanel * {
+    font-family: 'Aptos', sans-serif !important;
+}
+
+/* 4. Keep only the Quote in Merriweather */
+body #navPanel .menu-quote, 
+body #navPanel .menu-quote * {
+    font-family: 'Merriweather', serif !important;
+}
+
+.menu-quote {
+    padding: 0.2rem 0.2rem !important;
+    text-align: center !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.menu-quote .quote-text {
+    font-style: italic !important;
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    color: #dddddd !important;
+    margin-bottom: 0.8rem !important;
+}
+.menu-quote .quote-author {
+    font-size: 0.7rem !important;
+    font-family: 'Merriweather', serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    color: #888888 !important;
+    margin: 0 !important;
+    text-align: right !important; /* RIGHT-ALIGNED */
+    padding-right: 0.5rem !important; /* Tiny bit of padding so it doesn't touch the very edge */
+}
+
+/* 5. Style the Sidebar Main Logo & Load Image via CSS (Fixes broken paths) */
+.menu-logo {
+    padding: 0.2rem 0.2rem !important;
+    text-align: center !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.menu-logo-link {
+    display: block !important;
+    width: 100% !important;
+    height: 90px !important;
+    background-image: url('../../media/files/m_main_icon.png') !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* 6. Force Sidebar Links to Aptos ExtraBold & Center Align */
+#navPanel ul.links a {
+    font-weight: 800 !important; /* Aptos ExtraBold */
+    font-size: 0.9rem !important;
+    text-align: center !important;
+    padding: 1rem 0 !important;
+}
+
+
+/* =========================================
+   TYPOGRAPHY LOCKS (OSWALD VS. APTOS)
+   ========================================= */
+
+/* 1. Ensure all standard headings (H2, H3, etc.) stay OSWALD */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 600 !important;      
+    text-transform: none !important; 
+    letter-spacing: 0px !important;  
+}
+
+/* 2. Force ALL Buttons, Main Menus, and Sidebar Elements to APTOS */
+.button,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+#navPanelToggle,
+#nav ul.links a, 
+#nav ul.links span.is-separator,
+body #navPanel, 
+body #navPanel * {
+    font-family: 'Aptos', sans-serif !important;
+}
+
+/* 3. Except the Sidebar Quote, which stays MERRIWEATHER */
+body #navPanel .menu-quote, 
+body #navPanel .menu-quote * {
+    font-family: 'Merriweather', serif !important;
+}
+
+/* WIN SPECIFICITY WAR: Force Aptos and compact layout on sidebar links */
+body #navPanel ul.links > li > a,
+body #navPanel ul.links > li > span {
+    font-family: 'Aptos', sans-serif !important;
+    font-weight: 800 !important;       /* Aptos ExtraBold */
+    font-size: 0.95rem !important;   
+    text-align: left !important;     /* Centered */
+    padding: 1rem 0 !important;        /* Compact spacing */
 }
