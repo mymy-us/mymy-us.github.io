@@ -2058,7 +2058,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem !important;
   position: relative;
 }
 .post__tag {
@@ -2084,7 +2084,7 @@ img {
   font-family: var(--heading-font);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.5rem;
   /* text-transform: uppercase; */
 }
 @media screen and (min-width: 1681px) {
@@ -3747,19 +3747,18 @@ body #main > .posts > article.no-bg-image .card-content .card-meta strong {
    FIX FOR TAGS AND UI ELEMENTS
    ========================================= */
 
-/* NEW: Push the entire tags section down away from the article body */
 .post__tag {
-    margin-top: 3.5rem !important; 
+    margin-top: 1rem !important; 
 }
 
 /* 1. Style the "Tags:" label */
 .post__tag h3 {
     font-family: 'Oswald', sans-serif !important;
     text-transform: none !important; 
-    font-size: 1.4rem !important; /* INCREASED: Was 1.1rem */
+    font-size: 1.1rem !important;
     font-weight: 600 !important; /* ADDED: Makes it slightly bolder to stand out */
     letter-spacing: 0px !important; 
-    margin-bottom: 0.8rem !important; /* ADDED: Slightly more space below the word "Tags:" */
+    margin-bottom: 0.4rem !important; /* ADDED: Slightly more space below the word "Tags:" */
     color: #444 !important; /* ADDED: Made it slightly darker so it pops more against the body text */
 }
 
@@ -3769,7 +3768,7 @@ body #main > .posts > article.no-bg-image .card-content .card-meta strong {
     padding: 0 !important;
     display: flex !important;
     flex-wrap: wrap !important;
-    gap: 12px !important;
+    gap: 8px !important;
 }
 
 /* 3. Style the individual tag links in Oswald */
@@ -3988,4 +3987,47 @@ body #navPanel ul.links > li > span {
     #intro p span {
         font-size: 0.95rem !important; 
     }
+}
+
+/* =========================================
+   TALLY DISCUSSION BOX STYLING
+   ========================================= */
+.private-discuss-box {
+    /* margin-top: 1rem !important; */
+    padding: 1rem !important;
+    background-color: #fcfcfc !important;
+    border: 1px solid #eeeeee !important;
+    border-radius: 8px !important;
+}
+.private-discuss-box h3 {
+    font-family: 'Aptos', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 1.8rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.private-discuss-box p {
+    font-family: 'Merriweather', serif !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    color: #555555 !important;
+    margin-bottom: 1rem !important;
+}
+.private-discuss-box iframe {
+    background-color: #fcfcfc !important;
+    border: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .private-discuss-box {
+        padding: 1rem 0.5rem !important;
+    }
+}
+
+
+/* =========================================
+   COMPACT TAG BUTTONS (OPTIONAL OVERRIDE)
+   ========================================= */
+body .post__tag ul li a {
+    font-size: 0.8rem !important;       /* Shrunk from 0.95rem */
+    padding: 0.15rem 0.65rem !important; /* Tighter padding around the text */
 }

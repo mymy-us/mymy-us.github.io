@@ -20,7 +20,7 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Thinking",
+                   "Lean Thinking",
                    "Industrial Engineering"
             ],
             "date_published": "2025-10-23T10:55:00-04:00",
@@ -29,19 +29,19 @@
         {
             "id": "https://mymy-us.github.io/the-5-whys-trap-why-human-error-is-a-terrible-root-cause.html",
             "url": "https://mymy-us.github.io/the-5-whys-trap-why-human-error-is-a-terrible-root-cause.html",
-            "title": "The 5 Whys Trap: Why &quot;Human Error&quot; is a Terrible Root Cause",
+            "title": "How to Ask 5WHYs Correctly",
             "summary": "Topic: Root Cause Analysis &amp; The 5 Whys The Academic View: To find a root cause, sit down and ask yourself “Why?” five&hellip;",
             "content_html": "<p><strong>Topic:</strong> Root Cause Analysis &amp; The 5 Whys<br>\n<strong>The Academic View:</strong> To find a root cause, sit down and ask yourself “Why?” five times until you reach the core problem.<br>\n<strong>The Reality:</strong> If you ask the wrong “Why,” the direction will deviate and you will probably end up blaming human error or bad management. You cannot engineer a fix for either of those.</p><p>The biggest mistake novices make with the 5 Whys is focusing on the <em>answer</em>. But the real challenge is actually knowing how to ask a better <em>question</em>.</p><h3 id=\"a-novices-5-whys\">A Novice’s 5 Whys</h3>\n<p>Let’s look at a classic example of a bad 5 Whys analysis:</p><ul>\n<li><strong>Problem:</strong> The car broke down on the highway.</li>\n<li><strong>Why 1: Why the car broke on the middle of a road?</strong>—Because the engine failed.</li>\n<li><strong>Why 2: Why the engine failed?</strong>—Because the engine oil went bad.</li>\n<li><strong>Why 3: Why the engine oil went bad?</strong>—Because I didn’t change the oil in time.</li>\n<li><strong>Why 4: Why did you forget to get an oil change?</strong>—Because I forgot to check the mileage.</li>\n<li><strong>Why 5: Why did you forget to check the mileage?</strong>—Because of poor personal planning (management/human error).</li>\n</ul>\n<p><strong>The Result:</strong> The corrective action is “Try harder to remember me next time” or “Retrain the driver.” </p><p><strong>In the manufacturing world, all engineers share the view that manual work is always unreliable and prone to errors; so, this is pretty much a useless fix.</strong> If you submit a report like this to a customer that says “Operator forgot,” they will reject it and note you as incompetent. If your root cause relies on a human “trying harder,” the defect <em>will</em>  definitely happen again, no matter how hard he/she tries.</p><h3 id=\"how-to-ask-better-questions\">How to Ask Better Questions</h3>\n<p>To do a high-quality 5 Whys analysis, you need to change how and where you ask the questions:</p><p><strong>Rule 1: Ban the words “Forgot,” “Careless,” and “Management.”</strong>\nIf an operator forgot a step, do not ask <em>“Why did they forget?”</em> That always leads to psychology and objection. Instead, ask: <em>“Why did the production system allow the following process to continue even after a step was completely missed?”</em> And that leads to engineering.</p><p><strong>Rule 2: Focus on Physics and Process, not Psychology.</strong>\nAlways direct the questions back to the physical mechanics of the workstation, the wear on the tooling, or the rigid logic of the system. </p><p><strong>Rule 3: Split the Problem in Views of Occurrence vs. Escape</strong>\nYou can run two separate tracks of Whys:</p><ol>\n<li><em>Occurrence:</em> Why did the machine make the bad part?</li>\n<li><em>Escape:</em> Why did our inspection fail to catch it before it shipped?</li>\n</ol>\n<p><strong>Rule 4: Never do it at your desk.</strong>\nYou cannot ask “Why?” to a white board. You must go to the gemba—the factory floor. Look at the broken part, watch the machine cycle, and ask the operator. If you keep guessing the answers in a conference room and are too busy or too introvert to walk on the field, you will fix the wrong problem.</p><h3 id=\"the-professional-5-whys\">The Professional 5 Whys</h3>\n<p>Let’s re-do the car example using the mindset. </p><ul>\n<li><strong>Problem:</strong> The car broke down from engine failure.</li>\n<li><strong>Why 1: Why the car broke in the middle of a road?</strong>—The oil lost its viscosity and failed to lubricate the cylinders. <em>(Physics)</em></li>\n<li><strong>Why 2: Why the oil lost its viscosity?</strong>—The oil remained in the car 5,000 miles past its operational limit. <em>(Process)</em></li>\n<li><strong>Why 3: Why the car could still drive after passing the mile limit by so much?</strong>—The driver was not notified that the limit was reached. <em>(System)</em></li>\n<li><strong>Why 4: Why there was no notification?</strong>—The car does not have a sensor to track mileage and alert the user automatically. <em>(Design)</em></li>\n</ul>\n<p><strong>The Result:</strong> The corrective action is to install a maintenance light on the dashboard that triggers to alert the driver. </p><h3 id=\"the-takeaway\">The Takeaway</h3>\n<p>If your 5 Whys end with management problem or operator error, you have stopped too early. People are flawed. They will always forget, get tired, and make mistakes. So don’t blame people, focus on process and physics.</p>",
             "author": {
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Thinking",
                    "Quality Engineering",
+                   "Lean Thinking",
                    "Industrial Engineering"
             ],
             "date_published": "2025-10-22T10:29:00-04:00",
-            "date_modified": "2026-06-02T23:01:43-04:00"
+            "date_modified": "2026-07-04T09:52:17-04:00"
         },
         {
             "id": "https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html",
@@ -53,7 +53,7 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Thinking",
+                   "Lean Thinking",
                    "Industrial Engineering"
             ],
             "date_published": "2025-09-25T03:39:00-04:00",
@@ -69,8 +69,8 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Toolkit",
-                   "Quality Engineering"
+                   "Quality Engineering",
+                   "Lean Toolkit"
             ],
             "date_published": "2025-09-24T03:21:00-04:00",
             "date_modified": "2026-06-02T22:47:02-04:00"
@@ -85,7 +85,7 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Toolkit",
+                   "Lean Toolkit",
                    "Industrial Engineering"
             ],
             "date_published": "2025-09-16T11:49:00-04:00",
@@ -102,7 +102,7 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Thinking"
+                   "Lean Thinking"
             ],
             "date_published": "2025-09-13T10:22:00-04:00",
             "date_modified": "2026-06-02T22:34:12-04:00"
@@ -117,8 +117,8 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Thinking",
-                   "Supply Chain Optimization"
+                   "Supply Chain Optimization",
+                   "Lean Thinking"
             ],
             "date_published": "2025-09-12T06:20:00-04:00",
             "date_modified": "2026-06-02T22:28:27-04:00"
@@ -133,9 +133,9 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Toolkit",
-                   "The Lean Thinking",
-                   "Quality Engineering"
+                   "Quality Engineering",
+                   "Lean Toolkit",
+                   "Lean Thinking"
             ],
             "date_published": "2025-09-10T06:02:00-04:00",
             "date_modified": "2026-06-02T22:18:28-04:00"
@@ -150,7 +150,7 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Thinking"
+                   "Lean Thinking"
             ],
             "date_published": "2025-09-09T05:50:00-04:00",
             "date_modified": "2026-06-02T22:15:00-04:00"
@@ -165,8 +165,8 @@
                 "name": "Tim Y"
             },
             "tags": [
-                   "The Lean Toolkit",
-                   "Supply Chain Optimization"
+                   "Supply Chain Optimization",
+                   "Lean Toolkit"
             ],
             "date_published": "2025-09-09T05:37:00-04:00",
             "date_modified": "2026-06-02T08:12:54-04:00"

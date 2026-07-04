@@ -3,7 +3,7 @@
     <title>¡My, My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-06-02T23:07:45-04:00</updated>
+    <updated>2026-07-04T09:52:17-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
@@ -16,7 +16,7 @@
         </author>
         <link href="https://mymy-us.github.io/surviving-the-robot-how-to-apply-lean-to-automated-lines.html"/>
         <id>https://mymy-us.github.io/surviving-the-robot-how-to-apply-lean-to-automated-lines.html</id>
-            <category term="The Lean Thinking"/>
+            <category term="Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
         <updated>2025-10-23T10:55:00-04:00</updated>
@@ -57,14 +57,14 @@ As a junior engineer, you do not own the budget to schedule major planned mainte
         </content>
     </entry>
     <entry>
-        <title>The 5 Whys Trap: Why &quot;Human Error&quot; is a Terrible Root Cause</title>
+        <title>How to Ask 5WHYs Correctly</title>
         <author>
             <name>Tim Y</name>
         </author>
         <link href="https://mymy-us.github.io/the-5-whys-trap-why-human-error-is-a-terrible-root-cause.html"/>
         <id>https://mymy-us.github.io/the-5-whys-trap-why-human-error-is-a-terrible-root-cause.html</id>
-            <category term="The Lean Thinking"/>
             <category term="Quality Engineering"/>
+            <category term="Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
         <updated>2025-10-22T10:29:00-04:00</updated>
@@ -115,7 +115,7 @@ You cannot ask “Why?” to a white board. You must go to the gemba—the facto
         </author>
         <link href="https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html"/>
         <id>https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html</id>
-            <category term="The Lean Thinking"/>
+            <category term="Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
         <updated>2025-09-25T03:39:00-04:00</updated>
@@ -162,8 +162,8 @@ You cannot ask “Why?” to a white board. You must go to the gemba—the facto
         </author>
         <link href="https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html"/>
         <id>https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html</id>
-            <category term="The Lean Toolkit"/>
             <category term="Quality Engineering"/>
+            <category term="Lean Toolkit"/>
 
         <updated>2025-09-24T03:21:00-04:00</updated>
             <summary type="html">
@@ -214,7 +214,7 @@ If the client called you yesterday screaming about a quality issue, your new pas
         </author>
         <link href="https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html"/>
         <id>https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html</id>
-            <category term="The Lean Toolkit"/>
+            <category term="Lean Toolkit"/>
             <category term="Industrial Engineering"/>
 
         <updated>2025-09-16T11:49:00-04:00</updated>
@@ -267,7 +267,7 @@ You are hired to be an engineer, a detective! If you fix the root cause of an is
         <link href="https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html"/>
         <id>https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html</id>
         <media:content url="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" medium="image" />
-            <category term="The Lean Thinking"/>
+            <category term="Lean Thinking"/>
 
         <updated>2025-09-13T10:22:00-04:00</updated>
             <summary type="html">
@@ -311,8 +311,8 @@ Only after the process was 100% stable—as they had stored enough nuts—did th
         </author>
         <link href="https://mymy-us.github.io/amoeba-management-turning-employees-into-business-owners.html"/>
         <id>https://mymy-us.github.io/amoeba-management-turning-employees-into-business-owners.html</id>
-            <category term="The Lean Thinking"/>
             <category term="Supply Chain Optimization"/>
+            <category term="Lean Thinking"/>
 
         <updated>2025-09-12T06:20:00-04:00</updated>
             <summary type="html">
@@ -362,9 +362,9 @@ If your team finds a better way to run a machine, you might keep it secret to ma
         </author>
         <link href="https://mymy-us.github.io/translating-geek-speak-to-business-speak-from-cpk-to-dppm.html"/>
         <id>https://mymy-us.github.io/translating-geek-speak-to-business-speak-from-cpk-to-dppm.html</id>
-            <category term="The Lean Toolkit"/>
-            <category term="The Lean Thinking"/>
             <category term="Quality Engineering"/>
+            <category term="Lean Toolkit"/>
+            <category term="Lean Thinking"/>
 
         <updated>2025-09-10T06:02:00-04:00</updated>
             <summary type="html">
@@ -440,7 +440,7 @@ They ask: <em>“How many bad parts are probably there?”</em></p><p>According 
         </author>
         <link href="https://mymy-us.github.io/the-hidden-roi-why-operator-happiness-is-an-engineering-problem.html"/>
         <id>https://mymy-us.github.io/the-hidden-roi-why-operator-happiness-is-an-engineering-problem.html</id>
-            <category term="The Lean Thinking"/>
+            <category term="Lean Thinking"/>
 
         <updated>2025-09-09T05:50:00-04:00</updated>
             <summary type="html">
@@ -487,8 +487,8 @@ They ask: <em>“How many bad parts are probably there?”</em></p><p>According 
         </author>
         <link href="https://mymy-us.github.io/the-1000-per-minute-nightmare-line-stoppages-and-the-air-freight-trap.html"/>
         <id>https://mymy-us.github.io/the-1000-per-minute-nightmare-line-stoppages-and-the-air-freight-trap.html</id>
-            <category term="The Lean Toolkit"/>
             <category term="Supply Chain Optimization"/>
+            <category term="Lean Toolkit"/>
 
         <updated>2025-09-09T05:37:00-04:00</updated>
             <summary type="html">
