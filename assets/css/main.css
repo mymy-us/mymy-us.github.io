@@ -3959,3 +3959,33 @@ body #navPanel ul.links > li > span {
     text-align: left !important;     /* Centered */
     padding: 1rem 0 !important;        /* Compact spacing */
 }
+
+
+/* =========================================
+   RESPONSIVE INTRO OVERRIDES (MOBILE FIXES)
+   ========================================= */
+
+/* Desktop intro height */
+#intro {
+    padding-top: 24rem !important;
+}
+
+/* Mobile specific overrides */
+@media screen and (max-width: 768px) {
+    /* 1. Move mobile slogan up */
+    #intro {
+        padding-top: 9rem !important; 
+    }
+    
+    /* 2. Shrink mobile slogan slightly so it doesn't crowd the sides */
+    #intro h1 {
+        font-size: 3.8rem !important; 
+        letter-spacing: 2px !important;
+    }
+    
+    /* 3. Make the 2 lines of description text slightly smaller */
+    #intro p, 
+    #intro p span {
+        font-size: 0.95rem !important; 
+    }
+}
