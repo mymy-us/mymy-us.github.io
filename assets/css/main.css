@@ -1,4 +1,12 @@
-/* --- LOCAL OSWALD FONTS --- */
+/*
+ * Core styles for the Massive-Landing Publii theme.
+ *
+ * This file contains the Massively base styles, Publii content components,
+ * and site-specific layout overrides. Publii combines it with generated
+ * theme variables and minifies the result into style.css.
+ */
+
+/* Local fonts */
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
@@ -18,7 +26,6 @@
   src: url('../webfonts/custom/oswald-v57-latin-700.woff2') format('woff2');
 }
 
-/* --- LOCAL MERRIWEATHER FONTS --- */
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
@@ -45,26 +52,29 @@
 }
 @font-face {
   font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../webfonts/custom/merriweather-v33-latin-700.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Merriweather';
   font-style: italic;
   font-weight: 600;
   src: url('../webfonts/custom/merriweather-v33-latin-600italic.woff2') format('woff2');
 }
 
-
-/* Make sure root variables point to our newly named local fonts */
-:root {
-    --body-font: 'Merriweather', serif !important;
-    --heading-font: 'Oswald', sans-serif !important; 
+@font-face {
+  font-family: 'Aptos';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../webfonts/custom/Aptos-ExtraBold.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Aptos';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../webfonts/custom/Aptos-ExtraBold-Italic.woff2') format('woff2');
+}
+
 :root {
-    --body-font: 'Merriweather', serif !important;
-    --heading-font: 'Oswald', sans-serif !important; 
+  --body-font: 'Merriweather', serif !important;
+  --heading-font: 'Oswald', sans-serif !important;
+  --line-height: 1.6 !important;
+  --letter-spacing: 0 !important;
 }
 
 html, body, div, span, applet, object,
@@ -1345,9 +1355,46 @@ table.alt tbody tr td {
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 480px) {
-  .pagination .page, .pagination .extra {
+@media screen and (max-width: 600px) {
+  .pagination {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .pagination > a,
+  .pagination > span {
     display: none;
+  }
+
+  .pagination > .previous,
+  .pagination > .next,
+  .pagination > .active,
+  .pagination > a:not(.previous):not(.next):has(+ .active),
+  .pagination > .active + a:not(.previous):not(.next) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .pagination > .previous,
+  .pagination > .next {
+    font-size: 0;
+  }
+
+  .pagination > .previous:before,
+  .pagination > .next:before {
+    float: none;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1;
   }
 }
 
@@ -1387,8 +1434,6 @@ table.alt tbody tr td {
   width: 100%;
   height: 100%;
   background-color: #212931;
-  background-image: url("../../images/overlay.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../../images/bg.jpg");
-  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
   background-size: auto, auto, 100% auto;
   background-position: center, center, top center;
   background-repeat: repeat, no-repeat, no-repeat;
@@ -1618,56 +1663,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
   z-index: 2;
 }
-#header input, #header select, #header textarea {
-  color: #ffffff;
-}
-#header a {
-  color: #ffffff;
-  border-bottom-color: rgba(255, 255, 255, 0.5);
-}
-#header a:hover {
-  border-bottom-color: transparent;
-  color: var(--color) !important;
-}
-#header strong, #header b {
-  color: #ffffff;
-}
-#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-  color: #ffffff;
-}
-#header blockquote {
-  border-left-color: #ffffff;
-}
-#header code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: #ffffff;
-}
-#header hr {
-  border-bottom-color: #ffffff;
-}
-#header .logo {
-  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, visibility 0.5s, -webkit-transform 0.5s ease;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, visibility 0.5s, -webkit-transform 0.5s ease;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s, -webkit-transform 0.5s ease;
-  pointer-events: auto;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 5px !important;
-  font-family: var(--logo-font);
-  font-size: 2.25rem;
-  font-variation-settings: "wght" var(--headings-weight);
-  letter-spacing: 0.075em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  /* text-transform: uppercase; */
-  visibility: visible;
-}
-#header .logo:hover {
-  border-color: var(--color) !important;
-  color: var(--color) !important;
-}
 @media screen and (max-width: 980px) {
   #header {
     height: 14rem;
@@ -1677,10 +1672,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 736px) {
   #header {
     padding-bottom: 3rem;
-  }
-  #header .logo {
-    font-size: 1.75rem;
-    border-width: 3px !important;
   }
 }
 
@@ -2327,10 +2318,6 @@ img {
     max-width: calc(72rem - 8rem * 2 + 0.5rem);
   }
 }
-.gallery-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 @media screen and (min-width: 1281px) {
   .gallery-wrapper--full {
     display: flex;
@@ -2568,347 +2555,8 @@ hr::before,
   margin: 0 0 1rem;
 }
 
-/* Footer */
-#footer {
-  color: #717981;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: flex;
-  background-color: #f5f5f5;
-  color: #909498;
-  cursor: default;
-  position: relative;
-  margin: 0 auto;
-  width: calc(100% - 4rem);
-  max-width: 72rem;
-  z-index: 2;
-}
-#footer input, #footer select, #footer textarea {
-  color: #717981;
-}
-#footer a {
-  color: #717981;
-  border-bottom-color: rgba(113, 121, 129, 0.5);
-}
-#footer a:hover {
-  border-bottom-color: transparent;
-  color: var(--color) !important;
-}
-#footer strong, #footer b {
-  color: #717981;
-}
-#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-  color: #717981;
-}
-#footer blockquote {
-  border-left-color: #e2e2e2;
-}
-#footer code {
-  background: rgba(220, 220, 220, 0.5);
-  border-color: #e2e2e2;
-}
-#footer hr {
-  border-bottom-color: #e2e2e2;
-}
-#footer .box {
-  border-color: #e2e2e2;
-}
-#footer input[type=submit],
-#footer input[type=reset],
-#footer input[type=button],
-#footer button,
-#footer .button {
-  background-color: transparent;
-  -webkit-box-shadow: inset 0 0 0 2px #717981;
-          box-shadow: inset 0 0 0 2px #717981;
-  color: #717981;
-}
-#footer input[type=submit]:hover,
-#footer input[type=reset]:hover,
-#footer input[type=button]:hover,
-#footer button:hover,
-#footer .button:hover {
-  -webkit-box-shadow: inset 0 0 0 2px var(--color);
-          box-shadow: inset 0 0 0 2px var(--color);
-  color: var(--color);
-}
-#footer input[type=submit].primary,
-#footer input[type=reset].primary,
-#footer input[type=button].primary,
-#footer button.primary,
-#footer .button.primary {
-  background-color: #717981;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #f5f5f5 !important;
-}
-#footer input[type=submit].primary:hover,
-#footer input[type=reset].primary:hover,
-#footer input[type=button].primary:hover,
-#footer button.primary:hover,
-#footer .button.primary:hover {
-  background-color: var(--color);
-}
-#footer label {
-  color: #717981;
-}
-#footer input[type=text],
-#footer input[type=password],
-#footer input[type=email],
-#footer select,
-#footer textarea {
-  border-color: #e2e2e2;
-}
-#footer input[type=text]:focus,
-#footer input[type=password]:focus,
-#footer input[type=email]:focus,
-#footer select:focus,
-#footer textarea:focus {
-  border-color: var(--color);
-}
-#footer select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e2e2e2' /%3E%3C/svg%3E");
-}
-#footer select option {
-  background-color: #f5f5f5;
-  color: #717981;
-}
-#footer .select-wrapper:before {
-  color: #e2e2e2;
-}
-#footer input[type=checkbox] + label,
-#footer input[type=radio] + label {
-  color: #717981;
-}
-#footer input[type=checkbox] + label:before,
-#footer input[type=radio] + label:before {
-  border-color: #e2e2e2;
-}
-#footer input[type=checkbox]:checked + label:before,
-#footer input[type=radio]:checked + label:before {
-  background-color: #717981;
-  border-color: #717981;
-  color: #f5f5f5;
-}
-#footer input[type=checkbox]:focus + label:before,
-#footer input[type=radio]:focus + label:before {
-  border-color: var(--color);
-}
-#footer ::-webkit-input-placeholder {
-  color: #b3b7bb !important;
-}
-#footer :-moz-placeholder {
-  color: #b3b7bb !important;
-}
-#footer ::-moz-placeholder {
-  color: #b3b7bb !important;
-}
-#footer :-ms-input-placeholder {
-  color: #b3b7bb !important;
-}
-#footer .formerize-placeholder {
-  color: #b3b7bb !important;
-}
-#footer ul.divided li {
-  border-top-color: #e2e2e2;
-}
-#footer ul.icons li a.icon:hover:before {
-  color: var(--color);
-}
-#footer ul.icons.alt li .icon:before {
-  -webkit-box-shadow: inset 0 0 0 2px #e2e2e2;
-          box-shadow: inset 0 0 0 2px #e2e2e2;
-}
-#footer ul.icons.alt li a.icon:hover:before {
-  -webkit-box-shadow: inset 0 0 0 2px var(--color);
-          box-shadow: inset 0 0 0 2px var(--color);
-}
-#footer header.major .date:before, #footer header.major .date:after {
-  border-top-color: #e2e2e2;
-}
-#footer table tbody tr {
-  border-color: #e2e2e2;
-}
-#footer table tbody tr:nth-child(2n+1) {
-  background-color: rgba(220, 220, 220, 0.5);
-}
-#footer table th {
-  color: #717981;
-}
-#footer table thead {
-  border-bottom-color: #e2e2e2;
-}
-#footer table tfoot {
-  border-top-color: #e2e2e2;
-}
-#footer table.alt tbody tr td {
-  border-color: #e2e2e2;
-}
-#footer .pagination a, #footer .pagination span {
-  border-color: #e2e2e2;
-}
-#footer .pagination a {
-  color: #717981 !important;
-}
-#footer .pagination a:hover {
-  color: var(--color) !important;
-  border-color: var(--color);
-  z-index: 1;
-}
-#footer .pagination a:hover + a, #footer .pagination a:hover + span {
-  border-left-color: var(--color);
-}
-#footer .pagination a.active {
-  background-color: #e2e2e2;
-}
-#footer .pagination span {
-  color: #e2e2e2;
-}
-#footer > section {
-  -ms-flex-basis: 50%;
-  flex-basis: 50%;
-  -moz-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  -ms-flex-shrink: 1;
-  flex-shrink: 1;
-  padding: 4rem 4rem 2rem 4rem;
-  border-left: solid 2px #e2e2e2;
-}
-#footer > section:first-child {
-  border-left: 0;
-}
-#footer > section.split {
-  display: -moz-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 0;
-}
-#footer > section.split > section {
-  padding: 3rem 4rem 1rem 4rem;
-  border-top: solid 2px #e2e2e2;
-}
-#footer > section.split > section:first-child {
-  padding: 5rem 4rem 1rem 4rem;
-  border-top: 0;
-}
-#footer > section.split > section:last-child {
-  padding: 3rem 4rem 3rem 4rem;
-}
-#footer > section.split.contact > section {
-  display: -moz-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  padding: 3.15rem 4rem;
-}
-#footer > section.split.contact > section > * {
-  margin-bottom: 0;
-}
-#footer > section.split.contact > section > :first-child {
-  -ms-flex-shrink: 0;
-  flex-shrink: 0;
-  -moz-flex-grow: 0;
-  -ms-flex-grow: 0;
-  flex-grow: 0;
-  width: 6rem;
-}
-#footer > section.split.contact > section > :last-child {
-  -ms-flex-shrink: 1;
-  flex-shrink: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-}
-#footer > section.split.contact > section:first-child {
-  padding: 4rem 4rem 3rem 4rem;
-}
-#footer > section.split.contact > section:last-child {
-  padding: 3rem 4rem 4rem 4rem;
-}
-#footer > section.split.contact > section.alt {
-  -moz-align-items: -moz-flex-start;
-  -ms-align-items: -ms-flex-start;
-  align-items: flex-start;
-}
-#footer > section.split.contact > section.alt > :last-child {
-  margin-top: -0.325rem;
-}
-#footer form label,
-#footer h3,
-#footer p {
-  font-size: 0.8rem;
-}
-@media screen and (max-width: 980px) {
-  #footer {
-    display: block;
-  }
-  #footer > section {
-    border-top: solid 2px #e2e2e2;
-  }
-  #footer > section:first-child {
-    border-top: 0;
-  }
-  #footer > section.split > section {
-    padding: 4rem 4rem 2rem 4rem;
-  }
-  #footer > section.split > section:first-child {
-    padding: 4rem 4rem 2rem 4rem;
-  }
-  #footer > section.split > section:last-child {
-    padding: 4rem 4rem 2rem 4rem;
-  }
-  #footer > section.split.contact > section {
-    padding: 4rem;
-  }
-  #footer > section.split.contact > section:first-child {
-    padding: 4rem;
-  }
-  #footer > section.split.contact > section:last-child {
-    padding: 4rem;
-  }
-  #footer form label,
-  #footer h3,
-  #footer p {
-    font-size: 0.9rem;
-  }
-}
-@media screen and (max-width: 736px) {
-  #footer > section {
-    padding: 2rem 2rem 0.1rem 2rem;
-  }
-  #footer > section.split > section {
-    padding: 2rem 2rem 0.1rem 2rem;
-  }
-  #footer > section.split > section:first-child {
-    padding: 2rem 2rem 0.1rem 2rem;
-  }
-  #footer > section.split > section:last-child {
-    padding: 2rem 2rem 0.1rem 2rem;
-  }
-  #footer > section.split.contact > section {
-    padding: 2rem;
-  }
-  #footer > section.split.contact > section:first-child {
-    padding: 2rem;
-  }
-  #footer > section.split.contact > section:last-child {
-    padding: 2rem;
-  }
-}
-@media screen and (max-width: 480px) {
-  #footer {
-    width: 100%;
-  }
-}
-
+/* Copyright */
 #copyright {
-  color: #ffffff;
   position: relative;
   color: rgba(255, 255, 255, 0.25);
   cursor: default;
@@ -2918,77 +2566,19 @@ hr::before,
   letter-spacing: 0.075em;
   line-height: 1.5;
   text-align: center;
-  /* text-transform: uppercase; */
   margin: 4rem auto 8rem auto;
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
 }
-#copyright input, #copyright select, #copyright textarea {
-  color: #ffffff;
-}
-#copyright a {
-  color: #ffffff;
-  border-bottom-color: rgba(255, 255, 255, 0.5);
-}
-#copyright a:hover {
-  border-bottom-color: transparent;
-  color: var(--color) !important;
-}
-#copyright strong, #copyright b {
-  color: #ffffff;
-}
-#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
-  color: #ffffff;
-}
-#copyright blockquote {
-  border-left-color: #ffffff;
-}
-#copyright code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: #ffffff;
-}
 #copyright hr {
   border-bottom-color: #ffffff;
-}
-#copyright a {
-  color: inherit;
-  border-bottom-color: inherit;
-}
-#copyright ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-#copyright ul li {
-  border-left: solid 2px;
-  display: inline-block;
-  line-height: 1;
-  margin-left: 1rem;
-  padding-left: 1rem;
-}
-#copyright ul li:first-child {
-  border-left: 0;
-  margin-left: 0;
-  padding-left: 0;
 }
 @media screen and (max-width: 1280px) {
   #copyright {
     margin: 4rem auto;
   }
 }
-@media screen and (max-width: 480px) {
-  #copyright ul li {
-    border-left: 0;
-    margin: 1rem 0 0 0;
-    padding-left: 0;
-    display: block;
-  }
-  #copyright ul li:first-child {
-    margin-top: 0;
-  }
-}
-
 /* Nav Panel */
 #navPanelToggle {
   text-decoration: none;
@@ -3163,11 +2753,10 @@ hr::before,
 }
 
 
-/* =========================================
-   CUSTOM ENGINEERING THEME OVERRIDES 
-   ========================================= */
+/* Custom theme overrides
+   Keep page-level overrides after the base Massively styles. */
 
-/* --- Animations --- */
+/* Motion */
 #intro .scrolly {
     border: none !important;      
     box-shadow: none !important;  
@@ -3180,20 +2769,14 @@ hr::before,
     100% { opacity: 1; transform: scale(1); }
 }
 
-/* --- Typography & Colors --- */
-:root {
-    --line-height: 1.6 !important;
-    --letter-spacing: 0 !important;
-}
-
+/* Typography and color */
 html { font-size: 17px !important; } 
 
 body, #wrapper, #wrapper > .bg {
     background-color: #121212 !important; 
-    background-image: none !important; /* We will override this in the HBS file */
+    background-image: none !important;
 }
 
-/* 3. FIX WHITE TEXT BUG IN TAG VIEWS */
 #main { background-color: #ffffff !important; color: #111111 !important; }
 #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 { color: #111111 !important; }
 #main p, #main li, #main .post__entry, #main .engineering-content, .page-header p {
@@ -3208,28 +2791,38 @@ strong, b {
     color: #000000 !important;
 }
 
-/* 1. Normal Case for Headings (Massive readability improvement) */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif !important;
     font-weight: 600 !important;      
-    text-transform: none !important; /* Removes the all-caps */
-    letter-spacing: 0px !important;  /* Normal case doesn't need extra spacing */
+    text-transform: none !important;
+    letter-spacing: 0 !important;
 }
 
-/* 2. Keep UI elements uppercase for that crisp, engineering feel */
-#nav ul.links, .button, .toc-title {
-    font-family: 'Oswald', sans-serif !important;
+/* UI typography */
+#nav ul.links,
+.button,
+.toc-title {
     font-weight: 600 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
-}     
+}
+.toc-title {
+    font-family: 'Oswald', sans-serif !important;
+}
+.button,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    font-family: 'Aptos', sans-serif !important;
+}
 
 h1 { font-size: 3rem !important; margin-bottom: 1rem !important; }
 h2 { font-size: 2rem !important; margin-bottom: 0.8rem !important; margin-top: 2rem !important; }
 h3 { font-size: 1.5rem !important; margin-bottom: 0.5rem !important; }
 .post__entry h2, .post__entry h3 { text-transform: none !important; }
 
-/* --- Scrollbar & Tables --- */
+/* Scrollbars and tables */
 ::-webkit-scrollbar { width: 12px; }
 ::-webkit-scrollbar-track { background: #f1f1f1; }
 ::-webkit-scrollbar-thumb { background: #972222; border-radius: 6px; border: 3px solid #f1f1f1; }
@@ -3238,9 +2831,7 @@ table { border-collapse: collapse !important; width: 100%; }
 table th { background-color: rgba(0,0,0,0.05); font-weight: 900; border: 1px solid #ddd !important; }
 table td { border: 1px solid #ddd !important; }
 
-/* --- Main Layout --- */
-/* Removed overflow overrides to permanently fix infinite scroll */
-
+/* Main layout */
 #main {
     width: 100% !important;
     max-width: 100% !important;
@@ -3256,12 +2847,17 @@ table td { border: 1px solid #ddd !important; }
 }
 #main > .post { padding: 3rem 5rem !important; }
 
-/* --- Footer --- */
+#main > .post + .private-discuss-box {
+    width: calc(100% - 10rem) !important;
+    margin-left: 5rem !important;
+    box-sizing: border-box !important;
+}
+
+/* Footer */
 #copyright { margin: 1rem auto 1rem auto !important; padding: 20px 20px 0 20px !important; }
 #copyright p { margin-bottom: 15px !important; }
 #copyright hr::before { content: none !important; display: none !important; }
 
-/* Keep the standard styling for the rest of the footer */
 #copyright p, #copyright span {
     font-weight: 400 !important;
     letter-spacing: 0 !important; 
@@ -3269,13 +2865,11 @@ table td { border: 1px solid #ddd !important; }
     opacity: 1 !important; 
 }
 
-/* THE FIX: Specifically target the copyright line to shrink it */
 #copyright > div:last-child {
-    /* font-size: 0.8rem !important; 0.8rem looks great, but you can change this to 0.7rem or 0.5rem if you want it even smaller! */
     opacity: 0.6 !important;
 }
 
-/* --- Table of Contents (Static) --- */
+/* Table of contents */
 .engineering-wrapper { align-items: start !important; }
 .engineering-sidebar { position: relative !important; height: 100% !important; }
 .toc-sticky { border-left: 2px solid #eee; padding-left: 20px; }
@@ -3287,11 +2881,7 @@ table td { border: 1px solid #ddd !important; }
 #auto-toc a:hover { color: #972222 !important; font-weight: bold; }
 
 
-/* =========================================
-   ISLAND ECC MENU SYSTEM
-   ========================================= */
-
-/* 1 & 2. Hamburger Button (Top 30px, Flush Left, Always Visible) */
+/* Navigation and sidebar */
 #navPanelToggle {
     display: flex !important;
     flex-direction: column !important;
@@ -3301,35 +2891,42 @@ table td { border: 1px solid #ddd !important; }
     top: 30px !important;  
     left: 0 !important;   
     right: auto !important;
-    width: 65px !important;  /* INCREASED FROM 65px */
-    height: 65px !important; /* INCREASED FROM 65px */
+    width: 65px !important;
+    height: 65px !important;
     background-color: #121212 !important; 
     color: #ffffff !important; 
     border-radius: 0 4px 4px 0 !important; 
     z-index: 10005 !important;
     padding: 0 !important;
-    font-family: 'Oswald', sans-serif !important;
-    font-size: 0.85rem !important; /* INCREASED FROM 0.75rem */
+    font-family: 'Aptos', sans-serif !important;
+    font-size: 0.85rem !important;
     letter-spacing: 1px !important;
     text-decoration: none !important;
     border: none !important;
     cursor: pointer !important;
     pointer-events: auto !important;
+    transition: transform 0.5s ease, background-color 0.2s ease, color 0.2s ease !important;
 }
-#navPanelToggle:before { content: "\f0c9" !important; margin: 0 0 4px 0 !important; font-size: 1.6rem !important; /* INCREASED FROM 1.4rem */ }
+#navPanelToggle:before {
+    content: "\f0c9" !important;
+    margin: 0 0 4px 0 !important;
+    font-size: 1.6rem !important;
+}
 #navPanelToggle.alt { box-shadow: 2px 2px 10px rgba(0,0,0,0.5) !important; background-color: #121212 !important; }
-
-/* Force hide the hamburger icon when the menu pops out */
-body.is-navPanel-visible a#navPanelToggle { 
-    display: none !important; 
+body.is-navPanel-visible #navPanelToggle,
+body.is-navPanel-visible a#navPanelToggle {
+    display: flex !important;
+    transform: translateX(20rem) !important;
+    background-color: #1a1a1a !important;
+}
+body.is-navPanel-visible #navPanelToggle:before {
+    content: "\f00d" !important;
 }
 
-/* =========================================
-   FIXED SIDE LOGO (Below Menu Button)
-   ========================================= */
+/* Fixed side logo */
 #fixed-side-logo {
     position: fixed !important;
-    top: 130px !important; /* 30px (menu top) + 75px (menu height) + 25px (larger gap) */
+    top: 130px !important;
     left: 0 !important;
     width: 65px !important;  
     height: 65px !important; 
@@ -3339,8 +2936,6 @@ body.is-navPanel-visible a#navPanelToggle {
     border-radius: 0 4px 4px 0 !important; 
     transition: transform 0.2s ease !important;
     
-    /* THE CORRECT WAY TO IMPORT THE IMAGE */
-    /* Since main.css is in assets/css/, we go up two folders, then into media/files/ */
     background-image: url('../../media/files/m_icon.png') !important;
     background-size: cover !important;
     background-position: center !important;
@@ -3349,16 +2944,14 @@ body.is-navPanel-visible a#navPanelToggle {
 }
 
 #fixed-side-logo:hover {
-    transform: scale(1.05) !important; /* Slight zoom when hovered */
+    transform: scale(1.05) !important;
 }
 
 /* Hide logo when the slide-out menu is open */
 body.is-navPanel-visible #fixed-side-logo { 
     display: none !important; 
 }
-
-
-/* 3. Slide-Out Panel (Works perfectly everywhere now) */
+/* Slide-out panel */
 #navPanel {
     position: fixed !important;
     top: 0 !important;
@@ -3368,7 +2961,7 @@ body.is-navPanel-visible #fixed-side-logo {
     box-shadow: 5px 0 25px rgba(0, 0, 0, 0.8) !important; 
     width: 20rem !important;
     height: 100vh !important;
-    padding: 5rem 2rem 2rem 2rem !important;
+    padding: 1.5rem 2rem 2rem !important;
     z-index: 10004 !important;
     margin: 0 !important;
     border: none !important;
@@ -3380,23 +2973,28 @@ body.is-navPanel-visible #fixed-side-logo {
     overflow-y: auto !important;
 }
 
+body #navPanel,
+body #navPanel * {
+    font-family: 'Aptos', sans-serif !important;
+}
+
 body.is-navPanel-visible #navPanel {
     transform: translateX(0) !important; 
     visibility: visible !important;
 }
 
-/* Panel Links */
 #navPanel ul.links { display: flex !important; flex-direction: column !important; margin-top: 0 !important; padding: 0 !important; }
 #navPanel ul.links > li { width: 100% !important; border-top: 1px solid rgba(255, 255, 255, 0.05) !important; padding: 0 !important; margin: 0 !important; display: block !important; }
 #navPanel ul.links > li:first-child { border-top: none !important; }
 
-#navPanel ul.links > li > a,
-#navPanel ul.links > li > span { 
+body #navPanel ul.links > li > a,
+body #navPanel ul.links > li > span {
     color: #ffffff !important; 
-    font-family: 'Oswald', sans-serif !important; 
+    font-family: 'Aptos', sans-serif !important;
+    font-weight: 800 !important;
     text-transform: uppercase !important; 
-    font-size: 1.1rem !important; 
-    padding: 1.2rem 0 !important; 
+    font-size: 0.95rem !important;
+    padding: 1rem 0 !important;
     text-align: left !important; 
     display: block !important; 
     background: transparent !important; 
@@ -3405,7 +3003,7 @@ body.is-navPanel-visible #navPanel {
 }
 #navPanel ul.links > li > a:hover { color: #972222 !important; }
 
-/* Always Expand Submenus in Sidebar */
+/* Submenus remain expanded in the sidebar. */
 #navPanel ul.links ul { 
     display: flex !important; 
     flex-direction: column !important;
@@ -3425,15 +3023,16 @@ body.is-navPanel-visible #navPanel {
     font-size: 0.9rem !important; 
     padding: 0.5rem 0 !important; 
     font-family: 'Merriweather', serif !important; 
+    font-weight: 800 !important;
     text-transform: none !important; 
     color: #aaaaaa !important; 
+    text-align: center !important;
 }
 #navPanel ul.links ul li a:hover { color: #ffffff !important; }
 
-#navPanel .close { right: 0 !important; left: auto !important; top: 0 !important; }
-#navPanel .close::before { color: #ffffff !important; }
+#navPanel .close { display: none !important; }
 
-/* Fix Active Menu Item in Dark Sidebar (White Box Bug) */
+/* Active sidebar item */
 #navPanel ul.links > li.active {
     background-color: transparent !important; 
     border-left: 4px solid #972222 !important; 
@@ -3446,18 +3045,39 @@ body.is-navPanel-visible #navPanel {
    MEDIA QUERIES
    ========================================= */
 
-/* Desktop (1200px+) */
+/* Desktop article layout */
 @media screen and (min-width: 1200px) {
+    body.post-template {
+        --article-sidebar-width: 300px;
+        --article-grid-gap: 80px;
+    }
+
+    body.post-template #wrapper {
+        overflow: clip;
+    }
+
     .post__inner { max-width: 100% !important; }
     .engineering-wrapper {
         display: grid !important;
-        grid-template-columns: 1fr 300px !important;
-        gap: 80px !important;
+        grid-template-columns: 1fr var(--article-sidebar-width) !important;
+        gap: var(--article-grid-gap) !important;
     }
     .engineering-sidebar { display: block; margin-top: 1rem; }
+
+    body.post-template .toc-sticky {
+        position: sticky;
+        top: 2rem;
+        max-height: calc(100vh - 4rem);
+        overflow-y: auto;
+    }
+
+    body.post-template #main > .post + .private-discuss-box {
+        width: calc(min(calc(100% - 4rem), 88rem) - 10rem - var(--article-sidebar-width) - var(--article-grid-gap)) !important;
+        margin-left: calc(max(2rem, calc((100% - 88rem) / 2)) + 5rem) !important;
+    }
 }
 
-/* Homepage White Menu (Desktop Only) */
+/* Desktop homepage navigation */
 @media screen and (min-width: 981px) {
     .home-template #nav {
         position: relative !important;
@@ -3483,7 +3103,6 @@ body.is-navPanel-visible #navPanel {
     .home-template #nav ul.links > li.active { background-color: #fcfcfc !important; }
     .home-template #nav ul.links > li.active > a { color: #972222 !important; }
     
-    /* White Menu Dropdowns */
     .home-template #nav > ul > li > ul {
         background-color: #ffffff !important;
         box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
@@ -3501,7 +3120,7 @@ body.is-navPanel-visible #navPanel {
     .home-template #nav > ul > li > ul li a:hover { background-color: #f5f5f5 !important; color: #972222 !important;}
 }
 
-/* Tablet & Mobile Layouts */
+/* Tablet and mobile article layout */
 @media screen and (max-width: 1199px) {
     .engineering-wrapper { display: flex !important; flex-direction: column !important; width: 100% !important; }
     .engineering-content { order: 2 !important; width: 100% !important; }
@@ -3525,6 +3144,12 @@ body.is-navPanel-visible #navPanel {
 }
 
 @media screen and (max-width: 768px) {
+    #main > .post + .private-discuss-box {
+        width: calc(100% - 3rem) !important;
+        margin-left: 1.5rem !important;
+        box-sizing: border-box !important;
+    }
+
     #main > .post { 
         padding: 2rem 1.5rem !important; 
         box-sizing: border-box !important; 
@@ -3537,58 +3162,17 @@ body.is-navPanel-visible #navPanel {
 }
 
 
-/* Fix Active Menu Item in Dark Sidebar (White Box Bug) */
-body:not(.home-template) #nav ul.links > li.active,
-#navPanel ul.links > li.active {
-    background-color: transparent !important; 
-    border-left: 4px solid #972222 !important; /* Adds a nice red indicator line */
-}
-
-body:not(.home-template) #nav ul.links > li.active > a,
-#navPanel ul.links > li.active > a {
-    color: #972222 !important; /* Makes the active text red */
-}
-
-
-/* =========================================
-   HIDE HORIZONTAL MENU ON SUBPAGES
-   ========================================= */
-/* Hides the dark menu bar on all pages EXCEPT the homepage */
+/* Hide the horizontal menu on subpages. */
 body:not(.home-template) #nav {
     display: none !important;
 }
 
-/* Pull the main content up on subpages to close the gap left by the hidden menu */
 body:not(.home-template) #main {
     margin-top: -4rem !important; 
 }
 
 
-/* =========================================
-   POST GRID IMAGE RE-STYLING
-   ========================================= */
-#main > .posts > article .article-card-image {
-    display: block;
-    width: 100%;
-    height: 220px; /* Forces all images to be the exact same height */
-    margin: 0 0 1.5rem 0; /* Pushes the title down slightly */
-    border-radius: 6px; /* Adds a nice modern rounded edge */
-    overflow: hidden; /* Keeps the zoom effect contained */
-}
-
-#main > .posts > article .article-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Magic property: crops the image perfectly to fit without squishing it */
-    transition: transform 0.4s ease; /* Smooth animation setup */
-}
-
-/* Subtle zoom effect when hovering over the card image */
-#main > .posts > article .article-card-image:hover img {
-    transform: scale(1.05);
-}
-
-/* Fix spacing for posts that DO NOT have an image */
+/* Post grids */
 #main > .posts > article {
     display: flex;
     flex-direction: column;
@@ -3596,11 +3180,7 @@ body:not(.home-template) #main {
 }
 
 
-/* =========================================
-   COMPACT BACKGROUND-IMAGE POST CARDS
-   ========================================= */
-
-/* 1. Base shape for ALL cards */
+/* Background-image post cards */
 #main > .posts > article.grid-post-card {
     position: relative;
     overflow: hidden;
@@ -3611,7 +3191,6 @@ body:not(.home-template) #main {
     border: 1px solid #eeeeee !important; 
 }
 
-/* ALIGNMENT FIX: Center the contents of the card */
 #main > .posts > article.grid-post-card .card-content {
     position: relative;
     z-index: 2;
@@ -3622,9 +3201,7 @@ body:not(.home-template) #main {
     flex-grow: 1;
 }
 
-/* --- NEW: UNIFIED TITLE HEIGHT --- */
-
-/* DESKTOP ONLY: Forces the title to be exactly 2 lines tall, and vertically centers 1-line titles */
+/* Keep desktop card titles aligned across the grid. */
 @media screen and (min-width: 769px) {
     #main > .posts > article.grid-post-card .card-content h2 {
         display: flex !important;
@@ -3636,7 +3213,7 @@ body:not(.home-template) #main {
     }
 }
 
-/* MOBILE ONLY: Reverts to natural height so long titles don't crash into the author text */
+/* Let mobile card titles use their natural height. */
 @media screen and (max-width: 768px) {
     #main > .posts > article.grid-post-card .card-content h2 {
         display: block !important;
@@ -3645,30 +3222,26 @@ body:not(.home-template) #main {
     }
 }
 
-/* Keep paragraph text left-aligned for better readability */
 #main > .posts > article.grid-post-card .card-content .card-excerpt p {
     text-align: left !important;
 }
 
-/* --- NEW: REDUCED SPACING ABOVE BUTTON --- */
-/* Pulls the excerpt and the button closer together */
 #main > .posts > article.grid-post-card .card-content .card-excerpt {
-    margin-bottom: 0.5rem !important; /* Reduced from 1.5rem */
+    margin-bottom: 0.5rem !important;
 }
 
 #main > .posts > article.grid-post-card .card-content .actions.special {
     justify-content: center !important;
-    margin-top: 0.5rem !important; /* Reduced from 1.5rem */
+    margin-top: 0.5rem !important;
 }
 
-/* 2. STYLE FOR CARDS WITH BACKGROUND IMAGES */
+/* Image cards */
 #main > .posts > article.has-bg-image {
     background-size: cover;
     background-position: center center;
     border-color: transparent !important; 
 }
 
-/* Gradient overlay */
 .has-bg-image .card-overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -3676,14 +3249,12 @@ body:not(.home-template) #main {
     z-index: 1;
 }
 
-/* Text Colors */
 body #main > .posts > article.has-bg-image .card-content h2 a,
 body #main > .posts > article.has-bg-image .card-content p {
     color: #ffffff !important;
     text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
 
-/* FONT FIX: Apply exact Oswald formatting to ALL meta text on Image Cards */
 body #main > .posts > article.has-bg-image .card-content .card-meta,
 body #main > .posts > article.has-bg-image .card-content .card-meta span,
 body #main > .posts > article.has-bg-image .card-content .card-meta time,
@@ -3701,7 +3272,6 @@ body #main > .posts > article.has-bg-image .card-content h2 a:hover {
     color: #972222 !important;
 }
 
-/* Custom Button for Image Cards */
 body #main > .posts > article.has-bg-image .card-content .card-btn {
     box-shadow: inset 0 0 0 2px rgba(255,255,255,0.6) !important;
     color: #ffffff !important;
@@ -3712,18 +3282,16 @@ body #main > .posts > article.has-bg-image .card-content .card-btn:hover {
     color: #ffffff !important;
 }
 
-/* 3. STYLE FOR DEFAULT CARDS (NO IMAGES) */
+/* Text-only cards */
 #main > .posts > article.no-bg-image {
     background-color: #ffffff;
 }
 
-/* Normal dark text for default cards */
 body #main > .posts > article.no-bg-image .card-content h2 a,
 body #main > .posts > article.no-bg-image .card-content p {
     color: #212931 !important;
 }
 
-/* FONT FIX: Guarantee Oswald formatting on ALL meta text on Default Cards */
 body #main > .posts > article.no-bg-image .card-content .card-meta,
 body #main > .posts > article.no-bg-image .card-content .card-meta span,
 body #main > .posts > article.no-bg-image .card-content .card-meta time,
@@ -3743,26 +3311,21 @@ body #main > .posts > article.no-bg-image .card-content .card-meta strong {
 }
 
 
-/* =========================================
-   FIX FOR TAGS AND UI ELEMENTS
-   ========================================= */
-
+/* Tags and feed metadata */
 .post__tag {
     margin-top: 1rem !important; 
 }
 
-/* 1. Style the "Tags:" label */
 .post__tag h3 {
     font-family: 'Oswald', sans-serif !important;
     text-transform: none !important; 
     font-size: 1.1rem !important;
-    font-weight: 600 !important; /* ADDED: Makes it slightly bolder to stand out */
+    font-weight: 600 !important;
     letter-spacing: 0px !important; 
-    margin-bottom: 0.4rem !important; /* ADDED: Slightly more space below the word "Tags:" */
-    color: #444 !important; /* ADDED: Made it slightly darker so it pops more against the body text */
+    margin-bottom: 0.4rem !important;
+    color: #444 !important;
 }
 
-/* 2. Style the tag list to remove bullet points and sit side-by-side */
 .post__tag ul {
     list-style: none !important;
     padding: 0 !important;
@@ -3771,11 +3334,11 @@ body #main > .posts > article.no-bg-image .card-content .card-meta strong {
     gap: 8px !important;
 }
 
-/* 3. Style the individual tag links in Oswald */
 .post__tag ul li a {
     font-family: 'Oswald', sans-serif !important;
     text-transform: none !important; 
-    font-size: 0.95rem !important; 
+    font-size: 0.8rem !important;
+    padding: 0.15rem 0.65rem !important;
     letter-spacing: 0px !important; 
     color: #777 !important;
     border-bottom: 1px dotted #ccc !important;
@@ -3784,13 +3347,11 @@ body #main > .posts > article.no-bg-image .card-content .card-meta strong {
     transition: all 0.2s ease;
 }
 
-/* 4. Add a hover effect to the tags (using your primary red color) */
 .post__tag ul li a:hover {
     color: #972222 !important; 
     border-bottom-color: #972222 !important;
 }
 
-/* 5. Fix the missing Oswald font on dates in tag.hbs and author.hbs */
 time.date {
     font-family: 'Oswald', sans-serif !important;
     text-transform: none !important; 
@@ -3801,69 +3362,16 @@ time.date {
     margin-bottom: 1rem;
 }
 
-/* --- LOCAL APTOS FONTS --- */
-@font-face {
-  font-family: 'Aptos';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../webfonts/custom/Aptos-ExtraBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Aptos';
-  font-style: italic;
-  font-weight: 800;
-  src: url('../webfonts/custom/Aptos-ExtraBold-Italic.woff2') format('woff2');
-}
-
-/* Change Lower Menu Font to Aptos & Make it Slightly Bigger */
+/* Desktop navigation typography */
 #nav ul.links a, 
 #nav ul.links span.is-separator {
     font-family: 'Aptos', sans-serif !important;
-    font-weight: 700 !important; /* Keeps it bold and highly readable */
-    font-size: 0.95rem !important; /* INCREASED FROM 0.8rem */
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
 }
 
 
-/* =========================================
-   DYNAMIC SIDEBAR REDESIGN (CORRECTED)
-   ========================================= */
-
-/* 1. Make the Menu Button slide with the sidebar, transition smoothly, and FORCE visibility */
-#navPanelToggle {
-    transition: transform 0.5s ease, background-color 0.2s ease, color 0.2s ease !important;
-}
-
-/* Force the button to stay visible when open, and translate right by 20rem */
-body.is-navPanel-visible #navPanelToggle,
-body.is-navPanel-visible a#navPanelToggle {
-    display: flex !important; /* Defeats the hidden menu rule */
-    transform: translateX(20rem) !important;
-    background-color: #1a1a1a !important; /* Matches sidebar */
-}
-
-/* Morph the hamburger icon into a Close "X" */
-body.is-navPanel-visible #navPanelToggle:before {
-    content: "\f00d" !important; /* FontAwesome 'X' close icon */
-}
-
-/* Hide the duplicate default close button inside the sidebar */
-#navPanel .close {
-    display: none !important;
-}
-
-/* 2. Move the whole sidebar content up */
-body #navPanel {
-    padding-top: 1.5rem !important; /* Removes the massive default 5rem top padding */
-}
-
-/* 3. Force all Sidebar elements to Aptos (Kills remaining Oswald) */
-body #navPanel, 
-body #navPanel * {
-    font-family: 'Aptos', sans-serif !important;
-}
-
-/* 4. Keep only the Quote in Merriweather */
+/* Sidebar-injected quote and logo */
 body #navPanel .menu-quote, 
 body #navPanel .menu-quote * {
     font-family: 'Merriweather', serif !important;
@@ -3888,11 +3396,10 @@ body #navPanel .menu-quote * {
     letter-spacing: 1px !important;
     color: #888888 !important;
     margin: 0 !important;
-    text-align: right !important; /* RIGHT-ALIGNED */
-    padding-right: 0.5rem !important; /* Tiny bit of padding so it doesn't touch the very edge */
+    text-align: right !important;
+    padding-right: 0.5rem !important;
 }
 
-/* 5. Style the Sidebar Main Logo & Load Image via CSS (Fixes broken paths) */
 .menu-logo {
     padding: 0.2rem 0.2rem !important;
     text-align: center !important;
@@ -3908,97 +3415,45 @@ body #navPanel .menu-quote * {
     background-repeat: no-repeat !important;
 }
 
-/* 6. Force Sidebar Links to Aptos ExtraBold & Center Align */
-#navPanel ul.links a {
-    font-weight: 800 !important; /* Aptos ExtraBold */
-    font-size: 0.9rem !important;
-    text-align: center !important;
-    padding: 1rem 0 !important;
-}
-
-
-/* =========================================
-   TYPOGRAPHY LOCKS (OSWALD VS. APTOS)
-   ========================================= */
-
-/* 1. Ensure all standard headings (H2, H3, etc.) stay OSWALD */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif !important;
-    font-weight: 600 !important;      
-    text-transform: none !important; 
-    letter-spacing: 0px !important;  
-}
-
-/* 2. Force ALL Buttons, Main Menus, and Sidebar Elements to APTOS */
-.button,
-button,
-input[type="submit"],
-input[type="button"],
-input[type="reset"],
-#navPanelToggle,
-#nav ul.links a, 
-#nav ul.links span.is-separator,
-body #navPanel, 
-body #navPanel * {
-    font-family: 'Aptos', sans-serif !important;
-}
-
-/* 3. Except the Sidebar Quote, which stays MERRIWEATHER */
-body #navPanel .menu-quote, 
-body #navPanel .menu-quote * {
-    font-family: 'Merriweather', serif !important;
-}
-
-/* WIN SPECIFICITY WAR: Force Aptos and compact layout on sidebar links */
-body #navPanel ul.links > li > a,
-body #navPanel ul.links > li > span {
-    font-family: 'Aptos', sans-serif !important;
-    font-weight: 800 !important;       /* Aptos ExtraBold */
-    font-size: 0.95rem !important;   
-    text-align: left !important;     /* Centered */
-    padding: 1rem 0 !important;        /* Compact spacing */
-}
-
-
-/* =========================================
-   RESPONSIVE INTRO OVERRIDES (MOBILE FIXES)
-   ========================================= */
-
-/* Desktop intro height */
+/* Responsive homepage intro */
 #intro {
     padding-top: 24rem !important;
 }
 
-/* Mobile specific overrides */
 @media screen and (max-width: 768px) {
-    /* 1. Move mobile slogan up */
     #intro {
-        padding-top: 9rem !important; 
+        padding-top: 3rem !important;
     }
     
-    /* 2. Shrink mobile slogan slightly so it doesn't crowd the sides */
     #intro h1 {
         font-size: 3.8rem !important; 
         letter-spacing: 2px !important;
     }
     
-    /* 3. Make the 2 lines of description text slightly smaller */
     #intro p, 
     #intro p span {
         font-size: 0.95rem !important; 
     }
 }
 
-/* =========================================
-   TALLY DISCUSSION BOX STYLING
-   ========================================= */
+/* Tally discussion box */
 .private-discuss-box {
-    /* margin-top: 1rem !important; */
+    margin-bottom: 2.5rem !important;
     padding: 1rem !important;
     background-color: #fcfcfc !important;
     border: 1px solid #eeeeee !important;
     border-radius: 8px !important;
 }
+
+/* In posts without a related-posts block, force extra room before footer */
+body.post-template #main:has(> .private-discuss-box:last-child) {
+    display: flow-root;
+}
+
+#main > .private-discuss-box:last-child {
+    margin-bottom: 8rem !important;
+}
+
 .private-discuss-box h3 {
     font-family: 'Aptos', sans-serif !important;
     font-weight: 800 !important;
@@ -4021,13 +3476,408 @@ body #navPanel ul.links > li > span {
     .private-discuss-box {
         padding: 1rem 0.5rem !important;
     }
+
+    #main > .private-discuss-box:last-child {
+        margin-bottom: 4.5rem !important;
+    }
 }
 
+/* Extra footer guard when the discussion box is the end of the post (no related posts). */
+body.post-template #main:has(> .private-discuss-box:last-child) + #copyright {
+    margin-top: 1.5rem !important;
+}
 
-/* =========================================
-   COMPACT TAG BUTTONS (OPTIONAL OVERRIDE)
-   ========================================= */
-body .post__tag ul li a {
-    font-size: 0.8rem !important;       /* Shrunk from 0.95rem */
-    padding: 0.15rem 0.65rem !important; /* Tighter padding around the text */
+/* Fixed article search trigger and responsive slide-out drawer */
+.search-panel-toggle {
+    position: fixed;
+    top: 30px;
+    right: 0;
+    z-index: 10005;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    background: #121212;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Aptos', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    text-transform: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.search-panel-toggle:hover,
+.search-panel-toggle:focus-visible {
+    background: #972222;
+    color: #ffffff;
+}
+
+.search-panel-toggle__icon {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 3px solid currentColor;
+    border-radius: 50%;
+}
+
+.search-panel-toggle__icon::after {
+    content: '';
+    position: absolute;
+    right: -7px;
+    bottom: -4px;
+    width: 9px;
+    height: 3px;
+    border-radius: 2px;
+    background: currentColor;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.search-panel-toggle__label {
+    display: block;
+}
+
+body.search-panel-open .search-panel-toggle {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.site-search-panel[hidden] {
+    display: none !important;
+}
+
+.site-search-panel {
+    position: fixed;
+    top: 30px;
+    right: 0;
+    z-index: 11000;
+    width: min(58rem, calc(100vw - 5rem));
+    max-height: calc(100vh - 30px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    transition: opacity 0.2s ease, transform 0.24s ease;
+}
+
+.site-search-panel.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+.site-search-panel__dialog {
+    display: flex;
+    width: 100%;
+    max-height: calc(100vh - 30px);
+    flex-direction: column;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: -8px 12px 30px rgba(0, 0, 0, 0.35);
+    color: #212931;
+}
+
+.site-search-panel__bar {
+    display: flex;
+    height: 65px;
+    min-height: 65px;
+    background: #333333;
+}
+
+.site-search-panel__close {
+    display: flex;
+    width: 65px;
+    min-width: 65px;
+    height: 65px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    border: 0;
+    border-radius: 0;
+    background: #242424;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.site-search-panel__close:hover,
+.site-search-panel__close:focus-visible {
+    background: #972222;
+    color: #ffffff;
+}
+
+.site-search-panel__close-icon {
+    font-family: Arial, sans-serif;
+    font-size: 2.35rem;
+    font-weight: 700;
+    line-height: 0.85;
+}
+
+.site-search-panel__close-label {
+    font-family: 'Aptos', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    text-transform: none;
+}
+
+.site-search-panel__form {
+    display: flex;
+    height: 65px;
+    padding: 0.5rem 1rem;
+    flex: 1;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site-search-panel__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.site-search-panel__input {
+    width: auto;
+    height: 3rem !important;
+    padding: 0 1.1rem !important;
+    flex: 1;
+    border: 1px solid #606060 !important;
+    border-radius: 0 !important;
+    background: #505050 !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    font-family: 'Merriweather', serif !important;
+    font-size: 1rem !important;
+}
+
+.site-search-panel__input::placeholder {
+    color: #b8b8b8;
+    opacity: 1;
+}
+
+.site-search-panel__input:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.16) !important;
+}
+
+.site-search-panel__submit {
+    display: inline-flex;
+    width: 3rem;
+    min-width: 3rem;
+    height: 3rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.site-search-panel__submit:hover,
+.site-search-panel__submit:focus-visible {
+    background: #454545;
+    color: #ffffff;
+}
+
+.site-search-panel__submit-icon {
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 4px solid currentColor;
+    border-radius: 50%;
+}
+
+.site-search-panel__submit-icon::after {
+    content: '';
+    position: absolute;
+    right: -9px;
+    bottom: -5px;
+    width: 11px;
+    height: 4px;
+    border-radius: 2px;
+    background: currentColor;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.site-search-panel__results-wrap {
+    display: none;
+    padding: 0.5rem 1.5rem 1rem;
+    overflow: hidden;
+    border-top: 4px solid #972222;
+    background: #fcfcfc;
+}
+
+.site-search-panel.has-results .site-search-panel__results-wrap {
+    display: block;
+}
+
+.site-search-panel__status {
+    margin: 0.75rem 0;
+    color: #666666;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.site-search-panel__status[data-state='error'] {
+    color: #972222;
+}
+
+.site-search-results {
+    margin: 0;
+    padding: 0;
+    max-height: calc(70vh - 65px);
+    overflow-y: auto;
+    list-style: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+.site-search-results__item {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.site-search-results__link {
+    display: block;
+    padding: 1rem 0.25rem;
+    border: 0;
+    color: #212931;
+    text-decoration: none;
+}
+
+.site-search-results__link:hover,
+.site-search-results__link:focus-visible {
+    color: #972222;
+}
+
+.site-search-results__title {
+    margin: 0 0 0.3rem;
+    font-size: 1.15rem;
+    letter-spacing: 0;
+    line-height: 1.35;
+    text-transform: none;
+}
+
+.site-search-results__tags {
+    margin: 0 0 0.35rem;
+    color: #972222;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.site-search-results__summary {
+    display: -webkit-box;
+    margin: 0;
+    overflow: hidden;
+    color: #555555;
+    font-family: 'Merriweather', serif;
+    font-size: 0.82rem;
+    line-height: 1.55;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media screen and (max-width: 600px) {
+    .site-search-panel {
+        top: 30px;
+        width: 100%;
+        max-height: calc(100svh - 30px);
+    }
+
+    .site-search-panel__dialog {
+        width: 100%;
+        max-height: calc(100svh - 30px);
+    }
+
+    .site-search-panel__bar {
+        height: 65px;
+        min-height: 65px;
+    }
+
+    .site-search-panel__close {
+        width: 65px;
+        min-width: 65px;
+        height: 65px;
+    }
+
+    .site-search-panel__close-icon {
+        font-size: 2rem;
+    }
+
+    .site-search-panel__form {
+        height: 65px;
+        padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+        gap: 0.25rem;
+    }
+
+    .site-search-panel__input {
+        min-width: 0;
+        height: 3rem !important;
+        padding: 0 0.75rem !important;
+        font-size: 0.82rem !important;
+    }
+
+    .site-search-panel__submit {
+        width: 3rem;
+        min-width: 3rem;
+        height: 3rem;
+    }
+
+    .site-search-panel__submit-icon {
+        width: 18px;
+        height: 18px;
+        border-width: 3px;
+    }
+
+    .site-search-panel__results-wrap {
+        padding: 0.25rem 1rem 0.75rem;
+    }
+
+    .site-search-results {
+        max-height: calc(100svh - 120px);
+    }
+
+    .site-search-results__link {
+        padding: 0.9rem 0.1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-search-panel {
+        transition: none;
+    }
 }
