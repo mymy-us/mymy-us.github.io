@@ -327,7 +327,7 @@
             hideTimer = win.setTimeout(function () {
                 panel.hidden = true;
                 hideTimer = null;
-            }, 240);
+            }, 500);
 
             if (previousFocus && typeof previousFocus.focus === 'function') {
                 previousFocus.focus();
