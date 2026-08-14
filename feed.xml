@@ -3,12 +3,28 @@
     <title>¡My, My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-08-14T06:48:21-04:00</updated>
+    <updated>2026-08-14T08:58:38-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
+    <entry>
+        <title>Why Should a Lean Engineer Learn a 3D Tool?</title>
+        <author>
+            <name>Tim Y</name>
+        </author>
+        <link href="https://mymy-us.github.io/why-should-a-lean-engineer-learn-a-3d-tool.html"/>
+        <id>https://mymy-us.github.io/why-should-a-lean-engineer-learn-a-3d-tool.html</id>
+
+        <updated>2026-06-22T08:58:00-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Topic: 3D concept modeling for Lean and industrial engineers The academic view: Draw the layout in 2D, add dimensions, and submit it. The&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>How Do You Improve a Robot Line You Barely Understand?</title>
         <author>
