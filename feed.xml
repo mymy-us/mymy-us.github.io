@@ -3,244 +3,244 @@
     <title>¡My, My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-07-04T09:52:17-04:00</updated>
+    <updated>2026-08-14T06:48:21-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
     <entry>
-        <title>Surviving the Robot: How to Apply Lean to Automated Lines</title>
+        <title>How Do You Improve a Robot Line You Barely Understand?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/surviving-the-robot-how-to-apply-lean-to-automated-lines.html"/>
-        <id>https://mymy-us.github.io/surviving-the-robot-how-to-apply-lean-to-automated-lines.html</id>
+        <link href="https://mymy-us.github.io/how-do-you-improve-a-robot-line-you-barely-understand.html"/>
+        <id>https://mymy-us.github.io/how-do-you-improve-a-robot-line-you-barely-understand.html</id>
             <category term="Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
-        <updated>2025-10-23T10:55:00-04:00</updated>
+        <updated>2026-05-08T10:55:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Total Productive Maintenance (TPM) &amp; Automation The Academic View: Lean is more about continuous improvement and mantaining the gains. The Reality: You&hellip;
+                    Topic: Lean improvement on automated production lines The academic view: Measure OEE, apply TPM, eliminate the losses, and maintain the gains. The workplace&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>How to Ask 5WHYs Correctly</title>
+        <title>How Do You Ask the Right Why?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/the-5-whys-trap-why-human-error-is-a-terrible-root-cause.html"/>
-        <id>https://mymy-us.github.io/the-5-whys-trap-why-human-error-is-a-terrible-root-cause.html</id>
+        <link href="https://mymy-us.github.io/how-do-you-ask-the-right-why.html"/>
+        <id>https://mymy-us.github.io/how-do-you-ask-the-right-why.html</id>
             <category term="Quality Engineering"/>
             <category term="Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
-        <updated>2025-10-22T10:29:00-04:00</updated>
+        <updated>2026-05-06T10:29:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Root Cause Analysis &amp; The 5 Whys The Academic View: To find a root cause, sit down and ask yourself “Why?” five&hellip;
+                    Topic: Root cause analysis and the 5 Whys The academic view: Ask “Why?” five times and eventually you will reach the root cause.
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>Building a Production Line from Scratch</title>
+        <title>How do you build a production line when half the information is missing?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html"/>
-        <id>https://mymy-us.github.io/building-a-production-line-from-scratch-the-npi-playbook.html</id>
+        <link href="https://mymy-us.github.io/how-do-you-build-a-production-line-when-half-the-information-is-missing.html"/>
+        <id>https://mymy-us.github.io/how-do-you-build-a-production-line-when-half-the-information-is-missing.html</id>
             <category term="Lean Thinking"/>
             <category term="Industrial Engineering"/>
 
-        <updated>2025-09-25T03:39:00-04:00</updated>
+        <updated>2026-04-14T03:39:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: New Product Introduction (NPI) &amp; Line Setup The Academic View: You are given a list of tasks with perfect cycle times, and&hellip;
+                    Topic: New Product Introduction (NPI) and line setup The academic view: You receive a finished process, accurate cycle times, and enough floor space&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>How to Make a Concession Like a Pro</title>
+        <title>The part failed the specification. Can we still ship it?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html"/>
-        <id>https://mymy-us.github.io/the-gray-zone-how-to-make-a-concession-like-a-pro.html</id>
+        <link href="https://mymy-us.github.io/the-part-failed-the-specification-can-we-still-ship-it.html"/>
+        <id>https://mymy-us.github.io/the-part-failed-the-specification-can-we-still-ship-it.html</id>
             <category term="Quality Engineering"/>
             <category term="Lean Toolkit"/>
 
-        <updated>2025-09-24T03:21:00-04:00</updated>
+        <updated>2026-04-01T03:21:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Quality Judgments &amp; Concessions The Academic View: Specifications are black and white. Good parts ship. Bad parts are scrapped. Nobody can change&hellip;
+                    Topic: Quality judgments and concessions The academic view: Specifications are black and white. Conforming parts ship, and nonconforming parts are rejected. The workplace&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>Stop Being a Janitor: How to Master the 6S Audit</title>
+        <title>How do you audit a process&#x27;s 6S while you barely understand?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html"/>
-        <id>https://mymy-us.github.io/stop-being-a-janitor-how-to-master-the-6s-audit.html</id>
+        <link href="https://mymy-us.github.io/how-do-you-audit-a-processs-6s-while-you-barely-understand.html"/>
+        <id>https://mymy-us.github.io/how-do-you-audit-a-processs-6s-while-you-barely-understand.html</id>
             <category term="Lean Toolkit"/>
             <category term="Industrial Engineering"/>
 
-        <updated>2025-09-16T11:49:00-04:00</updated>
+        <updated>2026-03-18T11:49:00-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: 5S Implementation &amp; Auditing The Academic View: 5S (Sort, Set in Order, Shine, Standardize, Sustain) + Safety is about organizing the workplace.
+                    Topic: 6S auditing for new engineers The academic view: Check Sort, Set in Order, Shine, Standardize, Sustain, and Safety against the workplace standard.
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>Industry 4.0 is a Trap. Meet Squirrel 4.0.</title>
+        <title>Why did the robots leave and the operators come back?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html"/>
-        <id>https://mymy-us.github.io/industry-40-is-a-trap-meet-squirrel-40.html</id>
+        <link href="https://mymy-us.github.io/why-did-the-robots-leave-and-the-operators-come-back.html"/>
+        <id>https://mymy-us.github.io/why-did-the-robots-leave-and-the-operators-come-back.html</id>
         <media:content url="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" medium="image" />
             <category term="Lean Thinking"/>
 
-        <updated>2025-09-13T10:22:00-04:00</updated>
+        <updated>2026-02-25T10:22:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
                         <img src="https://mymy-us.github.io/media/posts/10/squirrel-banner.png" alt="" />
-                    Topic: Automation Strategy vs. Reality The Academic View: Industry 4.0 is the future. “Lights Out” factories with AI and robots will replace human&hellip;
+                    Topic: Automation strategy vs. reality The academic view: Industry 4.0 uses connected systems, data, and automation to improve productivity and quality. The workplace&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>Amoeba Management: Turning Employees into Business Owners</title>
+        <title>Why does Amoeba Management turn coworkers into rival businesses?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/amoeba-management-turning-employees-into-business-owners.html"/>
-        <id>https://mymy-us.github.io/amoeba-management-turning-employees-into-business-owners.html</id>
+        <link href="https://mymy-us.github.io/why-does-amoeba-management-turn-coworkers-into-rival-businesses.html"/>
+        <id>https://mymy-us.github.io/why-does-amoeba-management-turn-coworkers-into-rival-businesses.html</id>
             <category term="Supply Chain Optimization"/>
             <category term="Lean Thinking"/>
 
-        <updated>2025-09-12T06:20:00-04:00</updated>
+        <updated>2026-02-08T06:20:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Financial Motivation &amp; Organizational Structure The Academic View: Lean is about eliminating waste to improve flow. Everyone cooperates because it optimizes the&hellip;
+                    Topic: Amoeba-style internal profit centers The academic view: Give each department its own profit and loss statement. People will see the cost of&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>Translating Geek to Business: From Cpk to DPPM</title>
+        <title>How many bad parts does a Cpk of 1.33 really predict?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/translating-geek-speak-to-business-speak-from-cpk-to-dppm.html"/>
-        <id>https://mymy-us.github.io/translating-geek-speak-to-business-speak-from-cpk-to-dppm.html</id>
+        <link href="https://mymy-us.github.io/how-many-bad-parts-does-a-cpk-of-133-really-predict.html"/>
+        <id>https://mymy-us.github.io/how-many-bad-parts-does-a-cpk-of-133-really-predict.html</id>
             <category term="Quality Engineering"/>
             <category term="Lean Toolkit"/>
             <category term="Lean Thinking"/>
 
-        <updated>2025-09-10T06:02:00-04:00</updated>
+        <updated>2026-01-31T06:02:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Process Capability &amp; Risk Assessment The Academic View: Calculate $C_{pk}$. If the result is $&gt;1.33$, the process is capable. The Reality: Your&hellip;
+                    Topic: Translating process capability into business risk The academic view: Calculate $C_{pk}$. If it meets the required threshold, the process is capable. The&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>The Hidden ROI: Why Operator Happiness is an Engineering Problem</title>
+        <title>Why is operator happiness an engineering problem?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/the-hidden-roi-why-operator-happiness-is-an-engineering-problem.html"/>
-        <id>https://mymy-us.github.io/the-hidden-roi-why-operator-happiness-is-an-engineering-problem.html</id>
+        <link href="https://mymy-us.github.io/why-is-operator-happiness-an-engineering-problem.html"/>
+        <id>https://mymy-us.github.io/why-is-operator-happiness-an-engineering-problem.html</id>
             <category term="Lean Thinking"/>
 
-        <updated>2025-09-09T05:50:00-04:00</updated>
+        <updated>2026-01-15T05:50:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: The Human Element of Lean The Academic View: Operators are resources. You calculate their cycle time and ergonomics. If the math works,&hellip;
+                    Topic: The human element of Lean The academic view: Operators follow standardized work, expose abnormalities, and participate in improvement. The workplace reality: If&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>A $1,000 Per Minute Nightmare: Line Stoppages &amp; The Air Freight</title>
+        <title>How Can Zero Inventory Become a $1,000-Per-Minute Nightmare?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/the-1000-per-minute-nightmare-line-stoppages-and-the-air-freight-trap.html"/>
-        <id>https://mymy-us.github.io/the-1000-per-minute-nightmare-line-stoppages-and-the-air-freight-trap.html</id>
+        <link href="https://mymy-us.github.io/how-can-zero-inventory-become-a-1000-per-minute-nightmare.html"/>
+        <id>https://mymy-us.github.io/how-can-zero-inventory-become-a-1000-per-minute-nightmare.html</id>
             <category term="Supply Chain Optimization"/>
             <category term="Lean Toolkit"/>
 
-        <updated>2025-09-09T05:37:00-04:00</updated>
+        <updated>2026-01-09T05:37:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Quality Crisis Management The Scenario: A quality defect is found. All inventory at the client and your warehouse is quarantined. You now&hellip;
+                    Topic: Inventory resilience in automotive supply chains The academic view: Lean supply chains reduce inventory to free up cash and expose problems. The&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>PPAP: It’s Not Just Paperwork, It’s Your Legal Shield</title>
+        <title>How does PPAP become your legal shield?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html"/>
-        <id>https://mymy-us.github.io/ppap-its-not-just-paperwork-its-your-legal-shield.html</id>
+        <link href="https://mymy-us.github.io/how-does-ppap-become-your-legal-shield.html"/>
+        <id>https://mymy-us.github.io/how-does-ppap-become-your-legal-shield.html</id>
         <media:content url="https://mymy-us.github.io/media/posts/5/shield-banner.png" medium="image" />
             <category term="Lean Thinking"/>
 
-        <updated>2025-09-07T05:02:00-04:00</updated>
+        <updated>2025-12-30T05:02:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
                         <img src="https://mymy-us.github.io/media/posts/5/shield-banner.png" alt="" />
-                    Topic: The True Purpose of Production Part Approval Process The Academic View: PPAP demonstrates that a supplier can meet a series of manufacturing&hellip;
+                    Topic: The true purpose of the Production Part Approval Process The academic view: PPAP demonstrates that a supplier can consistently meet the engineering&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>The Two Halves of Your Lean Job</title>
+        <title>Why does your Lean improvement disappear after you leave?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/the-two-halves-of-your-lean-job-and-why-the-second-half-is-harder.html"/>
-        <id>https://mymy-us.github.io/the-two-halves-of-your-lean-job-and-why-the-second-half-is-harder.html</id>
+        <link href="https://mymy-us.github.io/why-does-your-lean-improvement-disappear-after-you-leave.html"/>
+        <id>https://mymy-us.github.io/why-does-your-lean-improvement-disappear-after-you-leave.html</id>
             <category term="Lean Thinking"/>
 
-        <updated>2025-09-07T04:46:00-04:00</updated>
+        <updated>2025-12-22T04:46:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: The Reality of a Lean Engineer’s Role The Trap: Thinking your job is just about fixing things—finding and solving another then another&hellip;
+                    Topic: The reality of a Lean Engineer’s role The academic view: A Lean Engineer’s job is continuous improvement: find waste, fix it, and&hellip;
                 ]]>
             </summary>
         <content></content>
     </entry>
     <entry>
-        <title>De-escalation: The Ultimate Mindset to Solve a Complaint</title>
+        <title>How do you de-escalate a customer complaint?</title>
         <author>
             <name>Tim Y</name>
         </author>
-        <link href="https://mymy-us.github.io/the-art-of-de-escalation-saving-money-and-face-2.html"/>
-        <id>https://mymy-us.github.io/the-art-of-de-escalation-saving-money-and-face-2.html</id>
+        <link href="https://mymy-us.github.io/how-do-you-de-escalate-a-customer-complaint.html"/>
+        <id>https://mymy-us.github.io/how-do-you-de-escalate-a-customer-complaint.html</id>
             <category term="Quality Engineering"/>
             <category term="Lean Toolkit"/>
 
-        <updated>2025-09-06T04:03:00-04:00</updated>
+        <updated>2025-12-18T04:03:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Topic: Handling Client Complaints The Academic View: “The Voice of the Customer is sacred. Whatever they ask for, do it.” The Reality: The&hellip;
+                    Topic: Handling client complaints The academic view: “The Voice of the Customer is sacred. Whatever they ask for, do it.” The workplace reality:&hellip;
                 ]]>
             </summary>
         <content></content>
