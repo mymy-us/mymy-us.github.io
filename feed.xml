@@ -3,12 +3,29 @@
     <title>¡My, My!</title>
     <link href="https://mymy-us.github.io/feed.xml" rel="self" />
     <link href="https://mymy-us.github.io" />
-    <updated>2026-09-07T21:56:49-04:00</updated>
+    <updated>2026-09-07T23:01:50-04:00</updated>
     <author>
         <name>Tim Y</name>
     </author>
     <id>https://mymy-us.github.io</id>
 
+    <entry>
+        <title>How do you schedule a kaizen when you don&#x27;t know what is going on?</title>
+        <author>
+            <name>Tim Y</name>
+        </author>
+        <link href="https://mymy-us.github.io/how-do-you-schedule-a-kaizen-when-you-dont-know-what-is-going-on.html"/>
+        <id>https://mymy-us.github.io/how-do-you-schedule-a-kaizen-when-you-dont-know-what-is-going-on.html</id>
+            <category term="Lean Thinking"/>
+
+        <updated>2026-07-15T23:00:00-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Topic: Scheduling continuous improvement projects The academic view: The exercise gives you the activities, durations, and dependencies. You calculate the critical path and&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>How do you calculate MODAPTS for a process that does not exist?</title>
         <author>

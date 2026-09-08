@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://mymy-us.github.io/how-do-you-schedule-a-kaizen-when-you-dont-know-what-is-going-on.html",
+            "url": "https://mymy-us.github.io/how-do-you-schedule-a-kaizen-when-you-dont-know-what-is-going-on.html",
+            "title": "How do you schedule a kaizen when you don&#x27;t know what is going on?",
+            "summary": "Topic: Scheduling continuous improvement projects The academic view: The exercise gives you the activities, durations, and dependencies. You calculate the critical path and&hellip;",
+            "author": {
+                "name": "Tim Y"
+            },
+            "tags": [
+                   "Lean Thinking"
+            ],
+            "date_published": "2026-07-15T23:00:00-04:00",
+            "date_modified": "2026-09-07T23:01:50-04:00"
+        },
+        {
             "id": "https://mymy-us.github.io/how-do-you-calculate-modapts-for-a-process-that-does-not-exist.html",
             "url": "https://mymy-us.github.io/how-do-you-calculate-modapts-for-a-process-that-does-not-exist.html",
             "title": "How do you calculate MODAPTS for a process that does not exist?",
