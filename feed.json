@@ -11,6 +11,21 @@
     },
     "items": [
         {
+            "id": "https://mymy-us.github.io/how-do-you-calculate-modapts-for-a-process-that-does-not-exist.html",
+            "url": "https://mymy-us.github.io/how-do-you-calculate-modapts-for-a-process-that-does-not-exist.html",
+            "title": "How do you calculate MODAPTS for a process that does not exist?",
+            "summary": "Topic: Estimating manual work before the workstation exists The academic view: An exam question describes every motion. You select the MODAPTS codes and&hellip;",
+            "author": {
+                "name": "Tim Y"
+            },
+            "tags": [
+                   "Lean Toolkit",
+                   "Industrial Engineering"
+            ],
+            "date_published": "2026-07-12T21:56:00-04:00",
+            "date_modified": "2026-09-07T21:56:49-04:00"
+        },
+        {
             "id": "https://mymy-us.github.io/why-should-a-lean-engineer-learn-a-3d-tool.html",
             "url": "https://mymy-us.github.io/why-should-a-lean-engineer-learn-a-3d-tool.html",
             "title": "Why Should a Lean Engineer Learn a 3D Tool?",
@@ -19,9 +34,11 @@
                 "name": "Tim Y"
             },
             "tags": [
+                   "Lean Toolkit",
+                   "Industrial Engineering"
             ],
             "date_published": "2026-06-22T08:58:00-04:00",
-            "date_modified": "2026-08-14T08:58:38-04:00"
+            "date_modified": "2026-08-14T09:03:16-04:00"
         },
         {
             "id": "https://mymy-us.github.io/how-do-you-improve-a-robot-line-you-barely-understand.html",
